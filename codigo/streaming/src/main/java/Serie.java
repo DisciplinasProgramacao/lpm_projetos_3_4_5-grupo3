@@ -1,8 +1,12 @@
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 
 import java.util.ArrayList;
 
 @RequiredArgsConstructor
+@Getter
+@Setter
 public class Serie {
     private final String[] GENEROS = {"Terror", "Romance", "Drama", "Comedia", "Suspense", "Animacao", "Ficcao Cientifica"};
     private String nome;
@@ -12,6 +16,6 @@ public class Serie {
     private int audiencia;
 
     public void registrarAudiencia(){
-
+        this.audiencia += 1;
     }
 }
