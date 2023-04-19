@@ -3,10 +3,10 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@RequiredArgsConstructor
 @Getter
 @Setter
 public class Cliente {
@@ -14,6 +14,20 @@ public class Cliente {
     private String senha;
     private List<Serie> listaParaVer;
     private List<Serie> listaJaVistas;
+
+    public Cliente(){
+        this.nomeDeUsuario = "";
+        this.senha = "";
+        this.listaParaVer = new ArrayList<>();
+        this.listaJaVistas = new ArrayList<>();
+    }
+
+    public Cliente(String nome, String senha){
+        this.nomeDeUsuario = nome;
+        this.senha = senha;
+        this.listaParaVer = new ArrayList<>();
+        this.listaJaVistas = new ArrayList<>();
+    }
 
     public void adicionarNaLista(Serie serie){
         this.listaParaVer.add(serie);
