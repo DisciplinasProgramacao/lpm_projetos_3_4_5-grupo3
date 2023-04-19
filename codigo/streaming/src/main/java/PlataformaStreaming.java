@@ -1,6 +1,11 @@
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Setter
+@Getter
 public class PlataformaStreaming {
     private String nome;
     private List<Serie> series;
@@ -8,7 +13,9 @@ public class PlataformaStreaming {
     private Cliente clienteAtual;
 
     public Cliente login(String nomeUsuario, String senha){
-        return new Cliente(nomeUsuario, senha);
+        Cliente cliente = new Cliente(nomeUsuario, senha);
+        this.clienteAtual = cliente;
+        return cliente;
     }
 
     public void adicionarSerie(Serie serie){
