@@ -1,11 +1,14 @@
+import lombok.Builder;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @RequiredArgsConstructor
 @Getter
+@Setter
 public class Cliente {
     private String nomeDeUsuario;
     private String senha;
@@ -26,39 +29,21 @@ public class Cliente {
     }
 
     public List<Serie> filtrarPorGenero(String genero){
-        var serie = listaParaVer.stream()
+        return listaParaVer.stream()
                 .filter(g -> g.getGenero().equals(genero))
-                .findFirst()
-                .orElseThrow();
-
-        List<Serie> seriePorGenero = new ArrayList<>();
-        seriePorGenero.add(serie);
-
-        return seriePorGenero;
+                .collect(Collectors.toList());
     }
 
     public List<Serie> filtrarPorIdioma(String idioma) {
-        var serie = listaParaVer.stream()
+        return listaParaVer.stream()
                 .filter(s -> s.getIdioma().equals(idioma))
-                .findFirst()
-                .orElseThrow();
-
-        List<Serie> seriePorIdioma = new ArrayList<>();
-        seriePorIdioma.add(serie);
-
-        return seriePorIdioma;
+                .collect(Collectors.toList());
     }
 
     public List<Serie> filtrarPorQtdEpisodios(int quantEpisodios){
-        var serie = listaParaVer.stream()
+        return listaParaVer.stream()
                 .filter(q -> q.getQuantidadeEpisodios() == quantEpisodios)
-                .findFirst()
-                .orElseThrow();
-
-        List<Serie> seriePorQtdEpisodios = new ArrayList<>();
-        seriePorQtdEpisodios.add(serie);
-
-        return seriePorQtdEpisodios;
+                .collect(Collectors.toList());
     }
 
     public void registrarAudiencia(Serie serie){

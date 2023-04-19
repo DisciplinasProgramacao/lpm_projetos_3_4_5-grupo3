@@ -1,19 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b785d1d8-5d45-497b-ae0d-f22b90d94476" name="Changes" comment="" />
+    <list default="true" id="e4ad7336-32ad-45f2-9f47-1d14baa89e97" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2OLhxcSPGz6ZGQtQfXB3197C1vo" />
+  <component name="ProjectId" id="2OZn0DPj39I3aUoR4IMC7lFo3u0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,20 +34,23 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/souza/OneDrive/Área de Trabalho/pasta/lpm_projetos_3_4_5-grupo3/codigo/streaming",
-    "nodejs_package_manager_path": "npm"
+    "last_opened_file_path": "C:/Users/souza/OneDrive/Área de Trabalho/Programação Modular/Exercicio PM",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b785d1d8-5d45-497b-ae0d-f22b90d94476" name="Changes" comment="" />
-      <created>1681346016687</created>
+      <changelist id="e4ad7336-32ad-45f2-9f47-1d14baa89e97" name="Changes" comment="" />
+      <created>1681776748797</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1681346016687</updated>
-      <workItem from="1681346019552" duration="99000" />
-      <workItem from="1681944086149" duration="86000" />
+      <updated>1681776748797</updated>
+      <workItem from="1681776750144" duration="783000" />
+      <workItem from="1681777544669" duration="97000" />
     </task>
     <servers />
   </component>
