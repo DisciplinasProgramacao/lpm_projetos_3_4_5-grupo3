@@ -19,7 +19,7 @@ public class PlataformaStreaming {
     }
 
     public void adicionarSerie(Serie serie){
-        clienteAtual.getListaParaVer().add(serie);
+        series.add(serie);
     }
 
     public void adicionarCliente(Cliente cliente){
@@ -27,34 +27,33 @@ public class PlataformaStreaming {
     }
 
     public List<Serie> filtrarPorGenero(String genero){
-        return clienteAtual.getListaParaVer().stream()
+        return series.stream()
                 .filter(g -> g.getGenero().equals(genero))
                 .collect(Collectors.toList());
     }
 
     public List<Serie> filtrarPorIdioma(String idioma) {
-        return clienteAtual.getListaParaVer().stream()
+        return series.stream()
                 .filter(s -> s.getIdioma().equals(idioma))
                 .collect(Collectors.toList());
     }
 
     public List<Serie> filtrarPorQtdEpisodios(int quantEpisodios){
-        return clienteAtual.getListaParaVer().stream()
+        return series.stream()
                 .filter(q -> q.getQuantidadeEpisodios() == quantEpisodios)
                 .collect(Collectors.toList());
     }
 
     public void registrarAudiencia(Serie serie){
-        clienteAtual.getListaParaVer().forEach(s -> serie.registrarAudiencia());
+        series.forEach(s -> serie.registrarAudiencia());
     }
 
     public void logoff(){
-
+        clienteAtual = null;
     }
 
     public Serie buscarSerie(String nomeSerie){
-        return clienteAtual.getListaParaVer()
-                .stream()
+        return series.stream()
                 .filter(nome -> nome.getNome().equals(nomeSerie))
                 .findFirst()
                 .orElseThrow();
