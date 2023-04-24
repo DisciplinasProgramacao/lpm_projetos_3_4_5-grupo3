@@ -1,10 +1,9 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 class SerieTest {
-
     private Serie serie;
 
     @BeforeEach
@@ -13,11 +12,11 @@ class SerieTest {
     }
 
     @Test
-    void deveRegistrarAudiencia(){
-        serie.setAudiencia(0);
+    void deveRegistrarDuracaoFilme(){
+        int quantidadeEpisodio = 13;
 
-        serie.registrarAudiencia();
+        serie.setQuantidadeEpisodios(quantidadeEpisodio);
 
-        assertEquals(serie.getAudiencia(), 1);
+        assertEquals(serie.getQuantidadeEpisodios(), quantidadeEpisodio);
     }
 }

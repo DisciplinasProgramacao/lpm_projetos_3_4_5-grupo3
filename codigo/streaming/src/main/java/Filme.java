@@ -5,7 +5,7 @@ import lombok.Setter;
 @RequiredArgsConstructor
 @Getter
 @Setter
-public class Serie extends Stream{
-    private int quantidadeEpisodios;
+public class Filme extends Stream{
+    private String duracao;
 
 }
