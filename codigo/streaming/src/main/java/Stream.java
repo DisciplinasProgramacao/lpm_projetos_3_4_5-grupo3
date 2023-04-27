@@ -6,11 +6,17 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Stream {
-    private final String[] GENEROS = {"Terror", "Romance", "Drama", "Comedia", "Suspense", "Animacao", "Ficcao Cientifica"};
+    private GeneroEnum genero;
     private String nome;
-    private String genero;
     private String idioma;
     private int audiencia;
+
+    public Stream(String genero, String nome, String idioma, int audiencia;){
+        this.GeneroEnum = new GeneroEnum(genero);
+        this.nome = nome;
+        this.idioma = idioma;
+        this.audiencia = audiencia;
+    }
 
     public void registrarAudiencia(){
         this.audiencia += 1;

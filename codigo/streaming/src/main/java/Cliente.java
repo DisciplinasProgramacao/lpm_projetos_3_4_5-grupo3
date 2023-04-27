@@ -16,8 +16,6 @@ public class Cliente {
     private List<Serie> listaJaVistas;
 
     public Cliente(){
-        this.nomeDeUsuario = "";
-        this.senha = "";
         this.listaParaVer = new ArrayList<>();
         this.listaJaVistas = new ArrayList<>();
     }
@@ -44,7 +42,7 @@ public class Cliente {
 
     public List<Serie> filtrarPorGenero(String genero){
         return listaParaVer.stream()
-                .filter(g -> g.getGenero().equals(genero))
+                .filter(g -> g.getGenero().nome().equals(genero))
                 .collect(Collectors.toList());
     }
 
@@ -63,5 +61,4 @@ public class Cliente {
     public void registrarAudiencia(Serie serie){
         listaJaVistas.forEach(s -> serie.registrarAudiencia());
     }
-
 }
