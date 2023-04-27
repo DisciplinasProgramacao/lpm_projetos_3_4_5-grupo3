@@ -11,8 +11,8 @@ public class Stream {
     private String idioma;
     private int audiencia;
 
-    public Stream(String genero, String nome, String idioma, int audiencia;){
-        this.GeneroEnum = new GeneroEnum(genero);
+    public Stream(String genero, String nome, String idioma, int audiencia){
+        this.genero = GeneroEnum.valueOf(genero);
         this.nome = nome;
         this.idioma = idioma;
         this.audiencia = audiencia;

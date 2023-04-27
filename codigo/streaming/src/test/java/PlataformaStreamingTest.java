@@ -17,7 +17,7 @@ class PlataformaStreamingTest {
 
     @Test
     void deveFazerLogin(){
-        var cliente = plataformaStreaming.login("usuario", "senha");
+        Cliente cliente = plataformaStreaming.login("usuario", "senha");
 
         assertEquals(cliente.getNomeDeUsuario(), plataformaStreaming.getClienteAtual().getNomeDeUsuario());
         assertEquals(cliente.getSenha(), plataformaStreaming.getClienteAtual().getSenha());
@@ -34,11 +34,11 @@ class PlataformaStreamingTest {
     @Test
     void deveFiltrarPorGenero(){
         Serie serie = new Serie();
-        serie.setGenero("Genero");
+        serie.setGenero(GeneroEnum.DRAMA);
 
         plataformaStreaming.setSeries(List.of(serie));
 
-        var series = plataformaStreaming.filtrarPorGenero("Genero");
+        List<Serie> series = plataformaStreaming.filtrarPorGenero("Genero");
 
         assertEquals(series.get(0).getGenero(), "Genero");
     }
@@ -50,7 +50,7 @@ class PlataformaStreamingTest {
 
         plataformaStreaming.setSeries(List.of(serie));
 
-        var series = plataformaStreaming.filtrarPorIdioma("Idioma");
+        List<Serie> series = plataformaStreaming.filtrarPorIdioma("Idioma");
 
         assertEquals(series.get(0).getIdioma(), "Idioma");
     }
@@ -62,14 +62,14 @@ class PlataformaStreamingTest {
 
         plataformaStreaming.setSeries(List.of(serie));
 
-        var series = plataformaStreaming.filtrarPorQtdEpisodios(10);
+        List<Serie> series = plataformaStreaming.filtrarPorQtdEpisodios(10);
 
         assertEquals(series.get(0).getQuantidadeEpisodios(), 10);
     }
 
     @Test
     void deveRegistrarAudiencia(){
-        var serie = new Serie();
+        Serie serie = new Serie();
 
         plataformaStreaming.setSeries(List.of(serie));
 
@@ -86,7 +86,7 @@ class PlataformaStreamingTest {
 
         plataformaStreaming.setSeries(List.of(serie));
 
-        var serieBuscada = plataformaStreaming.buscarSerie("Nome");
+        Serie serieBuscada = plataformaStreaming.buscarSerie("Nome");
 
         assertEquals(serieBuscada.getNome(), serie.getNome());
     }

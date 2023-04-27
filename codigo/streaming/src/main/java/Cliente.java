@@ -40,9 +40,9 @@ public class Cliente {
         listaParaVer.remove(serie);
     }
 
-    public List<Serie> filtrarPorGenero(String genero){
+    public List<Serie> filtrarPorGenero(GeneroEnum genero){
         return listaParaVer.stream()
-                .filter(g -> g.getGenero().nome().equals(genero))
+                .filter(g -> g.getGenero().equals(genero))
                 .collect(Collectors.toList());
     }
 

@@ -37,12 +37,12 @@ class ClienteTest {
 
     @Test
     void deveFiltrarPorGenero(){
-        serie.setGenero("Genero");
+        serie.setGenero(GeneroEnum.DRAMA);
         cliente.adicionarNaLista(serie);
 
-        var series = cliente.filtrarPorGenero("Genero");
+        var series = cliente.filtrarPorGenero(GeneroEnum.DRAMA);
 
-        assertEquals(series.get(0).getGenero(), "Genero");
+        assertEquals(series.get(0).getGenero(), GeneroEnum.DRAMA);
     }
 
     @Test
