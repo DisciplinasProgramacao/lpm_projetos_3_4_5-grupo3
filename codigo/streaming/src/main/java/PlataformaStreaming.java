@@ -1,6 +1,7 @@
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -10,6 +11,7 @@ public class PlataformaStreaming {
     private String nome;
     private List<Serie> series;
     private List<Cliente> clientes;
+    private List<Filme> filmes;
     private Cliente clienteAtual;
 
     public Cliente login(String nomeUsuario, String senha){
@@ -17,13 +19,17 @@ public class PlataformaStreaming {
         this.clienteAtual = cliente;
         return cliente;
     }
+    
+    public void adicionarCliente(Cliente cliente){
+        clientes.add(cliente);
+    }
 
     public void adicionarSerie(Serie serie){
         series.add(serie);
     }
-
-    public void adicionarCliente(Cliente cliente){
-        clientes.add(cliente);
+    
+    public void adicionarFilme(Filme filme){
+        filmes.add(filme);
     }
 
     public List<Serie> filtrarPorGenero(String genero){
@@ -52,11 +58,13 @@ public class PlataformaStreaming {
         clienteAtual = null;
     }
 
-    public Serie buscarSerie(String nomeSerie){
-        return series.stream()
-                .filter(nome -> nome.getNome().equals(nomeSerie))
+    public Stream buscarMidia(String nomeMidia){
+    	List<Stream> midias = new ArrayList<>();
+    	midias.add((Stream) series);
+    	midias.add((Stream) filmes);
+        return midias.stream()
+                .filter(midia -> midia.getNome().equals(nomeMidia))
                 .findFirst()
                 .orElseThrow();
     }
-
 }

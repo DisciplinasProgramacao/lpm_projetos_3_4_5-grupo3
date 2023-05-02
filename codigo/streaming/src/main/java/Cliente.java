@@ -61,4 +61,8 @@ public class Cliente {
     public void registrarAudiencia(Serie serie){
         listaJaVistas.forEach(s -> serie.registrarAudiencia());
     }
+    
+    public void cadastrarCliente(Cliente cliente) {
+    	
+    }
 }

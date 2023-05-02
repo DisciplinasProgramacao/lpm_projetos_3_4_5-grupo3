@@ -1,11 +1,11 @@
 public class App {
     public static void main(String[] args) {
-        PlataformaStreaming plataformaStreaming = new PlataformaStreaming();
-
-        plataformaStreaming.login("usuario", "senha");
+    	PlataformaStreaming plataforma = new PlataformaStreaming();
+    	
+    	plataforma.login("usuario", "senha");
         
-        plataformaStreaming.adicionarSerie(new Serie());
+    	plataforma.adicionarSerie(new Serie());
 
-        plataformaStreaming.logoff();
+    	plataforma.logoff();
     }
 }
