@@ -1,17 +1,20 @@
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
+@Builder
 @Setter
 @Getter
 public class PlataformaStreaming {
     private String nome;
     private List<Serie> series;
-    private List<Cliente> clientes;
     private List<Filme> filmes;
+    private List<Cliente> clientes;
     private Cliente clienteAtual;
 
     public Cliente login(String nomeUsuario, String senha){
@@ -34,7 +37,7 @@ public class PlataformaStreaming {
 
     public List<Serie> filtrarPorGenero(String genero){
         return series.stream()
-                .filter(g -> g.getGenero().equals(genero))
+                .filter(g -> g.getGenero().nome().equals(genero))
                 .collect(Collectors.toList());
     }
 
@@ -58,13 +61,41 @@ public class PlataformaStreaming {
         clienteAtual = null;
     }
 
-    public Stream buscarMidia(String nomeMidia){
-    	List<Stream> midias = new ArrayList<>();
-    	midias.add((Stream) series);
-    	midias.add((Stream) filmes);
-        return midias.stream()
-                .filter(midia -> midia.getNome().equals(nomeMidia))
-                .findFirst()
-                .orElseThrow();
+    public Midia buscarMidia(String nomeMidia) {
+        Optional<Filme> filme = buscarFilme(nomeMidia);
+        if(filme.isEmpty()){
+            Optional<Serie> serie = buscarSerie(nomeMidia);
+            if(serie.isEmpty()){
+                return new Midia();
+            }
+            return serie.orElseThrow();
+        }
+        return filme.orElseThrow();
+    }
+
+    private Optional<Filme> buscarFilme(String nomeFilme) {
+        return filmes.stream()
+                .filter(midia -> midia.getNome().equals(nomeFilme))
+                .findFirst();
+    }
+
+    private Optional<Serie> buscarSerie(String nomeSerie) {
+        return series.stream()
+                .filter(midia -> midia.getNome().equals(nomeSerie))
+                .findFirst();
+    }
+
+    public static void main(String[] args) {
+        List<Filme> filmes = new ArrayList<>();
+        List<Serie> series = new ArrayList<>();
+        Serie serie = new Serie("Serie");
+        series.add(serie);
+
+        PlataformaStreaming plataformaStreaming = PlataformaStreaming.builder()
+                .filmes(filmes)
+                .series(series)
+                .build();
+
+        System.out.println(plataformaStreaming.buscarMidia("Serie").getNome());
     }
 }

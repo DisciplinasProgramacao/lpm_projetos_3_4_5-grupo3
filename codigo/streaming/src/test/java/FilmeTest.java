@@ -9,7 +9,7 @@ class FilmeTest {
 
     @BeforeEach
     void setUp(){
-        filme = new Filme();
+        filme = new Filme("nome");
     }
 
     @Test

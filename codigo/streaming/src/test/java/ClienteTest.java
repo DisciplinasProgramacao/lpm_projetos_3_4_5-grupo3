@@ -14,7 +14,7 @@ class ClienteTest {
 
     @BeforeEach
     void setUp(){
-        serie = new Serie();
+        serie = new Serie("nome");
         cliente = new Cliente();
         cliente.setListaParaVer(new ArrayList<>());
     }

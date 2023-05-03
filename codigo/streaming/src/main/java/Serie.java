@@ -1,10 +1,12 @@
 import lombok.Getter;
-import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
-@RequiredArgsConstructor
 @Getter
 @Setter
-public class Serie extends Stream{
+public class Serie extends Midia {
     private int quantidadeEpisodios;
+
+    public Serie(String nome) {
+        this.setNome(nome);
+    }
 }

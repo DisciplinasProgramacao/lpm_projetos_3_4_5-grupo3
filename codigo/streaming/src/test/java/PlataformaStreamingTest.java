@@ -12,7 +12,7 @@ class PlataformaStreamingTest {
 
     @BeforeEach
     void setUp(){
-        plataformaStreaming = new PlataformaStreaming();
+        plataformaStreaming = PlataformaStreaming.builder().build();
     }
 
     @Test
@@ -33,19 +33,19 @@ class PlataformaStreamingTest {
 
     @Test
     void deveFiltrarPorGenero(){
-        Serie serie = new Serie();
+        Serie serie = new Serie("nome");
         serie.setGenero(GeneroEnum.DRAMA);
 
         plataformaStreaming.setSeries(List.of(serie));
 
-        List<Serie> series = plataformaStreaming.filtrarPorGenero("Genero");
+        List<Serie> series = plataformaStreaming.filtrarPorGenero(GeneroEnum.DRAMA.nome());
 
-        assertEquals(series.get(0).getGenero(), "Genero");
+        assertEquals(series.get(0).getGenero(), GeneroEnum.DRAMA);
     }
 
     @Test
     void deveFiltrarPorIdioma(){
-        Serie serie = new Serie();
+        Serie serie = new Serie("nome");
         serie.setIdioma("Idioma");
 
         plataformaStreaming.setSeries(List.of(serie));
@@ -57,7 +57,7 @@ class PlataformaStreamingTest {
 
     @Test
     void deveFiltrarPorQtdDeEpisodios(){
-        Serie serie = new Serie();
+        Serie serie = new Serie("nome");
         serie.setQuantidadeEpisodios(10);
 
         plataformaStreaming.setSeries(List.of(serie));
@@ -69,7 +69,7 @@ class PlataformaStreamingTest {
 
     @Test
     void deveRegistrarAudiencia(){
-        Serie serie = new Serie();
+        Serie serie = new Serie("nome");
 
         plataformaStreaming.setSeries(List.of(serie));
 
@@ -81,12 +81,13 @@ class PlataformaStreamingTest {
 
     @Test
     void deveBuscarSeriePeloNome(){
-        Serie serie = new Serie();
+        Serie serie = new Serie("nome");
         serie.setNome("Nome");
 
         plataformaStreaming.setSeries(List.of(serie));
+        plataformaStreaming.setFilmes(new ArrayList<>());
 
-        Serie serieBuscada = plataformaStreaming.buscarSerie("Nome");
+        Midia serieBuscada = plataformaStreaming.buscarMidia("Nome");
 
         assertEquals(serieBuscada.getNome(), serie.getNome());
     }

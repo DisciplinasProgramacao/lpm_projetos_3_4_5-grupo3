@@ -8,7 +8,7 @@ class SerieTest {
 
     @BeforeEach
     void setUp(){
-        serie = new Serie();
+        serie = new Serie("nome");
     }
 
     @Test
