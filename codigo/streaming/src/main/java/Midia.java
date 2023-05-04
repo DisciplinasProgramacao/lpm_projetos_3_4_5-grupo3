@@ -10,6 +10,7 @@ public class Midia {
     private String nome;
     private String idioma;
     private int audiencia;
+    private int avaliacao;
 
     public Midia(String genero, String nome, String idioma, int audiencia){
         this.genero = GeneroEnum.valueOf(genero);
@@ -20,5 +21,9 @@ public class Midia {
 
     public void registrarAudiencia(){
         this.audiencia += 1;
+    }
+
+    public void registrarAvaliacao(int avaliacao){
+        this.avaliacao = avaliacao;
     }
 }
