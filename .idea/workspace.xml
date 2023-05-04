@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b785d1d8-5d45-497b-ae0d-f22b90d94476" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b785d1d8-5d45-497b-ae0d-f22b90d94476" name="Changes" comment="instrucoes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/instrucoes.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/instrucoes.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +50,16 @@
       <workItem from="1681346019552" duration="99000" />
       <workItem from="1681944086149" duration="86000" />
       <workItem from="1683073455879" duration="432000" />
-      <workItem from="1683155993304" duration="1731000" />
+      <workItem from="1683155993304" duration="3036000" />
     </task>
+    <task id="LOCAL-00001" summary="instrucoes">
+      <created>1683159156891</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683159156891</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,5 +75,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="instrucoes" />
+    <option name="LAST_COMMIT_MESSAGE" value="instrucoes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codigo/streaming/src/main/java/Cliente.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
