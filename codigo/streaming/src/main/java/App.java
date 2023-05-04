@@ -16,6 +16,7 @@ public class App {
 			System.out.println("2 - Adicionar Filme");
 			System.out.println("3 - Adicionar Serie");
 			System.out.println("4 - Buscar Filme ou Serie");
+			System.out.println("5 - Assistir filme e avaliar");
 			System.out.println("Informe um numero:");
 			x = ler.nextInt();
 
@@ -26,6 +27,7 @@ public class App {
 				case 2 -> registrarFilme(plataformaStreaming);
 				case 3 -> registrarSerie(plataformaStreaming);
 				case 4 -> buscarMidia(plataformaStreaming);
+				case 5 -> assistirFilme(plataformaStreaming);
 			}
 		} while(x != 0);
 		ler.close();
@@ -38,6 +40,19 @@ public class App {
 				.filmes(new ArrayList<>())
 				.clientes(new ArrayList<>())
 				.build();
+	}
+
+	private static void assistirFilme(PlataformaStreaming plataformaStreaming){
+		System.out.println("Informe o nome da midia que voce deseja assistir:");
+		String midia = ler.next();
+
+		Midia midia = plataformaStreaming.buscarMidia(midia);
+		System.out.println("Assistindo...");
+		midia.registrarAudiencia();
+
+		System.out.println("Informe a nota do filme: (1 a 5)");
+		String avaliacao = ler.nextInt();
+		midia.registrarAvaliacao(avaliacao);
 	}
 
 	private static void login(PlataformaStreaming plataformaStreaming){
@@ -75,7 +90,7 @@ public class App {
 		Midia midia = plataformaStreaming.buscarMidia(nome);
 
 		if(nonNull(midia.getNome())){
-			System.out.println("A midia que voce pesquisou se chama: " + midia.getNome());
+			System.out.println("A midia que voce pesquisou se chama: " + midia.getNome() + " nota: " + midia.getAvaliacao());
 		}
 		else{
 			System.out.println("Midia nao cadastrado com esse nome");
