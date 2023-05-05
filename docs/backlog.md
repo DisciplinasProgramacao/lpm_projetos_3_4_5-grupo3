@@ -1,3 +1,5 @@
+Tivemos problema no commit do GitHub e perdemos o que foi feito, mas apresentamos pra voce na sala de aula
+
 | Usuário      | Requisito | Motivação     |
 | :----:        |    :----:   |          :----: |
 | Como um XXXXXX, eu quero      | --requsito--       | para...    |
