@@ -1,4 +1,4 @@
-Tivemos problema no commit do GitHub, mas apresentamos pra voce na sala de aula
+Tivemos problema no commit do GitHub e perdemos o que foi feito, mas apresentamos pra voce na sala de aula
 
 | Usuário      | Requisito | Motivação     |
 | :----:        |    :----:   |          :----: |
