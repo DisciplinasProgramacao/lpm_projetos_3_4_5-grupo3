@@ -15,8 +15,8 @@ public class App {
 			System.out.println("1 - LogIn");
 			System.out.println("2 - Adicionar Filme");
 			System.out.println("3 - Adicionar Serie");
-			System.out.println("4 - Buscar Filme ou Serie");
-			System.out.println("5 - Assistir filme e avaliar");
+			System.out.println("4 - Buscar Midia");
+			System.out.println("5 - Assistir midia");
 			System.out.println("Informe um numero:");
 			x = ler.nextInt();
 
@@ -44,14 +44,14 @@ public class App {
 
 	private static void assistirFilme(PlataformaStreaming plataformaStreaming){
 		System.out.println("Informe o nome da midia que voce deseja assistir:");
-		String midia = ler.next();
+		String nome = ler.next();
 
-		Midia midia = plataformaStreaming.buscarMidia(midia);
+		Midia midia = plataformaStreaming.buscarMidia(nome);
 		System.out.println("Assistindo...");
 		midia.registrarAudiencia();
 
 		System.out.println("Informe a nota do filme: (1 a 5)");
-		String avaliacao = ler.nextInt();
+		int avaliacao = ler.nextInt();
 		midia.registrarAvaliacao(avaliacao);
 	}
 
