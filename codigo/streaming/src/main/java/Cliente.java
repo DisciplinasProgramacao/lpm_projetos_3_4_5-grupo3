@@ -1,10 +1,7 @@
-import lombok.Builder;
 import lombok.Getter;
-import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 @Getter
@@ -12,23 +9,28 @@ import java.util.stream.Collectors;
 public class Cliente {
     private String nomeDeUsuario;
     private String senha;
-    private List<Serie> listaParaVer;
-    private List<Serie> listaJaVistas;
+    private List<Midia> listaParaVer;
+    private Map<Midia, Date> listaJaVistas;
+    private boolean clienteEspecialista = false;
 
     public Cliente(){
         this.listaParaVer = new ArrayList<>();
-        this.listaJaVistas = new ArrayList<>();
+        this.listaJaVistas = new HashMap<>();
     }
 
     public Cliente(String nome, String senha){
         this.nomeDeUsuario = nome;
         this.senha = senha;
         this.listaParaVer = new ArrayList<>();
-        this.listaJaVistas = new ArrayList<>();
+        this.listaJaVistas = new HashMap<>();
     }
 
-    public void adicionarNaLista(Serie serie){
-        this.listaParaVer.add(serie);
+    public void adicionarNaListaParaVer(Midia midia){
+        this.listaParaVer.add(midia);
+    }
+
+    public void adicionarNaListaJaVista(Midia midia){
+        this.listaJaVistas.put(midia, new Date());
     }
 
     public void retirarDaLista(String nomeSerie){
@@ -40,29 +42,25 @@ public class Cliente {
         listaParaVer.remove(serie);
     }
 
-    public List<Serie> filtrarPorGenero(GeneroEnum genero){
+    public List<Midia> filtrarPorGenero(GeneroEnum genero){
         return listaParaVer.stream()
                 .filter(g -> g.getGenero().equals(genero))
                 .collect(Collectors.toList());
     }
 
-    public List<Serie> filtrarPorIdioma(String idioma) {
+    public List<Midia> filtrarPorIdioma(String idioma) {
         return listaParaVer.stream()
                 .filter(s -> s.getIdioma().equals(idioma))
                 .collect(Collectors.toList());
     }
 
-    public List<Serie> filtrarPorQtdEpisodios(int quantEpisodios){
+    /* public List<Serie> filtrarPorQtdEpisodios(int quantEpisodios){
         return listaParaVer.stream()
                 .filter(q -> q.getQuantidadeEpisodios() == quantEpisodios)
                 .collect(Collectors.toList());
-    }
+    }*/
 
-    public void registrarAudiencia(Serie serie){
-        listaJaVistas.forEach(s -> serie.registrarAudiencia());
-    }
-    
-    public void cadastrarCliente(Cliente cliente) {
-    	
+    private boolean clienteEspecialista(){
+        return false;
     }
 }

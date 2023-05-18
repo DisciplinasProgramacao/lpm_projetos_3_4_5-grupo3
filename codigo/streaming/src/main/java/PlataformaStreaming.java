@@ -4,6 +4,7 @@ import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
@@ -83,19 +84,5 @@ public class PlataformaStreaming {
         return series.stream()
                 .filter(midia -> midia.getNome().equals(nomeSerie))
                 .findFirst();
-    }
-
-    public static void main(String[] args) {
-        List<Filme> filmes = new ArrayList<>();
-        List<Serie> series = new ArrayList<>();
-        Serie serie = new Serie("Serie");
-        series.add(serie);
-
-        PlataformaStreaming plataformaStreaming = PlataformaStreaming.builder()
-                .filmes(filmes)
-                .series(series)
-                .build();
-
-        System.out.println(plataformaStreaming.buscarMidia("Serie").getNome());
     }
 }

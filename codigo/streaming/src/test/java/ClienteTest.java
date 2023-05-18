@@ -1,6 +1,5 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mock;
 
 import java.util.ArrayList;
 
@@ -21,7 +20,7 @@ class ClienteTest {
 
     @Test
     void deveAdicionarNaLista(){
-        cliente.adicionarNaLista(serie);
+        cliente.adicionarNaListaParaVer(serie);
 
         assertEquals(cliente.getListaParaVer().size(), 1);
     }
@@ -29,7 +28,7 @@ class ClienteTest {
     @Test
     void deveRetirarDaLista(){
         serie.setNome("Serie");
-        cliente.adicionarNaLista(serie);
+        cliente.adicionarNaListaParaVer(serie);
         cliente.retirarDaLista("Serie");
 
         assertEquals(cliente.getListaParaVer().size(), 0);
@@ -38,7 +37,7 @@ class ClienteTest {
     @Test
     void deveFiltrarPorGenero(){
         serie.setGenero(GeneroEnum.DRAMA);
-        cliente.adicionarNaLista(serie);
+        cliente.adicionarNaListaParaVer(serie);
 
         var series = cliente.filtrarPorGenero(GeneroEnum.DRAMA);
 
@@ -48,7 +47,7 @@ class ClienteTest {
     @Test
     void deveFiltrarPorIdioma(){
         serie.setIdioma("Idioma");
-        cliente.adicionarNaLista(serie);
+        cliente.adicionarNaListaParaVer(serie);
 
         var series = cliente.filtrarPorIdioma("Idioma");
 
@@ -58,7 +57,7 @@ class ClienteTest {
     @Test
     void deveFiltrarPorQtdDeEpisodios(){
         serie.setQuantidadeEpisodios(10);
-        cliente.adicionarNaLista(serie);
+        cliente.adicionarNaListaParaVer(serie);
 
         var series = cliente.filtrarPorQtdEpisodios(10);
 

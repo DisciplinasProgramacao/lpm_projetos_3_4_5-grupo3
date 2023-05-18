@@ -49,10 +49,17 @@ public class App {
 		Midia midia = plataformaStreaming.buscarMidia(nome);
 		System.out.println("Assistindo...");
 		midia.registrarAudiencia();
+		plataformaStreaming.getClienteAtual().adicionarNaListaJaVista(midia);
 
-		System.out.println("Informe a nota do filme: (1 a 5)");
+		System.out.println("Informe a nota do filme: (1 a 5) ");
 		int avaliacao = ler.nextInt();
-		midia.registrarAvaliacao(avaliacao);
+
+		String comentario = "";
+		if(plataformaStreaming.getClienteAtual().isClienteEspecialista()){
+			System.out.println("Informe um comnetario ao filme: ");
+			comentario = ler.next();
+		}
+		midia.registrarAvaliacao(avaliacao, plataformaStreaming.getClienteAtual(), comentario);
 	}
 
 	private static void login(PlataformaStreaming plataformaStreaming){
@@ -90,7 +97,7 @@ public class App {
 		Midia midia = plataformaStreaming.buscarMidia(nome);
 
 		if(nonNull(midia.getNome())){
-			System.out.println("A midia que voce pesquisou se chama: " + midia.getNome() + " nota: " + midia.getAvaliacao());
+			System.out.println("A midia que voce pesquisou se chama: " + midia.getNome() + " nota: " + midia.getAvaliacaoTotal());
 		}
 		else{
 			System.out.println("Midia nao cadastrado com esse nome");
