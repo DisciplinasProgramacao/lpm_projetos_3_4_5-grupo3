@@ -4,10 +4,9 @@ public enum GeneroEnum {
     DRAMA ("Drama"),
     COMEDIA ("Comedia"),
     SUSPENSE ("Suspense"),
-    ANIMACAO("Animacao"),
-    FICCAO ("Ficcao Cientifica");
+    ANIMACAO("Animacao");
 
-    String genero;
+    final String genero;
 
     GeneroEnum (String genero){
         this.genero = genero;
