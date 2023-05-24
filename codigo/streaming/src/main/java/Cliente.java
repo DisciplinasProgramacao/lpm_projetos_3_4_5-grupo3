@@ -1,8 +1,13 @@
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+
 import lombok.Getter;
 import lombok.Setter;
-
-import java.util.*;
-import java.util.stream.Collectors;
 
 @Getter
 @Setter
@@ -11,7 +16,7 @@ public class Cliente {
     private String senha;
     private List<Midia> listaParaVer;
     private Map<Midia, Date> listaJaVistas;
-    private boolean clienteEspecialista = false;
+    private boolean clienteEspecialista;
 
     public Cliente(){
         this.listaParaVer = new ArrayList<>();
@@ -60,7 +65,27 @@ public class Cliente {
                 .collect(Collectors.toList());
     }*/
 
-    private boolean clienteEspecialista(){
-        return false;
+    public void clienteEspecialista(){
+        Date sysdateMenos2Meses = remove2Meses(new Date());
+        
+        listaJaVistas.forEach((k,v) -> {
+        	int count = 0;
+        	if(v.after(sysdateMenos2Meses)) {
+        		count += 1;
+        	}if(count >= 5) {
+        		clienteEspecialista = true;
+        	}
+        });
+    }
+    
+    private Date remove2Meses(Date date) {
+    	Calendar c = Calendar.getInstance(); 
+    	c.setTime(date); 
+    	c.add(Calendar.MONTH, -2);
+    	return c.getTime();
+    }
+    
+    public void removerDaListaParaVer (Midia midia) {
+    	listaParaVer.remove(midia);
     }
 }

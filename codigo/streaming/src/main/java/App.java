@@ -1,7 +1,7 @@
+import static java.util.Objects.nonNull;
+
 import java.util.ArrayList;
 import java.util.Scanner;
-
-import static java.util.Objects.nonNull;
 
 public class App {
 	private static final Scanner ler = new Scanner(System.in);
@@ -50,7 +50,8 @@ public class App {
 		System.out.println("Assistindo...");
 		midia.registrarAudiencia();
 		plataformaStreaming.getClienteAtual().adicionarNaListaJaVista(midia);
-
+		plataformaStreaming.getClienteAtual().removerDaListaParaVer(midia);
+		
 		System.out.println("Informe a nota do filme: (1 a 5) ");
 		int avaliacao = ler.nextInt();
 

@@ -1,8 +1,11 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.OptionalDouble;
+
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
-
-import java.util.*;
 
 @RequiredArgsConstructor
 @Getter
@@ -31,6 +34,10 @@ public class Midia {
     public void registrarAvaliacao(Integer avaliacao, Cliente cliente, String comentario){
         if(!avaliacoes.containsKey(cliente)) {
             avaliacoes.put(cliente, avaliacao);
+            cliente.clienteEspecialista();
+            if(cliente.isClienteEspecialista()) {
+            	comentarios.add(comentario);
+            }
             OptionalDouble avaliacaoOptional = avaliacoes.values().stream().mapToDouble(Integer::doubleValue).average();
             avaliacaoTotal = avaliacaoOptional.orElse(0.0);
         }
