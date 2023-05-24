@@ -16,9 +16,16 @@ public class PlataformaStreaming {
     private List<Cliente> clientes;
     private Cliente clienteAtual;
 
-    public Cliente login(String nomeUsuario, String senha){
-        Cliente cliente = new Cliente(nomeUsuario, senha);
-        this.clienteAtual = cliente;
+    public void cadastrar(String nomeUsuario, String senha){
+        clientes.add(new Cliente(nomeUsuario, senha));
+    }
+
+    public Optional<Cliente> login(String nomeUsuario, String senha){
+        var cliente = clientes.stream()
+                .filter(usuario -> nomeUsuario.equals(usuario.getNomeDeUsuario()))
+                .filter(usuario -> senha.equals(usuario.getSenha()))
+                .findFirst();
+        this.clienteAtual = cliente.orElse(null);
         return cliente;
     }
     
@@ -34,26 +41,34 @@ public class PlataformaStreaming {
         filmes.add(filme);
     }
 
-    public List<Serie> filtrarPorGenero(String genero){
+    public List<Serie> filtrarSeriePorGenero(String genero){
         return series.stream()
-                .filter(g -> g.getGenero().nome().equals(genero))
+                .filter(g -> g.getGenero().nome().equalsIgnoreCase(genero))
                 .collect(Collectors.toList());
     }
 
-    public List<Serie> filtrarPorIdioma(String idioma) {
+    public List<Serie> filtrarSeriePorIdioma(String idioma) {
         return series.stream()
-                .filter(s -> s.getIdioma().equals(idioma))
+                .filter(s -> s.getIdioma().equalsIgnoreCase(idioma))
                 .collect(Collectors.toList());
     }
 
-    public List<Serie> filtrarPorQtdEpisodios(int quantEpisodios){
+    public List<Serie> filtrarSeriePorQtdEpisodios(int quantEpisodios){
         return series.stream()
                 .filter(q -> q.getQuantidadeEpisodios() == quantEpisodios)
                 .collect(Collectors.toList());
     }
 
-    public void registrarAudiencia(Serie serie){
-        series.forEach(s -> serie.registrarAudiencia());
+    public List<Serie> filtrarFilmePorGenero(String genero){
+        return series.stream()
+                .filter(g -> g.getGenero().nome().equalsIgnoreCase(genero))
+                .collect(Collectors.toList());
+    }
+
+    public List<Serie> filtrarFilmePorIdioma(String idioma) {
+        return series.stream()
+                .filter(s -> s.getIdioma().equalsIgnoreCase(idioma))
+                .collect(Collectors.toList());
     }
 
     public void logoff(){
@@ -62,23 +77,20 @@ public class PlataformaStreaming {
 
     public Midia buscarMidia(String nomeMidia) {
         Optional<Filme> filme = buscarFilme(nomeMidia);
-        if(filme.isEmpty()){
-            Optional<Serie> serie = buscarSerie(nomeMidia);
-            if(serie.isEmpty()){
-                return new Midia();
-            }
-            return serie.orElseThrow();
+        if(filme.isPresent()){
+            return filme.get();
         }
-        return filme.orElseThrow();
+        Optional<Serie> serie = buscarSerie(nomeMidia);
+        return serie.orElse(null);
     }
 
-    private Optional<Filme> buscarFilme(String nomeFilme) {
+    public Optional<Filme> buscarFilme(String nomeFilme) {
         return filmes.stream()
                 .filter(midia -> midia.getNome().equals(nomeFilme))
                 .findFirst();
     }
 
-    private Optional<Serie> buscarSerie(String nomeSerie) {
+    public Optional<Serie> buscarSerie(String nomeSerie) {
         return series.stream()
                 .filter(midia -> midia.getNome().equals(nomeSerie))
                 .findFirst();

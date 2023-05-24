@@ -4,7 +4,6 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -38,32 +37,13 @@ public class Cliente {
         this.listaJaVistas.put(midia, new Date());
     }
 
-    public void retirarDaLista(String nomeSerie){
-        var serie = listaParaVer.stream()
+    public void retirarDaListaParaVer(String nomeSerie){
+        var midia = listaParaVer.stream()
                 .filter(s -> s.getNome().equals(nomeSerie))
-                .findFirst()
-                .orElseThrow();
+                .findFirst();
 
-        listaParaVer.remove(serie);
+        midia.ifPresent(value -> listaParaVer.remove(value));
     }
-
-    public List<Midia> filtrarPorGenero(GeneroEnum genero){
-        return listaParaVer.stream()
-                .filter(g -> g.getGenero().equals(genero))
-                .collect(Collectors.toList());
-    }
-
-    public List<Midia> filtrarPorIdioma(String idioma) {
-        return listaParaVer.stream()
-                .filter(s -> s.getIdioma().equals(idioma))
-                .collect(Collectors.toList());
-    }
-
-    /* public List<Serie> filtrarPorQtdEpisodios(int quantEpisodios){
-        return listaParaVer.stream()
-                .filter(q -> q.getQuantidadeEpisodios() == quantEpisodios)
-                .collect(Collectors.toList());
-    }*/
 
     public void clienteEspecialista(){
         Date sysdateMenos2Meses = remove2Meses(new Date());
@@ -83,9 +63,5 @@ public class Cliente {
     	c.setTime(date); 
     	c.add(Calendar.MONTH, -2);
     	return c.getTime();
-    }
-    
-    public void removerDaListaParaVer (Midia midia) {
-    	listaParaVer.remove(midia);
     }
 }
