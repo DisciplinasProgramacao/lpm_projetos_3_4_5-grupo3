@@ -47,15 +47,15 @@ public class Cliente {
 
     public void clienteEspecialista(){
         Date sysdateMenos2Meses = remove2Meses(new Date());
-        
-        listaJaVistas.forEach((k,v) -> {
-        	int count = 0;
-        	if(v.after(sysdateMenos2Meses)) {
-        		count += 1;
-        	}if(count >= 5) {
-        		clienteEspecialista = true;
-        	}
-        });
+        int count = 0;
+
+        for(Date d : listaJaVistas.values()){
+            if(d.after(sysdateMenos2Meses)) {
+                count += 1;
+            }if(count >= 5) {
+                clienteEspecialista = true;
+            }
+        }
     }
     
     private Date remove2Meses(Date date) {
