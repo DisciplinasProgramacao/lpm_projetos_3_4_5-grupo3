@@ -46,11 +46,11 @@ public class Cliente {
     }
 
     public void clienteEspecialista(){
-        Date sysdateMenos2Meses = remove2Meses(new Date());
+        Date sysdateMenosMes = removeMes(new Date());
         int count = 0;
 
         for(Date d : listaJaVistas.values()){
-            if(d.after(sysdateMenos2Meses)) {
+            if(d.after(sysdateMenosMes)) {
                 count += 1;
             }if(count >= 5) {
                 clienteEspecialista = true;
@@ -58,10 +58,10 @@ public class Cliente {
         }
     }
     
-    private Date remove2Meses(Date date) {
+    private Date removeMes(Date date) {
     	Calendar c = Calendar.getInstance(); 
     	c.setTime(date); 
-    	c.add(Calendar.MONTH, -2);
+    	c.add(Calendar.MONTH, -1);
     	return c.getTime();
     }
 }

@@ -14,69 +14,77 @@ public class App {
 	private static final List<String> idiomas = new ArrayList<>();
 	private static final String PLATAFORMA_NOME = "Plataforma";
 
+	private static final PlataformaStreaming plataformaStreaming = iniciarPlataforma();
+
 	public static void main(String[] args) {
 		inicializarGenerosIdiomas();
-		PlataformaStreaming plataformaStreaming = iniciarPlataforma();
 		int x;
 
-		do{
-			System.out.println("0 - LogOff");
-			System.out.println("1 - Fazer cadastro");
-			System.out.println("2 - LogIn");
-			System.out.println("3 - Cadastrar filme");
-			System.out.println("4 - Cadastrar serie");
-			System.out.println("5 - Buscar Midia");
-			System.out.println("6 - Buscar Filme");
-			System.out.println("7 - Buscar Serie");
-			System.out.println("8 - Assistir midia");
-			System.out.println("9 - Assistir filme");
-			System.out.println("10 - Assistir serie");
-			System.out.println("11 - Filtrar serie por genero");
-			System.out.println("12 - Filtrar serie por idioma");
-			System.out.println("13 - Filtrar serie por qtd de episodios");
-			System.out.println("14 - Filtrar filme por genero");
-			System.out.println("15 - Filtrar filme por idioma");
-			System.out.println("16 - Cadastrar filme pelo arquivo");
-			System.out.println("17 - Cadastrar serie pelo arquivo");
-			System.out.println("Informe um numero:");
-			x = ler.nextInt();
+		do {
+			if (plataformaStreaming.getClienteAtual() == null){
+				System.out.println("1 - Fazer cadastro");
+				System.out.println("2 - LogIn");
+				System.out.println("18 - Sair");
+				System.out.println("Informe um numero:");
+				x = ler.nextInt();
+			}else{
+				System.out.println("3 - Cadastrar filme");
+				System.out.println("4 - Cadastrar serie");
+				System.out.println("5 - Buscar Midia");
+				System.out.println("6 - Buscar Filme");
+				System.out.println("7 - Buscar Serie");
+				System.out.println("8 - Assistir midia");
+				System.out.println("9 - Assistir filme");
+				System.out.println("10 - Assistir serie");
+				System.out.println("11 - Filtrar serie por genero");
+				System.out.println("12 - Filtrar serie por idioma");
+				System.out.println("13 - Filtrar serie por qtd de episodios");
+				System.out.println("14 - Filtrar filme por genero");
+				System.out.println("15 - Filtrar filme por idioma");
+				System.out.println("16 - Cadastrar filme pelo arquivo");
+				System.out.println("17 - Cadastrar serie pelo arquivo");
+				System.out.println("0 - LogOff");
+				System.out.println("18 - Sair");
+				System.out.println("Informe um numero:");
+				x = ler.nextInt();
+			}
 
 			//OBS: Essa nomeclatura do switch case só funciona no Java 17
 			switch (x) {
-				case 0 -> logoff(plataformaStreaming);
-				case 1 -> cadastrar(plataformaStreaming);
-				case 2 -> login(plataformaStreaming);
-				case 3 -> registrarFilme(plataformaStreaming);
-				case 4 -> registrarSerie(plataformaStreaming);
-				case 5 -> buscarMidia(plataformaStreaming);
-				case 6 -> buscarFilme(plataformaStreaming);
-				case 7 -> buscarSerie(plataformaStreaming);
-				case 8 -> assistirMidia(plataformaStreaming);
-				case 9 -> assistirFilme(plataformaStreaming);
-				case 10 -> assistirSerie(plataformaStreaming);
-				case 11 -> filtrarSerieGenero(plataformaStreaming);
-				case 12 -> filtrarSerieIdioma(plataformaStreaming);
-				case 13 -> filtrarSerieQtdEpisodio(plataformaStreaming);
-				case 14 -> filtrarFilmeGenero(plataformaStreaming);
-				case 15 -> filtrarFilmeIdioma(plataformaStreaming);
-				case 16 -> cadastrarFilmeArquivo(plataformaStreaming);
-				case 17 -> cadastrarSerieArquivo(plataformaStreaming);
+				case 0 -> logoff();
+				case 1 -> cadastrar();
+				case 2 -> login();
+				case 3 -> registrarFilme();
+				case 4 -> registrarSerie();
+				case 5 -> buscarMidia();
+				case 6 -> buscarFilme();
+				case 7 -> buscarSerie();
+				case 8 -> assistirMidia();
+				case 9 -> assistirFilme();
+				case 10 -> assistirSerie();
+				case 11 -> filtrarSerieGenero();
+				case 12 -> filtrarSerieIdioma();
+				case 13 -> filtrarSerieQtdEpisodio();
+				case 14 -> filtrarFilmeGenero();
+				case 15 -> filtrarFilmeIdioma();
+				case 16 -> cadastrarFilmeArquivo();
+				case 17 -> cadastrarSerieArquivo();
 			}
-		} while(x != 0);
+		} while(x != 18);
 		ler.close();
     }
 
-	private static void cadastrarFilmeArquivo(PlataformaStreaming plataformaStreaming) {
+	private static void cadastrarFilmeArquivo() {
 		Filme filme = new Filme();
-		lerArquivo(filme, "src/main/data/POO_Filmes.csv", plataformaStreaming);
+		lerArquivo(filme, "src/main/data/POO_Filmes.csv");
 	}
 
-	private static void cadastrarSerieArquivo(PlataformaStreaming plataformaStreaming) {
+	private static void cadastrarSerieArquivo() {
 		Serie filme = new Serie();
-		lerArquivo(filme, "src/main/data/POO_Series.csv", plataformaStreaming);
+		lerArquivo(filme, "src/main/data/POO_Series.csv");
 	}
 
-	private static void lerArquivo(Midia midia, String nomeArquivo, PlataformaStreaming plataformaStreaming){
+	private static void lerArquivo(Midia midia, String nomeArquivo){
 		try{
 			BufferedReader buffRead = new BufferedReader(new FileReader(nomeArquivo));
 
@@ -85,7 +93,7 @@ public class App {
 			while (linha != null) {
 				linha = buffRead.readLine();
 				if(nonNull(linha)){
-					registrarMidia(midia, linha, plataformaStreaming);
+					registrarMidia(midia, linha);
 				}
 
 			}
@@ -98,7 +106,7 @@ public class App {
 		}
 	}
 
-	private static void registrarMidia(Midia midia, String linha, PlataformaStreaming plataformaStreaming) {
+	private static void registrarMidia(Midia midia, String linha) {
 		midia.setNome(getMidiaNome(linha));
 		midia.setGenero(buildGenero());
 		midia.setIdioma(buildIdioma());
@@ -117,7 +125,7 @@ public class App {
 		return dados.split(";")[1];
 	}
 
-	private static void cadastrar(PlataformaStreaming plataformaStreaming) {
+	private static void cadastrar() {
 		System.out.println("Informe seu nome de usuario:");
 		String usuario = ler.next();
 
@@ -128,7 +136,7 @@ public class App {
 		System.out.println("Cadastro realizado com sucesso!");
 	}
 
-	private static void login(PlataformaStreaming plataformaStreaming){
+	private static void login(){
 		System.out.println("Informe seu usuario:");
 		String usuario = ler.next();
 
@@ -145,50 +153,50 @@ public class App {
 		}
 	}
 
-	private static void logoff(PlataformaStreaming plataformaStreaming) {
+	private static void logoff() {
 		plataformaStreaming.logoff();
 	}
 
-	private static void assistirMidia(PlataformaStreaming plataformaStreaming){
+	private static void assistirMidia(){
 		System.out.println("Informe o nome da midia que voce deseja assistir:");
 		String nome = ler.next();
 
 		Midia midia = plataformaStreaming.buscarMidia(nome);
 		if(nonNull(midia)){
-			assistir(plataformaStreaming, midia);
+			assistir(midia);
 		}
 		else{
 			System.out.println("Midia procurada não encontrada.");
 		}
 	}
 
-	private static void assistirFilme(PlataformaStreaming plataformaStreaming){
+	private static void assistirFilme(){
 		System.out.println("Informe o nome do filme que voce deseja assistir:");
 		String nome = ler.next();
 
 		var filme = plataformaStreaming.buscarFilme(nome);
 		if(filme.isPresent()){
-			assistir(plataformaStreaming, filme.get());
+			assistir(filme.get());
 		}
 		else{
 			System.out.println("Filme procurado não encontrado.");
 		}
 	}
 
-	private static void assistirSerie(PlataformaStreaming plataformaStreaming){
+	private static void assistirSerie(){
 		System.out.println("Informe o nome da serie que voce deseja assistir:");
 		String nome = ler.next();
 
 		var serie = plataformaStreaming.buscarSerie(nome);
 		if(serie.isPresent()){
-			assistir(plataformaStreaming, serie.get());
+			assistir(serie.get());
 		}
 		else{
 			System.out.println("Serie procurada não encontrado.");
 		}
 	}
 
-	private static void assistir(PlataformaStreaming plataformaStreaming, Midia midia) {
+	private static void assistir(Midia midia) {
 		System.out.println("Assistindo...");
 		midia.registrarAudiencia();
 		plataformaStreaming.getClienteAtual().adicionarNaListaJaVista(midia);
@@ -205,7 +213,7 @@ public class App {
 		midia.registrarAvaliacao(avaliacao, plataformaStreaming.getClienteAtual(), comentario);
 	}
 
-	private static void filtrarSerieGenero(PlataformaStreaming plataformaStreaming) {
+	private static void filtrarSerieGenero() {
 		System.out.println("Informe o genero da serie:");
 		String genero = ler.next();
 
@@ -223,7 +231,7 @@ public class App {
 		}
 	}
 
-	private static void filtrarSerieIdioma(PlataformaStreaming plataformaStreaming) {
+	private static void filtrarSerieIdioma() {
 		System.out.println("Informe o idioma da serie:");
 		String idioma = ler.next();
 
@@ -241,7 +249,7 @@ public class App {
 		}
 	}
 
-	private static void filtrarSerieQtdEpisodio(PlataformaStreaming plataformaStreaming) {
+	private static void filtrarSerieQtdEpisodio() {
 		System.out.println("Informe a quantidade de episodios da serie:");
 		int episodios = ler.nextInt();
 
@@ -259,7 +267,7 @@ public class App {
 		}
 	}
 
-	private static void filtrarFilmeGenero(PlataformaStreaming plataformaStreaming) {
+	private static void filtrarFilmeGenero() {
 		System.out.println("Informe o genero do filme:");
 		String genero = ler.next();
 
@@ -277,7 +285,7 @@ public class App {
 		}
 	}
 
-	private static void filtrarFilmeIdioma(PlataformaStreaming plataformaStreaming) {
+	private static void filtrarFilmeIdioma() {
 		System.out.println("Informe o idioma do filme:");
 		String idioma = ler.next();
 
@@ -295,7 +303,7 @@ public class App {
 		}
 	}
 
-	private static void registrarFilme(PlataformaStreaming plataformaStreaming){
+	private static void registrarFilme(){
 		System.out.println("Informe o nome do filme:");
 		String nome = ler.next();
 
@@ -306,7 +314,7 @@ public class App {
 		plataformaStreaming.adicionarFilme(filme);
 	}
 
-	private static void registrarSerie(PlataformaStreaming plataformaStreaming){
+	private static void registrarSerie(){
 		System.out.println("Informe o nome da Serie:");
 		String nome = ler.next();
 
@@ -318,7 +326,7 @@ public class App {
 		plataformaStreaming.adicionarSerie(serie);
 	}
 
-	private static void buscarMidia(PlataformaStreaming plataformaStreaming) {
+	private static void buscarMidia() {
 		System.out.println("Informe o nome da midia que deseja buscar:");
 		String nome = ler.next();
 
@@ -335,7 +343,7 @@ public class App {
 		}
 	}
 
-	private static void buscarFilme(PlataformaStreaming plataformaStreaming) {
+	private static void buscarFilme() {
 		System.out.println("Informe o nome do filme que deseja buscar:");
 		String nome = ler.next();
 
@@ -352,7 +360,7 @@ public class App {
 		}
 	}
 
-	private static void buscarSerie(PlataformaStreaming plataformaStreaming) {
+	private static void buscarSerie() {
 		System.out.println("Informe o nome da serie que deseja buscar:");
 		String nome = ler.next();
 

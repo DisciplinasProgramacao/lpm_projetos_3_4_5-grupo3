@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b785d1d8-5d45-497b-ae0d-f22b90d94476" name="Changes" comment="diagramaV3">
+      <change beforePath="$PROJECT_DIR$/.idea/lpm_projetos_3_4_5-grupo3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lpm_projetos_3_4_5-grupo3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/streaming/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/streaming/src/main/java/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/src/main/java/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/streaming/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/target/classes/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/streaming/target/classes/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/target/classes/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/streaming/target/test-classes/ClienteTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/streaming/target/test-classes/FilmeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/streaming/target/test-classes/PlataformaStreamingTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/streaming/target/test-classes/SerieTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +31,16 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="17" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -35,17 +55,24 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/souza/IdeaProjects/lpm/codigo/streaming",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.build"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
@@ -79,6 +106,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="streaming" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -137,5 +176,9 @@
     <MESSAGE value="instrucoes" />
     <MESSAGE value="diagramaV3" />
     <option name="LAST_COMMIT_MESSAGE" value="diagramaV3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
