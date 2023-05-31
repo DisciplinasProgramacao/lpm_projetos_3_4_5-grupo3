@@ -59,14 +59,14 @@ public class PlataformaStreaming {
                 .collect(Collectors.toList());
     }
 
-    public List<Serie> filtrarFilmePorGenero(String genero){
-        return series.stream()
+    public List<Filme> filtrarFilmePorGenero(String genero){
+        return filmes.stream()
                 .filter(g -> g.getGenero().nome().equalsIgnoreCase(genero))
                 .collect(Collectors.toList());
     }
 
-    public List<Serie> filtrarFilmePorIdioma(String idioma) {
-        return series.stream()
+    public List<Filme> filtrarFilmePorIdioma(String idioma) {
+        return filmes.stream()
                 .filter(s -> s.getIdioma().equalsIgnoreCase(idioma))
                 .collect(Collectors.toList());
     }

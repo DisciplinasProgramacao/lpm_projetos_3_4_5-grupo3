@@ -1,12 +1,10 @@
+import static java.util.Objects.isNull;
 import static java.util.Objects.nonNull;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 
 public class App {
 	private static final Scanner ler = new Scanner(System.in);
@@ -21,13 +19,13 @@ public class App {
 		int x;
 
 		do {
-			if (plataformaStreaming.getClienteAtual() == null){
+			if (isNull(plataformaStreaming.getClienteAtual())){
 				System.out.println("1 - Fazer cadastro");
 				System.out.println("2 - LogIn");
 				System.out.println("18 - Sair");
 				System.out.println("Informe um numero:");
 				x = ler.nextInt();
-			}else{
+			} else{
 				System.out.println("3 - Cadastrar filme");
 				System.out.println("4 - Cadastrar serie");
 				System.out.println("5 - Buscar Midia");
@@ -110,6 +108,10 @@ public class App {
 		midia.setNome(getMidiaNome(linha));
 		midia.setGenero(buildGenero());
 		midia.setIdioma(buildIdioma());
+		midia.setAudiencia(0);
+		midia.setAvaliacoes(new HashMap<>());
+		midia.setAvaliacaoTotal(0.0);
+		midia.setComentarios(new ArrayList<>());
 
 		if(midia instanceof Serie){
 			((Serie) midia).setQuantidadeEpisodios((int)Math.floor(Math.random() * (50 + 1) + 1));
@@ -202,15 +204,20 @@ public class App {
 		plataformaStreaming.getClienteAtual().adicionarNaListaJaVista(midia);
 		plataformaStreaming.getClienteAtual().retirarDaListaParaVer(midia.getNome());
 
-		System.out.println("Informe a nota do filme: (1 a 5) ");
-		int avaliacao = ler.nextInt();
+		if(!midia.getAvaliacoes().containsKey(plataformaStreaming.getClienteAtual())){
+			System.out.println("Informe a nota do filme: (1 a 5) ");
+			int avaliacao = ler.nextInt();
 
-		String comentario = "";
-		if(plataformaStreaming.getClienteAtual().isClienteEspecialista()){
-			System.out.println("Informe um comnetario: ");
-			comentario = ler.next();
+			String comentario = "";
+			if(plataformaStreaming.getClienteAtual().isClienteEspecialista()){
+				System.out.println("Informe um comnetario: ");
+				comentario = ler.next();
+			}
+			midia.registrarAvaliacao(avaliacao, plataformaStreaming.getClienteAtual(), comentario);
 		}
-		midia.registrarAvaliacao(avaliacao, plataformaStreaming.getClienteAtual(), comentario);
+		else{
+			System.out.println("Você já registrou uma avaliação para essa mídia! ");
+		}
 	}
 
 	private static void filtrarSerieGenero() {
@@ -277,7 +284,7 @@ public class App {
 			System.out.println("Filmes com o genero pesquisado: ");
 
 			filmes.stream()
-					.map(Serie::getNome)
+					.map(Filme::getNome)
 					.forEach(System.out::println);
 		}
 		else{
@@ -295,7 +302,7 @@ public class App {
 			System.out.println("Filmes com o idioma pesquisado: ");
 
 			filmes.stream()
-					.map(Serie::getNome)
+					.map(Filme::getNome)
 					.forEach(System.out::println);
 		}
 		else{
@@ -310,6 +317,10 @@ public class App {
 		Filme filme = new Filme(nome);
 		filme.setGenero(buildGenero());
 		filme.setIdioma(buildIdioma());
+		filme.setAudiencia(0);
+		filme.setAvaliacoes(new HashMap<>());
+		filme.setAvaliacaoTotal(0.0);
+		filme.setComentarios(new ArrayList<>());
 
 		plataformaStreaming.adicionarFilme(filme);
 	}
@@ -321,6 +332,10 @@ public class App {
 		Serie serie = new Serie(nome);
 		serie.setGenero(buildGenero());
 		serie.setIdioma(buildIdioma());
+		serie.setAudiencia(0);
+		serie.setAvaliacoes(new HashMap<>());
+		serie.setAvaliacaoTotal(0.0);
+		serie.setComentarios(new ArrayList<>());
 		serie.setQuantidadeEpisodios((int)Math.floor(Math.random() * (50 + 1) + 1));
 
 		plataformaStreaming.adicionarSerie(serie);
@@ -336,7 +351,11 @@ public class App {
 			System.out.println("A midia que voce pesquisou se chama: " + midia.getNome());
 			System.out.println("Genero: " + midia.getGenero());
 			System.out.println("Idioma: " + midia.getIdioma());
+			if(midia instanceof Serie){
+				System.out.println("Episodios: " + ((Serie) midia).getQuantidadeEpisodios());
+			}
 			System.out.println("Nota: " + (nonNull(midia.getAvaliacaoTotal()) ? midia.getAvaliacaoTotal() : 0));
+
 		}
 		else{
 			System.out.println("Midia nao cadastrado com esse nome");
@@ -371,6 +390,7 @@ public class App {
 			System.out.println("Genero: " + serie.get().getGenero());
 			System.out.println("Idioma: " + serie.get().getIdioma());
 			System.out.println("Nota: " + (nonNull(serie.get().getAvaliacaoTotal()) ? serie.get().getAvaliacaoTotal() : 0));
+			System.out.println("Episodios: " + serie.get().getQuantidadeEpisodios());
 		}
 		else{
 			System.out.println("Serie nao cadastrado com esse nome");

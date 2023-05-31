@@ -19,28 +19,20 @@ public class Midia {
     private Double avaliacaoTotal;
     private List<String> comentarios = new ArrayList<>();
 
-    public Midia(String genero, String nome, String idioma, int audiencia){
-        this.genero = GeneroEnum.valueOf(genero);
-        this.nome = nome;
-        this.idioma = idioma;
-        this.audiencia = audiencia;
-        this.avaliacaoTotal = 0.0;
-    }
-
     public void registrarAudiencia(){
         this.audiencia += 1;
     }
 
     public void registrarAvaliacao(Integer avaliacao, Cliente cliente, String comentario){
-        if(!avaliacoes.containsKey(cliente)) {
-            avaliacoes.put(cliente, avaliacao);
-            cliente.clienteEspecialista();
-            if(cliente.isClienteEspecialista()) {
-            	comentarios.add(comentario);
-            }
-            OptionalDouble avaliacaoOptional = avaliacoes.values().stream().mapToDouble(Integer::doubleValue).average();
-            avaliacaoTotal = avaliacaoOptional.orElse(0.0);
+        avaliacoes.put(cliente, avaliacao);
+        cliente.clienteEspecialista();
+        if(cliente.isClienteEspecialista()) {
+            comentarios.add(comentario);
         }
-
+        OptionalDouble avaliacaoOptional = avaliacoes.values()
+                .stream()
+                .mapToDouble(Integer::doubleValue)
+                .average();
+        avaliacaoTotal = avaliacaoOptional.orElse(0.0);
     }
 }
