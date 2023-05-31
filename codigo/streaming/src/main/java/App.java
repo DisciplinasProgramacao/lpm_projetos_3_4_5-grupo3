@@ -1,10 +1,9 @@
 import static java.util.Objects.isNull;
 import static java.util.Objects.nonNull;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.*;
+import com.google.gson.Gson;
 
 public class App {
 	private static final Scanner ler = new Scanner(System.in);
@@ -22,7 +21,7 @@ public class App {
 			if (isNull(plataformaStreaming.getClienteAtual())){
 				System.out.println("1 - Fazer cadastro");
 				System.out.println("2 - LogIn");
-				System.out.println("18 - Sair");
+				System.out.println("19 - Sair");
 				System.out.println("Informe um numero:");
 				x = ler.nextInt();
 			} else{
@@ -41,8 +40,9 @@ public class App {
 				System.out.println("15 - Filtrar filme por idioma");
 				System.out.println("16 - Cadastrar filme pelo arquivo");
 				System.out.println("17 - Cadastrar serie pelo arquivo");
+				System.out.println("18 - Salvar dados em Json");
 				System.out.println("0 - LogOff");
-				System.out.println("18 - Sair");
+				System.out.println("19 - Sair");
 				System.out.println("Informe um numero:");
 				x = ler.nextInt();
 			}
@@ -67,8 +67,10 @@ public class App {
 				case 15 -> filtrarFilmeIdioma();
 				case 16 -> cadastrarFilmeArquivo();
 				case 17 -> cadastrarSerieArquivo();
+				case 18 -> salvarDadosEmJson();
 			}
-		} while(x != 18);
+		} while(x != 19);
+		salvarDadosEmJson();
 		ler.close();
     }
 
@@ -101,6 +103,17 @@ public class App {
 		catch (IOException e){
 			System.err.printf("Erro na abertura do arquivo: %s.\n",
 					e.getMessage());
+		}
+	}
+
+	public static void salvarDadosEmJson() {
+		try {
+			Gson gson = new Gson();
+			FileWriter fileWriter = new FileWriter("src/main/data/plataforma.json");
+			gson.toJson(plataformaStreaming, fileWriter);
+			fileWriter.close();
+		} catch (IOException e) {
+			e.printStackTrace();
 		}
 	}
 
