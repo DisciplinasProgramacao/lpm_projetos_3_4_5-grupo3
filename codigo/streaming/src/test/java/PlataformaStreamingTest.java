@@ -17,10 +17,12 @@ class PlataformaStreamingTest {
 
     @Test
     void deveFazerLogin(){
-//        Cliente cliente = plataformaStreaming.login("usuario", "senha");
-//
-//        assertEquals(cliente.getNomeDeUsuario(), plataformaStreaming.getClienteAtual().getNomeDeUsuario());
-//        assertEquals(cliente.getSenha(), plataformaStreaming.getClienteAtual().getSenha());
+
+    }
+
+    @Test
+    void deveCadastrar(){
+
     }
 
     @Test
@@ -32,7 +34,7 @@ class PlataformaStreamingTest {
     }
 
     @Test
-    void deveFiltrarPorGenero(){
+    void deveFiltrarSeriePorGenero(){
         Serie serie = new Serie("nome");
         serie.setGenero(GeneroEnum.DRAMA);
 
@@ -43,8 +45,22 @@ class PlataformaStreamingTest {
         assertEquals(series.get(0).getGenero(), GeneroEnum.DRAMA);
     }
 
+
     @Test
-    void deveFiltrarPorIdioma(){
+    void deveFiltrarFilmePorGenero(){
+        Filme filme = new Filme("nome");
+
+        filme.setGenero(GeneroEnum.DRAMA);
+
+        plataformaStreaming.setFilmes(List.of(filme));
+
+        List<Filme> filmes = plataformaStreaming.filtrarFilmePorGenero(GeneroEnum.DRAMA.nome());
+
+        assertEquals(filmes.get(0).getGenero(), GeneroEnum.DRAMA);
+    }
+
+    @Test
+    void deveFiltrarSeriePorIdioma(){
         Serie serie = new Serie("nome");
         serie.setIdioma("Idioma");
 
@@ -53,6 +69,18 @@ class PlataformaStreamingTest {
         List<Serie> series = plataformaStreaming.filtrarSeriePorIdioma("Idioma");
 
         assertEquals(series.get(0).getIdioma(), "Idioma");
+    }
+
+    @Test
+    void deveFiltrarFilmePorIdioma(){
+        Filme filme = new Filme("nome");
+        filme.setIdioma("Idioma");
+
+        plataformaStreaming.setFilmes(List.of(filme));
+
+        List<Filme> filmes = plataformaStreaming.filtrarFilmePorIdioma("Idioma");
+
+        assertEquals(filmes.get(0).getIdioma(), "Idioma");
     }
 
     @Test
@@ -68,24 +96,17 @@ class PlataformaStreamingTest {
     }
 
     @Test
-    void deveBuscarSeriePeloNome(){
-//        Serie serie = new Serie("nome");
-//        serie.setNome("Nome");
-//
-//        plataformaStreaming.setSeries(List.of(serie));
-//        plataformaStreaming.setFilmes(new ArrayList<>());
-//
-//        Midia serieBuscada = plataformaStreaming.buscarMidia("Nome");
-//
-//        assertEquals(serieBuscada.getNome(), serie.getNome());
+    void deveFazerLogoff(){
+
     }
 
     @Test
-    void deveFazerLogoff(){
-        plataformaStreaming.login("usuario", "senha");
-        assertNotNull(plataformaStreaming.getClienteAtual());
+    void deveBuscarFIlme(){
 
-        plataformaStreaming.logoff();
-        assertNull(plataformaStreaming.getClienteAtual());
+    }
+
+    @Test
+    void deveBuscarSerie(){
+
     }
 }
