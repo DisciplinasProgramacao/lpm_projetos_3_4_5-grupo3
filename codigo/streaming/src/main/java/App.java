@@ -39,8 +39,9 @@ public class App {
 				System.out.println("14 - Filtrar filme por genero");
 				System.out.println("15 - Filtrar filme por idioma");
 				System.out.println("16 - Cadastrar filme pelo arquivo");
-				System.out.println("17 - Cadastrar serie pelo arquivo");
+				System.out.println("20 - Caastrar serie pelo arquivo");
 				System.out.println("18 - Salvar dados em Json");
+				System.out.println("10 - Salvar dados em Json");
 				System.out.println("0 - LogOff");
 				System.out.println("19 - Sair");
 				System.out.println("Informe um numero:");
@@ -448,12 +449,15 @@ public class App {
 	}
 
 	private static void inicializarGenerosIdiomas() {
-		App.generos.add(GeneroEnum.TERROR);
+		App.generos.add(GeneroEnum.POLICIAL);
 		App.generos.add(GeneroEnum.ROMANCE);
 		App.generos.add(GeneroEnum.DRAMA);
 		App.generos.add(GeneroEnum.COMEDIA);
 		App.generos.add(GeneroEnum.SUSPENSE);
-		App.generos.add(GeneroEnum.ANIMACAO);
+		App.generos.add(GeneroEnum.ANIME);
+		App.generos.add(GeneroEnum.ACAO);
+		App.generos.add(GeneroEnum.AVENTURA);
+		App.generos.add(GeneroEnum.DOCUMENTARIO);
 		App.idiomas.add("Ingles");
 		App.idiomas.add("Portugues");
 		App.idiomas.add("Espanhol");

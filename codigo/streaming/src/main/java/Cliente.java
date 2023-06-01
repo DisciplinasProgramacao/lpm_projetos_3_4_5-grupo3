@@ -16,6 +16,7 @@ public class Cliente {
     private List<Midia> listaParaVer;
     private Map<Midia, Date> listaJaVistas;
     private boolean clienteEspecialista;
+    private String profissao;
 
     public Cliente(){
         this.listaParaVer = new ArrayList<>();
