@@ -13,20 +13,20 @@ import lombok.Setter;
 public class Midia {
     private GeneroEnum genero;
     private String nome;
-    private String idioma;
+    private IdiomaEnum idioma;
     private int audiencia;
     private Map<Cliente, Integer> avaliacoes;
     private Double avaliacaoTotal;
     private List<String> comentarios = new ArrayList<>();
 
-    public void registrarAudiencia(){
+    public void registrarAudiencia() {
         this.audiencia += 1;
     }
 
-    public void registrarAvaliacao(Integer avaliacao, Cliente cliente, String comentario){
+    public void registrarAvaliacao(Integer avaliacao, Cliente cliente, String comentario) {
         avaliacoes.put(cliente, avaliacao);
         cliente.clienteEspecialista();
-        if(cliente.isClienteEspecialista()) {
+        if (cliente.isClienteEspecialista()) {
             comentarios.add(comentario);
         }
         OptionalDouble avaliacaoOptional = avaliacoes.values()
