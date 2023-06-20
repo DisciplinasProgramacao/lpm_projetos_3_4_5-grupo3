@@ -40,7 +40,7 @@ public class App {
 				System.out.println("14 - Filtrar filme por genero");
 				System.out.println("15 - Filtrar filme por idioma");
 				System.out.println("16 - Cadastrar filme pelo arquivo");
-				System.out.println("17 - Caastrar serie pelo arquivo");
+				System.out.println("17 - Cadastrar serie pelo arquivo");
 				System.out.println("18 - Salvar dados em Json");
 				System.out.println("19 - Obter cliente que mais assistiu midias");
 				System.out.println("20 - Obter cliente que mais tem avaliacoes");
@@ -256,7 +256,7 @@ public class App {
 		midia.setNome(getMidiaNome(linha));
 		midia.setGenero(buildGenero());
 		midia.setIdioma(buildIdioma());
-		midia.setAudiencia(0);
+		midia.setAudiencia(Integer.parseInt(getMidiaAudiencia(linha)));
 		midia.setAvaliacoes(new ArrayList<>());
 		midia.setAvaliacaoTotal(0.0);
 
@@ -272,6 +272,11 @@ public class App {
 	private static String getMidiaNome(String linha) {
 		String dados = linha.replaceAll(" ", "");
 		return dados.split(";")[1];
+	}
+
+	private static String getMidiaAudiencia(String linha) {
+		String dados = linha.replaceAll(" ", "");
+		return dados.split(";")[3];
 	}
 
 	private static void cadastrar() {
