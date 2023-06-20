@@ -173,19 +173,22 @@ public class App {
 	}
 
 	public static void midiasMaisVisualizadas() {
-		var visualizacoesPorMidia = plataformaStreaming.getClientes().stream()
-				.flatMap(cliente -> cliente.getListaJaVistas().keySet().stream())
-				.collect(Collectors.groupingBy(midia -> midia, Collectors.summingInt(Midia::getAudiencia)));
+		var midiasPorAudiencia = obterTop10MidiasPorAudiencia();
 
-		var top10MidiasMaisVisualizadas = visualizacoesPorMidia.entrySet().stream()
-				.sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
-				.limit(10)
-				.map(Map.Entry::getKey)
-				.toList();
-
-		top10MidiasMaisVisualizadas.stream()
+		midiasPorAudiencia.stream()
 				.map(midia -> midia.getNome() + " - Audiencia: " + midia.getAudiencia())
 				.forEach(System.out::println);
+	}
+
+	public static List<Midia> obterTop10MidiasPorAudiencia() {
+		List<Midia> midias = new ArrayList<>();
+
+		midias.addAll(plataformaStreaming.getSeries());
+		midias.addAll(plataformaStreaming.getFilmes());
+
+		midias.sort(Comparator.comparing(Midia::getAudiencia).reversed());
+
+		return midias.subList(0, Math.min(10, midias.size()));
 	}
 
 	public static void melhoresAvaliacoesPorGenero() {
@@ -253,19 +256,26 @@ public class App {
 	}
 
 	private static void registrarMidia(Midia midia, String linha) {
-		midia.setNome(getMidiaNome(linha));
-		midia.setGenero(buildGenero());
-		midia.setIdioma(buildIdioma());
-		midia.setAudiencia(Integer.parseInt(getMidiaAudiencia(linha)));
-		midia.setAvaliacoes(new ArrayList<>());
-		midia.setAvaliacaoTotal(0.0);
-
 		if (midia instanceof Serie) {
-			((Serie) midia).setQuantidadeEpisodios((int) Math.floor(Math.random() * (50 + 1) + 1));
-			plataformaStreaming.adicionarSerie((Serie) midia);
+			Serie serie = new Serie();
+			serie.setNome(getMidiaNome(linha));
+			serie.setGenero(buildGenero());
+			serie.setIdioma(buildIdioma());
+			serie.setAudiencia(Integer.parseInt(getMidiaAudiencia(linha)));
+			serie.setAvaliacoes(new ArrayList<>());
+			serie.setAvaliacaoTotal(0.0);
+			serie.setQuantidadeEpisodios((int) Math.floor(Math.random() * (50 + 1) + 1));
+			plataformaStreaming.adicionarSerie(serie);
 		}
 		if (midia instanceof Filme) {
-			plataformaStreaming.adicionarFilme((Filme) midia);
+			Filme filme = new Filme();
+			filme.setNome(getMidiaNome(linha));
+			filme.setGenero(buildGenero());
+			filme.setIdioma(buildIdioma());
+			filme.setAudiencia(Integer.parseInt(getMidiaAudiencia(linha)));
+			filme.setAvaliacoes(new ArrayList<>());
+			filme.setAvaliacaoTotal(0.0);
+			plataformaStreaming.adicionarFilme(filme);
 		}
 	}
 
