@@ -165,4 +165,12 @@ class PlataformaStreamingTest {
 
         assertEquals(filme.getNome(), "nome");
     }
+
+    @Test
+    void deveRealizarAssinatura(){
+        plataformaStreaming.setClienteAtual(new Cliente());
+        plataformaStreaming.realizarAssinatura();
+
+        assertEquals(plataformaStreaming.getClienteAtual().getClienteTipo(), ClienteTipoEnum.PROFISSIONAL);
+    }
 }
