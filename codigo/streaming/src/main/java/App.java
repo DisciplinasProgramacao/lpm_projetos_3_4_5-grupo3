@@ -49,6 +49,7 @@ public class App {
 				System.out.println("23 - 10 mídias com mais visualizações");
 				System.out.println("24 - 10 midias de melhor avaliacao com pelo menos 100 avaliacoes, por genero");
 				System.out.println("25 - 10 mídias com mais visualizações, por genero");
+				System.out.println("26 - Realizar assinatura para cliente Profissional");
 				System.out.println("0 - LogOff");
 				System.out.println("100 - Sair");
 				System.out.println("Informe um numero:");
@@ -83,10 +84,15 @@ public class App {
 				case 23 -> midiasMaisVisualizadas();
 				case 24 -> melhoresAvaliacoesPorGenero();
 				case 25 -> melhoresVisualizacoesPorGenero();
+				case 26 -> realizarAssinatura();
 			}
 		} while (x != 100);
 		salvarDadosEmJson();
 		ler.close();
+	}
+
+	private static void realizarAssinatura() {
+		plataformaStreaming.realizarAssinatura();
 	}
 
 	private static void cadastrarFilmeArquivo() {
@@ -336,6 +342,10 @@ public class App {
 	}
 
 	private static void assistir(Midia midia) {
+		if(midia.isLancamento() && !ClienteTipoEnum.PROFISSIONAL.equals(plataformaStreaming.getClienteAtual().getClienteTipo())){
+			System.out.println("Você não tem uma assinatura para assistir filmes em lançamento.");
+			return;
+		}
 		System.out.println("Assistindo...");
 		midia.registrarAudiencia();
 		plataformaStreaming.getClienteAtual().adicionarNaListaJaVista(midia);
@@ -346,7 +356,8 @@ public class App {
 			int nota = ler.nextInt();
 
 			String comentario = "";
-			if (plataformaStreaming.getClienteAtual().isClienteEspecialista()) {
+			if (ClienteTipoEnum.ESPECIALISTA.equals(plataformaStreaming.getClienteAtual().getClienteTipo()) ||
+					ClienteTipoEnum.PROFISSIONAL.equals(plataformaStreaming.getClienteAtual().getClienteTipo())) {
 				System.out.println("Informe um comnetario: ");
 				comentario = ler.next();
 			}

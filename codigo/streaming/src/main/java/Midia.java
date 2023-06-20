@@ -14,6 +14,7 @@ public class Midia {
     private int audiencia;
     private Double avaliacaoTotal;
     private List<Avaliacao> avaliacoes = new ArrayList<>();
+    private boolean lancamento;
 
     public void registrarAudiencia() {
         this.audiencia += 1;

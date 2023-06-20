@@ -15,12 +15,13 @@ public class Cliente {
     private String senha;
     private List<Midia> listaParaVer;
     private Map<Midia, Date> listaJaVistas;
-    private boolean clienteEspecialista;
+    private ClienteTipoEnum clienteTipo;
     private String profissao;
 
     public Cliente(){
         this.listaParaVer = new ArrayList<>();
         this.listaJaVistas = new HashMap<>();
+        this.clienteTipo = ClienteTipoEnum.REGULAR;
     }
 
     public Cliente(String nome, String senha){
@@ -28,6 +29,7 @@ public class Cliente {
         this.senha = senha;
         this.listaParaVer = new ArrayList<>();
         this.listaJaVistas = new HashMap<>();
+        this.clienteTipo = ClienteTipoEnum.REGULAR;
     }
 
     public void adicionarNaListaParaVer(Midia midia){
@@ -55,7 +57,7 @@ public class Cliente {
             if(d.after(sysdateMenosMes)) {
                 count += 1;
             }if(count >= 5) {
-                clienteEspecialista = true;
+                clienteTipo = ClienteTipoEnum.ESPECIALISTA;
             }
         }
     }

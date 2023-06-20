@@ -43,6 +43,10 @@ public class PlataformaStreaming {
         return cliente;
     }
 
+    public void realizarAssinatura(){
+        clienteAtual.setClienteTipo(ClienteTipoEnum.PROFISSIONAL);
+    }
+
     public void adicionarCliente(Cliente cliente) {
         clientes.add(cliente);
     }
