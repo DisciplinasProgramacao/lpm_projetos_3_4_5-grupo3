@@ -72,6 +72,7 @@ public class App {
 				case 18 -> salvarDadosEmJson();
 				case 19 -> obterClienteComMaisMidiasAssistidas();
 				case 20 -> obterClienteComMaisAvaliacoes();
+				case 21 -> porcentagemClientesQuinzeAvaliacoes();
 			}
 		} while (x != 100);
 		salvarDadosEmJson();
@@ -121,6 +122,16 @@ public class App {
 
 		cliente.ifPresent(value -> System.out.println("Cliente que possui mais avaliacoes: " +
 				value.getNomeDeUsuario() + " com " + cliente.get().getListaJaVistas().size() + " midias avaliadas"));
+	}
+
+	public static void porcentagemClientesQuinzeAvaliacoes() {
+		long totalClientes = plataformaStreaming.getClientes().size();
+		long clientesComAvaliacoes = plataformaStreaming.getClientes().stream()
+				.filter(cliente -> contarAvaliacoes(cliente) >= 15)
+				.count();
+
+		var porcentagem = (double) clientesComAvaliacoes / totalClientes * 100;
+		System.out.println("A porcentagem de clientes com mais de 15 avaliacoes eh: " + porcentagem + "%");
 	}
 
 	private static int contarAvaliacoes(Cliente cliente) {
