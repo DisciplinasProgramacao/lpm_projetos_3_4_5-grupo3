@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b785d1d8-5d45-497b-ae0d-f22b90d94476" name="Changes" comment="implementacao testes unitarios plataforma streaming">
+    <list default="true" id="b785d1d8-5d45-497b-ae0d-f22b90d94476" name="Changes" comment="diagrama uml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/backlog.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/backlog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +78,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\souza\IdeaProjects\lpm_projetos_3_4_5-grupo3\docs\diagramas" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean install" />
@@ -187,7 +193,7 @@
       <workItem from="1683161350512" duration="2149000" />
       <workItem from="1684888983342" duration="4446000" />
       <workItem from="1687225032142" duration="2743000" />
-      <workItem from="1687257106463" duration="9882000" />
+      <workItem from="1687257106463" duration="12379000" />
     </task>
     <task id="LOCAL-00001" summary="instrucoes">
       <created>1683159156891</created>
@@ -231,7 +237,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687291977551</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="diagrama uml">
+      <created>1687295061936</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687295061936</updated>
+    </task>
+    <task id="LOCAL-00008" summary="diagrama uml">
+      <created>1687295251050</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687295251050</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +275,8 @@
     <MESSAGE value="Deixando genero correto e adicionando enum de profissões especiais." />
     <MESSAGE value="implementacao testes unitarios e correcoes de formatacao" />
     <MESSAGE value="implementacao testes unitarios plataforma streaming" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementacao testes unitarios plataforma streaming" />
+    <MESSAGE value="diagrama uml" />
+    <option name="LAST_COMMIT_MESSAGE" value="diagrama uml" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
