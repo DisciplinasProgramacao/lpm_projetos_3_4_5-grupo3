@@ -43,6 +43,8 @@ public class App {
 				System.out.println("18 - Salvar dados em Json");
 				System.out.println("19 - Obter cliente que mais assistiu midias");
 				System.out.println("20 - Obter cliente que mais tem avaliacoes");
+				System.out.println("21 - Porcentagem de clientes com mais de 15 avaliacoes");
+				System.out.println("22 - 10 midias de melhor avaliacao com pelo menos 100 avaliacoes");
 				System.out.println("0 - LogOff");
 				System.out.println("100 - Sair");
 				System.out.println("Informe um numero:");
@@ -73,6 +75,7 @@ public class App {
 				case 19 -> obterClienteComMaisMidiasAssistidas();
 				case 20 -> obterClienteComMaisAvaliacoes();
 				case 21 -> porcentagemClientesQuinzeAvaliacoes();
+				case 22 -> melhoresMidias();
 			}
 		} while (x != 100);
 		salvarDadosEmJson();
@@ -138,6 +141,22 @@ public class App {
 		return cliente.getListaJaVistas().keySet().stream()
 				.mapToInt(midia -> midia.getAvaliacoes().size())
 				.sum();
+	}
+
+	public static void melhoresMidias() {
+		List<Midia> melhoresMidias = plataformaStreaming.getClientes().stream()
+				.flatMap(cliente -> cliente.getListaJaVistas().keySet().stream())
+				.filter(midia -> midia.getAvaliacoes().size() >= 100)
+				.distinct()
+				.sorted(Comparator.comparingDouble(Midia::getAvaliacaoTotal).reversed())
+				.limit(10)
+				.toList();
+
+		System.out.println("As 10 mídias de melhor avaliação, com pelo menos 100 avaliações: ");
+
+		melhoresMidias.stream()
+				.map(midia -> midia.getNome() + " - Avaliação: " + midia.getAvaliacaoTotal())
+				.forEach(System.out::println);
 	}
 
 	public static void salvarDadosEmJson() {
