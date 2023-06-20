@@ -1,7 +1,7 @@
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
-
 import lombok.Getter;
 import lombok.Setter;
 
@@ -22,7 +22,7 @@ public class PlataformaStreaming {
         return (plataformaStreaming);
     }
 
-    private PlataformaStreaming() {
+    PlataformaStreaming() {
     }
 
     public void cadastrar(String nomeUsuario, String senha) {

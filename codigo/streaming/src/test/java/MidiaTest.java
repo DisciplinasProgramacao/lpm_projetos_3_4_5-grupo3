@@ -1,11 +1,19 @@
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mock;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class MidiaTest {
 
+    @Mock
     private Midia midia;
+
+    @BeforeEach
+    void setUp(){
+        midia = new Midia();
+    }
 
     @Test
     void deveRegistrarAudienciaDaSerie(){
@@ -32,4 +40,13 @@ class MidiaTest {
         assertTrue(midia instanceof Filme);
     }
 
+    @Test
+    void deveRegistrarAvaliacaoQuandoReceberAvaliacao(){
+        Avaliacao avaliacao = new Avaliacao(new Cliente(), 10, "bom");
+
+        midia.registrarAvaliacao(avaliacao);
+
+        assertEquals(avaliacao.getComentario(), "bom");
+        assertEquals(avaliacao.getNota(), 10);
+    }
 }

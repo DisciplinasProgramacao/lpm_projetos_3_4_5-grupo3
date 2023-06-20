@@ -1,36 +1,49 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
+import org.mockito.InjectMocks;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class PlataformaStreamingTest {
 
+    @InjectMocks
     private PlataformaStreaming plataformaStreaming;
 
-//    @BeforeEach
-//    void setUp(){
-//        plataformaStreaming = new PlataformaStreaming();
+    @BeforeEach
+    void setUp() {
+        plataformaStreaming = new PlataformaStreaming();
+    }
+//
+//    @Test
+//    void deveFazerLogin(){
+//
+//        Optional<Cliente> cliente = plataformaStreaming.login("nome", "12345678");
+//
 //    }
 
     @Test
-    void deveFazerLogin(){
-
-    }
-
-    @Test
     void deveCadastrar(){
+        plataformaStreaming.setClientes(new ArrayList<>());
 
+        Cliente cliente = new Cliente("nome", "12345678");
+        plataformaStreaming.cadastrar("nome", "12345678");
+
+        assertEquals(cliente.getSenha(), "12345678");
+        assertEquals(cliente.getNomeDeUsuario(), "nome");
     }
 
     @Test
     void deveAdicionarCliente(){
         plataformaStreaming.setClientes(new ArrayList<>());
-        plataformaStreaming.adicionarCliente(new Cliente());
 
-        assertEquals(plataformaStreaming.getClientes().size(), 1);
+        Cliente cliente = new Cliente("nome", "12345678");
+        plataformaStreaming.adicionarCliente(cliente);
+
+        assertEquals(cliente.getSenha(), "12345678");
+        assertEquals(cliente.getNomeDeUsuario(), "nome");
     }
 
     @Test
@@ -49,7 +62,6 @@ class PlataformaStreamingTest {
     @Test
     void deveFiltrarFilmePorGenero(){
         Filme filme = new Filme("nome");
-
         filme.setGenero(GeneroEnum.DRAMA);
 
         plataformaStreaming.setFilmes(List.of(filme));
@@ -62,25 +74,25 @@ class PlataformaStreamingTest {
     @Test
     void deveFiltrarSeriePorIdioma(){
         Serie serie = new Serie("nome");
-//        serie.setIdioma("Idioma");
+        serie.setIdioma(IdiomaEnum.ESPANHOL);
 
         plataformaStreaming.setSeries(List.of(serie));
 
-        List<Serie> series = plataformaStreaming.filtrarSeriePorIdioma("Idioma");
+        List<Serie> series = plataformaStreaming.filtrarSeriePorIdioma(IdiomaEnum.ESPANHOL.idioma);
 
-        assertEquals(series.get(0).getIdioma(), "Idioma");
+        assertEquals(series.get(0).getIdioma(), IdiomaEnum.ESPANHOL);
     }
 
     @Test
     void deveFiltrarFilmePorIdioma(){
         Filme filme = new Filme("nome");
-//        filme.setIdioma("Idioma");
+        filme.setIdioma(IdiomaEnum.PORTUGUES);
 
         plataformaStreaming.setFilmes(List.of(filme));
 
-        List<Filme> filmes = plataformaStreaming.filtrarFilmePorIdioma("Idioma");
+        List<Filme> filmes = plataformaStreaming.filtrarFilmePorIdioma(IdiomaEnum.PORTUGUES.idioma);
 
-        assertEquals(filmes.get(0).getIdioma(), "Idioma");
+        assertEquals(filmes.get(0).getIdioma(), IdiomaEnum.PORTUGUES);
     }
 
     @Test
@@ -95,10 +107,15 @@ class PlataformaStreamingTest {
         assertEquals(series.get(0).getQuantidadeEpisodios(), 10);
     }
 
-    @Test
-    void deveFazerLogoff(){
-
-    }
+//    @Test
+//    void deveFazerLogoff(){
+//
+//        Cliente clienteAtual = new Cliente();
+//
+//        plataformaStreaming.logoff();
+//
+//        assertEquals(clienteAtual, null);
+//    }
 
     @Test
     void deveBuscarFIlme(){

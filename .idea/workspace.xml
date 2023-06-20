@@ -6,10 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="b785d1d8-5d45-497b-ae0d-f22b90d94476" name="Changes" comment="Deixando genero correto e adicionando enum de profissões especiais.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/streaming/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/streaming/src/main/java/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/src/main/java/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/streaming/src/main/java/GeneroEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/src/main/java/GeneroEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/streaming/src/main/java/Midia.java" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/src/main/java/Midia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/streaming/src/main/java/PlataformaStreaming.java" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/src/main/java/PlataformaStreaming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/streaming/src/test/java/ClienteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/src/test/java/ClienteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/streaming/src/test/java/MidiaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/src/test/java/MidiaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/streaming/src/test/java/PlataformaStreamingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/src/test/java/PlataformaStreamingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codigo/streaming/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/target/classes/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/streaming/target/classes/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/target/classes/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/streaming/target/classes/Filme.class" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/target/classes/Filme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/streaming/target/classes/GeneroEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/target/classes/GeneroEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/streaming/target/classes/PlataformaStreaming.class" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/target/classes/PlataformaStreaming.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/streaming/target/classes/Serie.class" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/target/classes/Serie.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +93,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PlataformaStreamingTest">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -119,16 +126,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="App" />
+    <configuration name="PlataformaStreamingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="streaming" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlataformaStreamingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlataformaStreamingTest.deveAdicionarCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="streaming" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlataformaStreamingTest" />
+      <option name="METHOD_NAME" value="deveAdicionarCliente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlataformaStreamingTest.deveCadastrar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="streaming" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlataformaStreamingTest" />
+      <option name="METHOD_NAME" value="deveCadastrar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlataformaStreamingTest.deveFazerLogoff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="streaming" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlataformaStreamingTest" />
+      <option name="METHOD_NAME" value="deveFazerLogoff" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlataformaStreamingTest.deveFiltrarFilmePorIdioma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="streaming" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlataformaStreamingTest" />
+      <option name="METHOD_NAME" value="deveFiltrarFilmePorIdioma" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.PlataformaStreamingTest" />
+        <item itemvalue="JUnit.PlataformaStreamingTest.deveAdicionarCliente" />
+        <item itemvalue="JUnit.PlataformaStreamingTest.deveCadastrar" />
+        <item itemvalue="JUnit.PlataformaStreamingTest.deveFazerLogoff" />
+        <item itemvalue="JUnit.PlataformaStreamingTest.deveFiltrarFilmePorIdioma" />
       </list>
     </recent_temporary>
   </component>
@@ -146,6 +199,8 @@
       <workItem from="1683155993304" duration="3896000" />
       <workItem from="1683161350512" duration="2149000" />
       <workItem from="1684888983342" duration="4446000" />
+      <workItem from="1687225032142" duration="2743000" />
+      <workItem from="1687257106463" duration="5561000" />
     </task>
     <task id="LOCAL-00001" summary="instrucoes">
       <created>1683159156891</created>
