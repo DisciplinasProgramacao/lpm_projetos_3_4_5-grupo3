@@ -3,6 +3,7 @@ import static java.util.Objects.nonNull;
 
 import java.io.*;
 import java.util.*;
+
 import com.google.gson.Gson;
 
 public class App {
@@ -20,7 +21,7 @@ public class App {
 			if (isNull(plataformaStreaming.getClienteAtual())) {
 				System.out.println("1 - Fazer cadastro");
 				System.out.println("2 - LogIn");
-				System.out.println("19 - Sair");
+				System.out.println("100 - Sair");
 				System.out.println("Informe um numero:");
 				x = ler.nextInt();
 			} else {
@@ -41,6 +42,7 @@ public class App {
 				System.out.println("17 - Caastrar serie pelo arquivo");
 				System.out.println("18 - Salvar dados em Json");
 				System.out.println("19 - Obter cliente que mais assistiu midias");
+				System.out.println("20 - Obter cliente que mais tem avaliacoes");
 				System.out.println("0 - LogOff");
 				System.out.println("100 - Sair");
 				System.out.println("Informe um numero:");
@@ -69,6 +71,7 @@ public class App {
 				case 17 -> cadastrarSerieArquivo();
 				case 18 -> salvarDadosEmJson();
 				case 19 -> obterClienteComMaisMidiasAssistidas();
+				case 20 -> obterClienteComMaisAvaliacoes();
 			}
 		} while (x != 100);
 		salvarDadosEmJson();
@@ -110,6 +113,20 @@ public class App {
 
 		cliente.ifPresent(value -> System.out.println("Cliente que mais assistiu midia foi: " +
 				value.getNomeDeUsuario() + " com " + cliente.get().getListaJaVistas().size() + " midias"));
+	}
+
+	public static void obterClienteComMaisAvaliacoes() {
+		var cliente = plataformaStreaming.getClientes().stream()
+				.max(Comparator.comparingInt(App::contarAvaliacoes));
+
+		cliente.ifPresent(value -> System.out.println("Cliente que possui mais avaliacoes: " +
+				value.getNomeDeUsuario() + " com " + cliente.get().getListaJaVistas().size() + " midias avaliadas"));
+	}
+
+	private static int contarAvaliacoes(Cliente cliente) {
+		return cliente.getListaJaVistas().keySet().stream()
+				.mapToInt(midia -> midia.getAvaliacoes().size())
+				.sum();
 	}
 
 	public static void salvarDadosEmJson() {
