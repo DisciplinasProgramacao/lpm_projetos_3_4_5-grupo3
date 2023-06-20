@@ -94,9 +94,7 @@ public class App {
 				if (nonNull(linha)) {
 					registrarMidia(midia, linha);
 				}
-
 			}
-
 			buffRead.close();
 		} catch (IOException e) {
 			System.err.printf("Erro na abertura do arquivo: %s.\n",
@@ -120,9 +118,8 @@ public class App {
 		midia.setGenero(buildGenero());
 		midia.setIdioma(buildIdioma());
 		midia.setAudiencia(0);
-		midia.setAvaliacoes(new HashMap<>());
+		midia.setAvaliacoes(new ArrayList<>());
 		midia.setAvaliacaoTotal(0.0);
-		midia.setComentarios(new ArrayList<>());
 
 		if (midia instanceof Serie) {
 			((Serie) midia).setQuantidadeEpisodios((int) Math.floor(Math.random() * (50 + 1) + 1));
@@ -211,19 +208,25 @@ public class App {
 		plataformaStreaming.getClienteAtual().adicionarNaListaJaVista(midia);
 		plataformaStreaming.getClienteAtual().retirarDaListaParaVer(midia.getNome());
 
-		if (!midia.getAvaliacoes().containsKey(plataformaStreaming.getClienteAtual())) {
+		if(!existeAvaliacao(midia)){
 			System.out.println("Informe a nota do filme: (1 a 5) ");
-			int avaliacao = ler.nextInt();
+			int nota = ler.nextInt();
 
 			String comentario = "";
 			if (plataformaStreaming.getClienteAtual().isClienteEspecialista()) {
 				System.out.println("Informe um comnetario: ");
 				comentario = ler.next();
 			}
-			midia.registrarAvaliacao(avaliacao, plataformaStreaming.getClienteAtual(), comentario);
+			Avaliacao avaliacao = new Avaliacao(plataformaStreaming.getClienteAtual(), nota, comentario);
+			midia.registrarAvaliacao(avaliacao);
 		} else {
 			System.out.println("Você já registrou uma avaliação para essa mídia! ");
 		}
+	}
+
+	private static boolean existeAvaliacao(Midia midia) {
+		return midia.getAvaliacoes().stream()
+				.anyMatch(a -> a.getCliente().equals(plataformaStreaming.getClienteAtual()));
 	}
 
 	private static void filtrarSerieGenero() {
@@ -319,9 +322,8 @@ public class App {
 		filme.setGenero(buildGenero());
 		filme.setIdioma(buildIdioma());
 		filme.setAudiencia(0);
-		filme.setAvaliacoes(new HashMap<>());
+		filme.setAvaliacoes(new ArrayList<>());
 		filme.setAvaliacaoTotal(0.0);
-		filme.setComentarios(new ArrayList<>());
 
 		plataformaStreaming.adicionarFilme(filme);
 	}
@@ -334,9 +336,8 @@ public class App {
 		serie.setGenero(buildGenero());
 		serie.setIdioma(buildIdioma());
 		serie.setAudiencia(0);
-		serie.setAvaliacoes(new HashMap<>());
+		serie.setAvaliacoes(new ArrayList<>());
 		serie.setAvaliacaoTotal(0.0);
-		serie.setComentarios(new ArrayList<>());
 		serie.setQuantidadeEpisodios((int) Math.floor(Math.random() * (50 + 1) + 1));
 
 		plataformaStreaming.adicionarSerie(serie);

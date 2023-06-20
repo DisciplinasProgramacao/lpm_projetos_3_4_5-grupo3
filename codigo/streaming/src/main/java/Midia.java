@@ -15,24 +15,19 @@ public class Midia {
     private String nome;
     private IdiomaEnum idioma;
     private int audiencia;
-    private Map<Cliente, Integer> avaliacoes;
     private Double avaliacaoTotal;
-    private List<String> comentarios = new ArrayList<>();
+    private List<Avaliacao> avaliacoes = new ArrayList<>();
 
     public void registrarAudiencia() {
         this.audiencia += 1;
     }
 
-    public void registrarAvaliacao(Integer avaliacao, Cliente cliente, String comentario) {
-        avaliacoes.put(cliente, avaliacao);
-        cliente.clienteEspecialista();
-        if (cliente.isClienteEspecialista()) {
-            comentarios.add(comentario);
-        }
-        OptionalDouble avaliacaoOptional = avaliacoes.values()
-                .stream()
-                .mapToDouble(Integer::doubleValue)
-                .average();
-        avaliacaoTotal = avaliacaoOptional.orElse(0.0);
+    public void registrarAvaliacao(Avaliacao avaliacao) {
+        avaliacoes.add(avaliacao);
+
+        this.avaliacaoTotal = avaliacoes.stream()
+                .mapToInt(Avaliacao::getNota)
+                .average()
+                .orElse(0);
     }
 }

@@ -36,6 +36,7 @@ public class Cliente {
 
     public void adicionarNaListaJaVista(Midia midia){
         this.listaJaVistas.put(midia, new Date());
+        clienteEspecialista();
     }
 
     public void retirarDaListaParaVer(String nomeSerie){
@@ -46,7 +47,7 @@ public class Cliente {
         midia.ifPresent(value -> listaParaVer.remove(value));
     }
 
-    public void clienteEspecialista(){
+    private void clienteEspecialista(){
         Date sysdateMenosMes = removeMes(new Date());
         int count = 0;
 

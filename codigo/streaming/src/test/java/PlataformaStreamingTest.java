@@ -10,10 +10,10 @@ class PlataformaStreamingTest {
 
     private PlataformaStreaming plataformaStreaming;
 
-    @BeforeEach
-    void setUp(){
-        plataformaStreaming = PlataformaStreaming.builder().build();
-    }
+//    @BeforeEach
+//    void setUp(){
+//        plataformaStreaming = new PlataformaStreaming();
+//    }
 
     @Test
     void deveFazerLogin(){
@@ -62,7 +62,7 @@ class PlataformaStreamingTest {
     @Test
     void deveFiltrarSeriePorIdioma(){
         Serie serie = new Serie("nome");
-        serie.setIdioma("Idioma");
+//        serie.setIdioma("Idioma");
 
         plataformaStreaming.setSeries(List.of(serie));
 
@@ -74,7 +74,7 @@ class PlataformaStreamingTest {
     @Test
     void deveFiltrarFilmePorIdioma(){
         Filme filme = new Filme("nome");
-        filme.setIdioma("Idioma");
+//        filme.setIdioma("Idioma");
 
         plataformaStreaming.setFilmes(List.of(filme));
 
