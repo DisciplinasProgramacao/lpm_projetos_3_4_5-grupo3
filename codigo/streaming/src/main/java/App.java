@@ -82,7 +82,7 @@ public class App {
 				case 22 -> melhoresMidias();
 				case 23 -> midiasMaisVisualizadas();
 				case 24 -> melhoresAvaliacoesPorGenero();
-//				case 25 -> midiasMaisVisualizadas();
+				case 25 -> melhoresVisualizacoesPorGenero();
 			}
 		} while (x != 100);
 		salvarDadosEmJson();
@@ -191,7 +191,7 @@ public class App {
 
 			List<Midia> melhoresAvaliacoes = plataformaStreaming.getClientes().stream()
 					.flatMap(cliente -> cliente.getListaJaVistas().keySet().stream())
-					.filter(midia -> midia.getAvaliacoes().size() >= 100 && midia.getGenero() == genero)
+					.filter(midia -> midia.getAvaliacoes().size() >= 100 && genero.equals(midia.getGenero()))
 					.distinct()
 					.sorted(Comparator.comparingDouble(Midia::getAvaliacaoTotal).reversed())
 					.limit(10)
@@ -201,23 +201,39 @@ public class App {
 			melhoresAvaliacoes.stream()
 					.map(midia -> midia.getNome() + " - Avaliação: " + midia.getAvaliacaoTotal())
 					.forEach(System.out::println);
+
 		} catch (IllegalArgumentException e) {
 			System.out.println("Gênero inválido.");
 		}
 	}
 
-//	private static void melhoresVisualizacoesPorGenero(GeneroEnum genero) {
-//		List<Midia> maisVisualizacoes = clientes.stream()
-//				.flatMap(cliente -> cliente.getListaJaVistas().keySet().stream())
-//				.filter(midia -> midia.getGenero() == genero)
-//				.distinct()
-//				.sorted(Comparator.comparingInt(midia -> cliente.getListaJaVistas().get(midia).size()).reversed())
-//				.limit(10)
-//				.collect(Collectors.toList());
-//
-//		System.out.println("\nAs 10 mídias com mais visualizações, do gênero " + genero.nome() + ":");
-//		imprimirMidias(maisVisualizacoes);
-//	}
+	private static void melhoresVisualizacoesPorGenero() {
+		System.out.println("Escolha um genero: ");
+		String generoDigitado = ler.next();
+
+		try {
+			GeneroEnum genero = GeneroEnum.valueOf(generoDigitado);
+
+			Map<Midia, Integer> visualizacoesPorMidia = plataformaStreaming.getClientes().stream()
+					.flatMap(cliente -> cliente.getListaJaVistas().keySet().stream())
+					.filter(midia -> midia.getGenero().equals(genero))
+					.collect(Collectors.groupingBy(midia -> midia, Collectors.summingInt(Midia::getAudiencia)));
+
+			List<Midia> top10MidiasMaisVisualizadas = visualizacoesPorMidia.entrySet().stream()
+					.sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+					.limit(10)
+					.map(Map.Entry::getKey)
+					.toList();
+
+			System.out.println("As 10 mídias com mais visualizações, do gênero " + genero.nome() + ":");
+			top10MidiasMaisVisualizadas.stream()
+					.map(midia -> midia.getNome() + " - Audiencia: " + midia.getAudiencia())
+					.forEach(System.out::println);
+
+		} catch (IllegalArgumentException e) {
+			System.out.println("Gênero inválido.");
+		}
+	}
 
 	public static void salvarDadosEmJson() {
 		try {
