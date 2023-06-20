@@ -3,6 +3,7 @@ import static java.util.Objects.nonNull;
 
 import java.io.*;
 import java.util.*;
+import java.util.stream.Collectors;
 
 import com.google.gson.Gson;
 
@@ -44,7 +45,8 @@ public class App {
 				System.out.println("19 - Obter cliente que mais assistiu midias");
 				System.out.println("20 - Obter cliente que mais tem avaliacoes");
 				System.out.println("21 - Porcentagem de clientes com mais de 15 avaliacoes");
-				System.out.println("22 - 10 midias de melhor avaliacao com pelo menos 100 avaliacoes");
+				System.out.println("22 - 10 midias de melhor avaliacao com pelo menos 100 avaliacoes, em ordem decrescente");
+				System.out.println("23 - 10 mídias com mais visualizações, em ordem decrescente");
 				System.out.println("0 - LogOff");
 				System.out.println("100 - Sair");
 				System.out.println("Informe um numero:");
@@ -76,6 +78,7 @@ public class App {
 				case 20 -> obterClienteComMaisAvaliacoes();
 				case 21 -> porcentagemClientesQuinzeAvaliacoes();
 				case 22 -> melhoresMidias();
+				case 23 -> midiasMaisVisualizadas();
 			}
 		} while (x != 100);
 		salvarDadosEmJson();
@@ -144,7 +147,7 @@ public class App {
 	}
 
 	public static void melhoresMidias() {
-		List<Midia> melhoresMidias = plataformaStreaming.getClientes().stream()
+		var melhoresMidias = plataformaStreaming.getClientes().stream()
 				.flatMap(cliente -> cliente.getListaJaVistas().keySet().stream())
 				.filter(midia -> midia.getAvaliacoes().size() >= 100)
 				.distinct()
@@ -158,6 +161,56 @@ public class App {
 				.map(midia -> midia.getNome() + " - Avaliação: " + midia.getAvaliacaoTotal())
 				.forEach(System.out::println);
 	}
+
+	public static void midiasMaisVisualizadas() {
+		var visualizacoesPorMidia = plataformaStreaming.getClientes().stream()
+				.flatMap(cliente -> cliente.getListaJaVistas().keySet().stream())
+				.collect(Collectors.groupingBy(midia -> midia, Collectors.summingInt(Midia::getAudiencia)));
+
+		var top10MidiasMaisVisualizadas = visualizacoesPorMidia.entrySet().stream()
+				.sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+				.limit(10)
+				.map(Map.Entry::getKey)
+				.toList();
+
+		top10MidiasMaisVisualizadas.stream()
+				.map(midia -> midia.getNome() + " - Audiencia: " + midia.getAudiencia())
+				.forEach(System.out::println);
+	}
+
+//	public void melhoresAvaliacoesPorGenero(GeneroEnum genero) {
+//		List<Midia> melhoresAvaliacoes = plataformaStreaming.getClientes().stream()
+//				.flatMap(cliente -> cliente.getListaJaVistas().keySet().stream())
+//				.filter(midia -> midia.getAvaliacoes().size() >= 100 && midia.getGenero() == genero)
+//				.distinct()
+//				.sorted(Comparator.comparingDouble(Midia::getAvaliacaoTotal).reversed())
+//				.limit(10)
+//				.toList();
+//
+//		System.out.println("As 10 mídias de melhor avaliação, com pelo menos 100 avaliações, do gênero " + genero.nome() + ":");
+//		melhoresAvaliacoes.stream()
+//				.map(midia -> midia.getNome() + " - Avaliação: " + midia.getAvaliacaoTotal())
+//				.forEach(System.out::println);
+//
+//
+//	}
+//
+//	private static void melhoresVisualizacoesPorGenero(GeneroEnum genero) {
+//		List<Midia> maisVisualizacoes = clientes.stream()
+//				.flatMap(cliente -> cliente.getListaJaVistas().keySet().stream())
+//				.filter(midia -> midia.getGenero() == genero)
+//				.distinct()
+//				.sorted(Comparator.comparingInt(midia -> cliente.getListaJaVistas().get(midia).size()).reversed())
+//				.limit(10)
+//				.collect(Collectors.toList());
+//
+//		System.out.println("\nAs 10 mídias com mais visualizações, do gênero " + genero.nome() + ":");
+//		imprimirMidias(maisVisualizacoes);
+//	}
+//
+//	private void imprimirMidias(List<Midia> midias) {
+//		midias.forEach(midia -> System.out.println(midia.getNome()));
+//	}
 
 	public static void salvarDadosEmJson() {
 		try {
