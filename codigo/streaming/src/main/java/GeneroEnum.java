@@ -3,11 +3,9 @@ public enum GeneroEnum {
     ANIME("Anime"),
     AVENTURA("Aventura"),
     COMEDIA ("Comedia"),
-    DOCUMENTARIO("Documentario"),
     DRAMA ("Drama"),
     POLICIAL("Policial"),
-    ROMANCE ("Romance"),
-    SUSPENSE ("Suspense");
+    ROMANCE ("Romance");
 
     final String genero;
 

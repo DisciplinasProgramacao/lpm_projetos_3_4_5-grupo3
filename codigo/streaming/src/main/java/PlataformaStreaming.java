@@ -8,6 +8,7 @@ import lombok.Setter;
 @Setter
 @Getter
 public class PlataformaStreaming {
+    public static final String PLATAFORMA_NOME = "Plataforma Streaming";
     private String nome;
     private List<Serie> series;
     private List<Filme> filmes;
@@ -23,6 +24,10 @@ public class PlataformaStreaming {
     }
 
     PlataformaStreaming() {
+        this.nome = PLATAFORMA_NOME;
+        this.series = new ArrayList<>();
+        this.filmes = new ArrayList<>();
+        this.clientes = new ArrayList<>();
     }
 
     public void cadastrar(String nomeUsuario, String senha) {

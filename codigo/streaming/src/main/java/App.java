@@ -40,8 +40,9 @@ public class App {
 				System.out.println("16 - Cadastrar filme pelo arquivo");
 				System.out.println("17 - Caastrar serie pelo arquivo");
 				System.out.println("18 - Salvar dados em Json");
+				System.out.println("19 - Obter cliente que mais assistiu midias");
 				System.out.println("0 - LogOff");
-				System.out.println("19 - Sair");
+				System.out.println("100 - Sair");
 				System.out.println("Informe um numero:");
 				x = ler.nextInt();
 			}
@@ -67,8 +68,9 @@ public class App {
 				case 16 -> cadastrarFilmeArquivo();
 				case 17 -> cadastrarSerieArquivo();
 				case 18 -> salvarDadosEmJson();
+				case 19 -> obterClienteComMaisMidiasAssistidas();
 			}
-		} while (x != 19);
+		} while (x != 100);
 		salvarDadosEmJson();
 		ler.close();
 	}
@@ -100,6 +102,14 @@ public class App {
 			System.err.printf("Erro na abertura do arquivo: %s.\n",
 					e.getMessage());
 		}
+	}
+
+	public static void obterClienteComMaisMidiasAssistidas() {
+		var cliente = plataformaStreaming.getClientes().stream()
+				.max(Comparator.comparingInt(c -> c.getListaJaVistas().size()));
+
+		cliente.ifPresent(value -> System.out.println("Cliente que mais assistiu midia foi: " +
+				value.getNomeDeUsuario() + " com " + cliente.get().getListaJaVistas().size() + " midias"));
 	}
 
 	public static void salvarDadosEmJson() {
@@ -427,15 +437,13 @@ public class App {
 	}
 
 	private static void inicializarGenerosIdiomas() {
+		App.generos.add(GeneroEnum.ACAO);
+		App.generos.add(GeneroEnum.ANIME);
+		App.generos.add(GeneroEnum.AVENTURA);
+		App.generos.add(GeneroEnum.COMEDIA);
+		App.generos.add(GeneroEnum.DRAMA);
 		App.generos.add(GeneroEnum.POLICIAL);
 		App.generos.add(GeneroEnum.ROMANCE);
-		App.generos.add(GeneroEnum.DRAMA);
-		App.generos.add(GeneroEnum.COMEDIA);
-		App.generos.add(GeneroEnum.SUSPENSE);
-		App.generos.add(GeneroEnum.ANIME);
-		App.generos.add(GeneroEnum.ACAO);
-		App.generos.add(GeneroEnum.AVENTURA);
-		App.generos.add(GeneroEnum.DOCUMENTARIO);
 		App.idiomas.add(IdiomaEnum.PORTUGUES);
 		App.idiomas.add(IdiomaEnum.ESPANHOL);
 		App.idiomas.add(IdiomaEnum.INGLES);
