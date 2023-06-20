@@ -1,1 +1,1414 @@
-{"nome":"Plataforma Streaming","series":[{"quantidadeEpisodios":25,"genero":"DRAMA","nome":"serie","idioma":"PORTUGUES","audiencia":1,"avaliacaoTotal":5.0,"avaliacoes":[{"cliente":{"nomeDeUsuario":"cau","senha":"123","listaParaVer":[],"listaJaVistas":{"Filme@506e1b77":"Jun 20, 2023, 4:03:24 PM","Serie@2e817b38":"Jun 20, 2023, 4:03:30 PM"},"clienteEspecialista":false},"nota":5,"comentario":""}]}],"filmes":[{"genero":"COMEDIA","nome":"filme","idioma":"ESPANHOL","audiencia":2,"avaliacaoTotal":5.0,"avaliacoes":[{"cliente":{"nomeDeUsuario":"buh","senha":"123","listaParaVer":[],"listaJaVistas":{"Filme@5a10411":"Jun 20, 2023, 4:04:17 PM","Filme@506e1b77":"Jun 20, 2023, 4:03:04 PM","Filme@2ef1e4fa":"Jun 20, 2023, 4:04:23 PM"},"clienteEspecialista":false},"nota":5,"comentario":""},{"cliente":{"nomeDeUsuario":"cau","senha":"123","listaParaVer":[],"listaJaVistas":{"Filme@506e1b77":"Jun 20, 2023, 4:03:24 PM","Serie@2e817b38":"Jun 20, 2023, 4:03:30 PM"},"clienteEspecialista":false},"nota":5,"comentario":""}]},{"genero":"ROMANCE","nome":"filme2","idioma":"PORTUGUES","audiencia":1,"avaliacaoTotal":5.0,"avaliacoes":[{"cliente":{"nomeDeUsuario":"buh","senha":"123","listaParaVer":[],"listaJaVistas":{"Filme@5a10411":"Jun 20, 2023, 4:04:17 PM","Filme@506e1b77":"Jun 20, 2023, 4:03:04 PM","Filme@2ef1e4fa":"Jun 20, 2023, 4:04:23 PM"},"clienteEspecialista":false},"nota":5,"comentario":""}]},{"genero":"ROMANCE","nome":"filme3","idioma":"INGLES","audiencia":1,"avaliacaoTotal":5.0,"avaliacoes":[{"cliente":{"nomeDeUsuario":"buh","senha":"123","listaParaVer":[],"listaJaVistas":{"Filme@5a10411":"Jun 20, 2023, 4:04:17 PM","Filme@506e1b77":"Jun 20, 2023, 4:03:04 PM","Filme@2ef1e4fa":"Jun 20, 2023, 4:04:23 PM"},"clienteEspecialista":false},"nota":5,"comentario":""}]}],"clientes":[{"nomeDeUsuario":"cau","senha":"123","listaParaVer":[],"listaJaVistas":{"Filme@506e1b77":"Jun 20, 2023, 4:03:24 PM","Serie@2e817b38":"Jun 20, 2023, 4:03:30 PM"},"clienteEspecialista":false},{"nomeDeUsuario":"buh","senha":"123","listaParaVer":[],"listaJaVistas":{"Filme@5a10411":"Jun 20, 2023, 4:04:17 PM","Filme@506e1b77":"Jun 20, 2023, 4:03:04 PM","Filme@2ef1e4fa":"Jun 20, 2023, 4:04:23 PM"},"clienteEspecialista":false}],"clienteAtual":{"nomeDeUsuario":"buh","senha":"123","listaParaVer":[],"listaJaVistas":{"Filme@5a10411":"Jun 20, 2023, 4:04:17 PM","Filme@506e1b77":"Jun 20, 2023, 4:03:04 PM","Filme@2ef1e4fa":"Jun 20, 2023, 4:04:23 PM"},"clienteEspecialista":false}}
+{
+  "nome": "Plataforma Streaming",
+  "series": [
+    {
+      "quantidadeEpisodios": 16,
+      "genero": "AVENTURA",
+      "nome": "serie",
+      "idioma": "INGLES",
+      "audiencia": 1,
+      "avaliacaoTotal": 5.0,
+      "avaliacoes": [
+        {
+          "cliente": {
+            "nomeDeUsuario": "cau",
+            "senha": "123",
+            "listaParaVer": [],
+            "listaJaVistas": {
+              "Serie@5910e440": "Jun 20, 2023, 6:11:10 PM",
+              "Filme@6f539caf": "Jun 20, 2023, 6:14:05 PM"
+            },
+            "clienteTipo": "PROFISSIONAL"
+          },
+          "nota": 5,
+          "comentario": "MuitoBom"
+        }
+      ],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 44,
+      "genero": "AVENTURA",
+      "nome": "Light",
+      "idioma": "INGLES",
+      "audiencia": 64,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 1,
+      "genero": "ROMANCE",
+      "nome": "Clear",
+      "idioma": "ESPANHOL",
+      "audiencia": 89,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 21,
+      "genero": "COMEDIA",
+      "nome": "PinkisthenewWhite",
+      "idioma": "PORTUGUES",
+      "audiencia": 42,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 35,
+      "genero": "COMEDIA",
+      "nome": "PinkisthenewBlue",
+      "idioma": "PORTUGUES",
+      "audiencia": 72,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 13,
+      "genero": "AVENTURA",
+      "nome": "PinkisthenewGreen",
+      "idioma": "PORTUGUES",
+      "audiencia": 103,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 51,
+      "genero": "ACAO",
+      "nome": "PinkisthenewPink",
+      "idioma": "PORTUGUES",
+      "audiencia": 37,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 14,
+      "genero": "COMEDIA",
+      "nome": "PinkisthenewYellow",
+      "idioma": "ESPANHOL",
+      "audiencia": 95,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 10,
+      "genero": "ROMANCE",
+      "nome": "PinkisthenewRed",
+      "idioma": "ESPANHOL",
+      "audiencia": 56,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 34,
+      "genero": "COMEDIA",
+      "nome": "YellowCounty",
+      "idioma": "ESPANHOL",
+      "audiencia": 48,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 42,
+      "genero": "ROMANCE",
+      "nome": "RedCounty",
+      "idioma": "ESPANHOL",
+      "audiencia": 74,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 48,
+      "genero": "POLICIAL",
+      "nome": "BlueCounty",
+      "idioma": "PORTUGUES",
+      "audiencia": 88,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 1,
+      "genero": "ACAO",
+      "nome": "GoldenCounty",
+      "idioma": "PORTUGUES",
+      "audiencia": 63,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 25,
+      "genero": "COMEDIA",
+      "nome": "GreenCounty",
+      "idioma": "PORTUGUES",
+      "audiencia": 91,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 13,
+      "genero": "ROMANCE",
+      "nome": "YellowLotus",
+      "idioma": "ESPANHOL",
+      "audiencia": 76,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 33,
+      "genero": "ANIME",
+      "nome": "RedLotus",
+      "idioma": "PORTUGUES",
+      "audiencia": 41,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 13,
+      "genero": "POLICIAL",
+      "nome": "BlueLotus",
+      "idioma": "INGLES",
+      "audiencia": 68,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 48,
+      "genero": "COMEDIA",
+      "nome": "GoldenLotus",
+      "idioma": "ESPANHOL",
+      "audiencia": 39,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 24,
+      "genero": "ROMANCE",
+      "nome": "GreenLotus",
+      "idioma": "ESPANHOL",
+      "audiencia": 102,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 36,
+      "genero": "AVENTURA",
+      "nome": "Enemies",
+      "idioma": "PORTUGUES",
+      "audiencia": 56,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 35,
+      "genero": "DRAMA",
+      "nome": "TheWalkingTrees",
+      "idioma": "INGLES",
+      "audiencia": 88,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 5,
+      "genero": "ANIME",
+      "nome": "TheWalkingDread",
+      "idioma": "PORTUGUES",
+      "audiencia": 46,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 14,
+      "genero": "DRAMA",
+      "nome": "TheWalkingFlumes",
+      "idioma": "ESPANHOL",
+      "audiencia": 71,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 47,
+      "genero": "DRAMA",
+      "nome": "TheWalkingGoodies",
+      "idioma": "INGLES",
+      "audiencia": 101,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 51,
+      "genero": "ACAO",
+      "nome": "TheWalkingCats",
+      "idioma": "PORTUGUES",
+      "audiencia": 35,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 50,
+      "genero": "ANIME",
+      "nome": "TheWalkingRobots",
+      "idioma": "ESPANHOL",
+      "audiencia": 57,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 40,
+      "genero": "ANIME",
+      "nome": "TheWalkingPretenders",
+      "idioma": "INGLES",
+      "audiencia": 98,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 27,
+      "genero": "POLICIAL",
+      "nome": "TheWalkingPeaks",
+      "idioma": "ESPANHOL",
+      "audiencia": 75,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 12,
+      "genero": "ANIME",
+      "nome": "TheWalkingMinds",
+      "idioma": "ESPANHOL",
+      "audiencia": 31,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 45,
+      "genero": "ACAO",
+      "nome": "TheWalkingBubbles",
+      "idioma": "INGLES",
+      "audiencia": 109,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 12,
+      "genero": "COMEDIA",
+      "nome": "GameofTrees",
+      "idioma": "PORTUGUES",
+      "audiencia": 51,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 16,
+      "genero": "ACAO",
+      "nome": "GameofFlumes",
+      "idioma": "PORTUGUES",
+      "audiencia": 83,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 36,
+      "genero": "COMEDIA",
+      "nome": "GameofGoodies",
+      "idioma": "INGLES",
+      "audiencia": 43,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 27,
+      "genero": "ACAO",
+      "nome": "GameofCats",
+      "idioma": "PORTUGUES",
+      "audiencia": 78,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 35,
+      "genero": "ROMANCE",
+      "nome": "GameofRobots",
+      "idioma": "INGLES",
+      "audiencia": 52,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 35,
+      "genero": "ANIME",
+      "nome": "GameofMinds",
+      "idioma": "ESPANHOL",
+      "audiencia": 101,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 29,
+      "genero": "DRAMA",
+      "nome": "GameofBubbles",
+      "idioma": "ESPANHOL",
+      "audiencia": 35,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 4,
+      "genero": "ROMANCE",
+      "nome": "ATreeGame",
+      "idioma": "ESPANHOL",
+      "audiencia": 95,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 31,
+      "genero": "AVENTURA",
+      "nome": "AFlumeGame",
+      "idioma": "INGLES",
+      "audiencia": 84,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 20,
+      "genero": "ACAO",
+      "nome": "ADreadGame",
+      "idioma": "INGLES",
+      "audiencia": 61,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 1,
+      "genero": "ROMANCE",
+      "nome": "ACatGame",
+      "idioma": "INGLES",
+      "audiencia": 104,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 10,
+      "genero": "ACAO",
+      "nome": "ARobotGame",
+      "idioma": "INGLES",
+      "audiencia": 73,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 45,
+      "genero": "COMEDIA",
+      "nome": "AMindGame",
+      "idioma": "PORTUGUES",
+      "audiencia": 34,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 36,
+      "genero": "POLICIAL",
+      "nome": "ABubbleGame",
+      "idioma": "ESPANHOL",
+      "audiencia": 107,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 43,
+      "genero": "ROMANCE",
+      "nome": "TheCalloftheTrees",
+      "idioma": "INGLES",
+      "audiencia": 62,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 44,
+      "genero": "COMEDIA",
+      "nome": "TheCalloftheFlumes",
+      "idioma": "ESPANHOL",
+      "audiencia": 32,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 35,
+      "genero": "DRAMA",
+      "nome": "TheCalloftheGoodies",
+      "idioma": "ESPANHOL",
+      "audiencia": 90,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 16,
+      "genero": "POLICIAL",
+      "nome": "TheCalloftheSinks",
+      "idioma": "ESPANHOL",
+      "audiencia": 40,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 44,
+      "genero": "ROMANCE",
+      "nome": "TheCalloftheCats",
+      "idioma": "INGLES",
+      "audiencia": 82,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 47,
+      "genero": "ACAO",
+      "nome": "TheCalloftheRobots",
+      "idioma": "ESPANHOL",
+      "audiencia": 55,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 41,
+      "genero": "ANIME",
+      "nome": "TheCallofthePretender",
+      "idioma": "INGLES",
+      "audiencia": 31,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 21,
+      "genero": "POLICIAL",
+      "nome": "TheCalloftheMinds",
+      "idioma": "PORTUGUES",
+      "audiencia": 109,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 9,
+      "genero": "COMEDIA",
+      "nome": "TheCalloftheBubbles",
+      "idioma": "INGLES",
+      "audiencia": 38,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 18,
+      "genero": "AVENTURA",
+      "nome": "FixingTrees",
+      "idioma": "INGLES",
+      "audiencia": 97,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 5,
+      "genero": "ROMANCE",
+      "nome": "FixingFlumes",
+      "idioma": "ESPANHOL",
+      "audiencia": 49,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 6,
+      "genero": "COMEDIA",
+      "nome": "FixingGoodies",
+      "idioma": "INGLES",
+      "audiencia": 75,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 43,
+      "genero": "COMEDIA",
+      "nome": "FixingCats",
+      "idioma": "INGLES",
+      "audiencia": 36,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 25,
+      "genero": "AVENTURA",
+      "nome": "FixingRobots",
+      "idioma": "INGLES",
+      "audiencia": 94,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 13,
+      "genero": "ANIME",
+      "nome": "FixingPretenders",
+      "idioma": "INGLES",
+      "audiencia": 79,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 50,
+      "genero": "COMEDIA",
+      "nome": "FixingBubbles",
+      "idioma": "ESPANHOL",
+      "audiencia": 41,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 31,
+      "genero": "ACAO",
+      "nome": "NihonTrees",
+      "idioma": "PORTUGUES",
+      "audiencia": 103,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 27,
+      "genero": "COMEDIA",
+      "nome": "NihonFlumes",
+      "idioma": "PORTUGUES",
+      "audiencia": 70,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 45,
+      "genero": "DRAMA",
+      "nome": "NihonGoodies",
+      "idioma": "ESPANHOL",
+      "audiencia": 57,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 25,
+      "genero": "AVENTURA",
+      "nome": "NihonSinks",
+      "idioma": "INGLES",
+      "audiencia": 38,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 30,
+      "genero": "AVENTURA",
+      "nome": "NihonCats",
+      "idioma": "INGLES",
+      "audiencia": 109,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 49,
+      "genero": "POLICIAL",
+      "nome": "NihonRobots",
+      "idioma": "INGLES",
+      "audiencia": 50,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 3,
+      "genero": "ACAO",
+      "nome": "NihonPretender",
+      "idioma": "INGLES",
+      "audiencia": 86,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 50,
+      "genero": "ROMANCE",
+      "nome": "NihonPeaks",
+      "idioma": "ESPANHOL",
+      "audiencia": 42,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 43,
+      "genero": "AVENTURA",
+      "nome": "NihonMinds",
+      "idioma": "ESPANHOL",
+      "audiencia": 99,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 39,
+      "genero": "ROMANCE",
+      "nome": "NihonBubbles",
+      "idioma": "ESPANHOL",
+      "audiencia": 68,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 42,
+      "genero": "AVENTURA",
+      "nome": "EastTrees",
+      "idioma": "PORTUGUES",
+      "audiencia": 33,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 39,
+      "genero": "ROMANCE",
+      "nome": "EastFlumes",
+      "idioma": "PORTUGUES",
+      "audiencia": 93,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 38,
+      "genero": "ANIME",
+      "nome": "EastGoodies",
+      "idioma": "INGLES",
+      "audiencia": 44,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 19,
+      "genero": "DRAMA",
+      "nome": "EastSinks",
+      "idioma": "INGLES",
+      "audiencia": 66,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 29,
+      "genero": "COMEDIA",
+      "nome": "EastCats",
+      "idioma": "INGLES",
+      "audiencia": 39,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 2,
+      "genero": "ROMANCE",
+      "nome": "EastRobots",
+      "idioma": "PORTUGUES",
+      "audiencia": 78,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 16,
+      "genero": "COMEDIA",
+      "nome": "EastPretender",
+      "idioma": "INGLES",
+      "audiencia": 35,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 45,
+      "genero": "DRAMA",
+      "nome": "EastPeaks",
+      "idioma": "ESPANHOL",
+      "audiencia": 103,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 38,
+      "genero": "ACAO",
+      "nome": "EastMinds",
+      "idioma": "INGLES",
+      "audiencia": 52,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 11,
+      "genero": "COMEDIA",
+      "nome": "EastBubbles",
+      "idioma": "PORTUGUES",
+      "audiencia": 106,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 18,
+      "genero": "DRAMA",
+      "nome": "FearofTrees",
+      "idioma": "ESPANHOL",
+      "audiencia": 31,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 19,
+      "genero": "AVENTURA",
+      "nome": "FearofFlumes",
+      "idioma": "INGLES",
+      "audiencia": 100,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 39,
+      "genero": "DRAMA",
+      "nome": "FearofGoodies",
+      "idioma": "PORTUGUES",
+      "audiencia": 73,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 22,
+      "genero": "ANIME",
+      "nome": "FearofSinks",
+      "idioma": "PORTUGUES",
+      "audiencia": 47,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 3,
+      "genero": "ANIME",
+      "nome": "FearofCats",
+      "idioma": "ESPANHOL",
+      "audiencia": 84,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 3,
+      "genero": "POLICIAL",
+      "nome": "FearofRobots",
+      "idioma": "PORTUGUES",
+      "audiencia": 60,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 43,
+      "genero": "ROMANCE",
+      "nome": "FearofPeaks",
+      "idioma": "PORTUGUES",
+      "audiencia": 96,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 51,
+      "genero": "COMEDIA",
+      "nome": "FearofBubbles",
+      "idioma": "PORTUGUES",
+      "audiencia": 59,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 2,
+      "genero": "DRAMA",
+      "nome": "ThoseareTrees",
+      "idioma": "INGLES",
+      "audiencia": 30,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 25,
+      "genero": "ROMANCE",
+      "nome": "ThoseareFlumes",
+      "idioma": "INGLES",
+      "audiencia": 110,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 38,
+      "genero": "DRAMA",
+      "nome": "ThoseareGoodies",
+      "idioma": "PORTUGUES",
+      "audiencia": 47,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 43,
+      "genero": "ROMANCE",
+      "nome": "ThoseareSinks",
+      "idioma": "PORTUGUES",
+      "audiencia": 79,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 10,
+      "genero": "POLICIAL",
+      "nome": "ThoseareCats",
+      "idioma": "ESPANHOL",
+      "audiencia": 22,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 39,
+      "genero": "AVENTURA",
+      "nome": "ThoseareRobots",
+      "idioma": "ESPANHOL",
+      "audiencia": 67,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 26,
+      "genero": "COMEDIA",
+      "nome": "ThoseareBubbles",
+      "idioma": "PORTUGUES",
+      "audiencia": 49,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 39,
+      "genero": "AVENTURA",
+      "nome": "LosAngelesTrees",
+      "idioma": "PORTUGUES",
+      "audiencia": 101,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 8,
+      "genero": "ACAO",
+      "nome": "LosAngelesFlumes",
+      "idioma": "PORTUGUES",
+      "audiencia": 60,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 11,
+      "genero": "DRAMA",
+      "nome": "LosAngelesGoodies",
+      "idioma": "ESPANHOL",
+      "audiencia": 38,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 7,
+      "genero": "DRAMA",
+      "nome": "LosAngelesSinks",
+      "idioma": "INGLES",
+      "audiencia": 93,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 10,
+      "genero": "POLICIAL",
+      "nome": "LosAngelesCats",
+      "idioma": "PORTUGUES",
+      "audiencia": 52,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 47,
+      "genero": "ANIME",
+      "nome": "LosAngelesRobots",
+      "idioma": "PORTUGUES",
+      "audiencia": 85,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 34,
+      "genero": "POLICIAL",
+      "nome": "LosAngelesPretender",
+      "idioma": "PORTUGUES",
+      "audiencia": 43,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 10,
+      "genero": "ROMANCE",
+      "nome": "LosAngelesPeaks",
+      "idioma": "ESPANHOL",
+      "audiencia": 105,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 25,
+      "genero": "ANIME",
+      "nome": "LosAngelesMinds",
+      "idioma": "PORTUGUES",
+      "audiencia": 72,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 34,
+      "genero": "COMEDIA",
+      "nome": "LosAngelesBubbles",
+      "idioma": "INGLES",
+      "audiencia": 59,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 4,
+      "genero": "COMEDIA",
+      "nome": "MasterTrees",
+      "idioma": "INGLES",
+      "audiencia": 82,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 8,
+      "genero": "ANIME",
+      "nome": "MasterFlumes",
+      "idioma": "ESPANHOL",
+      "audiencia": 46,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 44,
+      "genero": "ROMANCE",
+      "nome": "MasterGoodies",
+      "idioma": "PORTUGUES",
+      "audiencia": 98,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 35,
+      "genero": "POLICIAL",
+      "nome": "MasterCats",
+      "idioma": "PORTUGUES",
+      "audiencia": 54,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 19,
+      "genero": "DRAMA",
+      "nome": "MasterRobots",
+      "idioma": "INGLES",
+      "audiencia": 76,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 15,
+      "genero": "COMEDIA",
+      "nome": "MasterPretenders",
+      "idioma": "INGLES",
+      "audiencia": 32,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 39,
+      "genero": "AVENTURA",
+      "nome": "MasterPeaks",
+      "idioma": "PORTUGUES",
+      "audiencia": 103,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 38,
+      "genero": "POLICIAL",
+      "nome": "MasterMinds",
+      "idioma": "ESPANHOL",
+      "audiencia": 69,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 18,
+      "genero": "ACAO",
+      "nome": "MasterBubbles",
+      "idioma": "INGLES",
+      "audiencia": 57,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 29,
+      "genero": "COMEDIA",
+      "nome": "TheLastofTrees",
+      "idioma": "ESPANHOL",
+      "audiencia": 91,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 9,
+      "genero": "COMEDIA",
+      "nome": "TheLastofFlumes",
+      "idioma": "PORTUGUES",
+      "audiencia": 43,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 16,
+      "genero": "DRAMA",
+      "nome": "TheLastofGoodies",
+      "idioma": "ESPANHOL",
+      "audiencia": 78,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 9,
+      "genero": "AVENTURA",
+      "nome": "TheLastofCats",
+      "idioma": "PORTUGUES",
+      "audiencia": 55,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 32,
+      "genero": "COMEDIA",
+      "nome": "TheLastofRobots",
+      "idioma": "PORTUGUES",
+      "audiencia": 37,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 13,
+      "genero": "POLICIAL",
+      "nome": "TheLastofPretenders",
+      "idioma": "INGLES",
+      "audiencia": 99,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 10,
+      "genero": "DRAMA",
+      "nome": "TheLastofPeaks",
+      "idioma": "ESPANHOL",
+      "audiencia": 64,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 15,
+      "genero": "ANIME",
+      "nome": "TheLastofMinds",
+      "idioma": "ESPANHOL",
+      "audiencia": 73,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 10,
+      "genero": "DRAMA",
+      "nome": "TheLastofBubbles",
+      "idioma": "PORTUGUES",
+      "audiencia": 45,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 44,
+      "genero": "COMEDIA",
+      "nome": "Shoreman",
+      "idioma": "INGLES",
+      "audiencia": 102,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 49,
+      "genero": "DRAMA",
+      "nome": "Treeman",
+      "idioma": "INGLES",
+      "audiencia": 67,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 6,
+      "genero": "ACAO",
+      "nome": "Catman",
+      "idioma": "ESPANHOL",
+      "audiencia": 43,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 44,
+      "genero": "COMEDIA",
+      "nome": "Robotman",
+      "idioma": "PORTUGUES",
+      "audiencia": 80,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 34,
+      "genero": "AVENTURA",
+      "nome": "Mindman",
+      "idioma": "INGLES",
+      "audiencia": 58,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 44,
+      "genero": "ANIME",
+      "nome": "Bubbleman",
+      "idioma": "ESPANHOL",
+      "audiencia": 95,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 43,
+      "genero": "COMEDIA",
+      "nome": "LostandFound",
+      "idioma": "PORTUGUES",
+      "audiencia": 69,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 1,
+      "genero": "DRAMA",
+      "nome": "TheRomanos",
+      "idioma": "INGLES",
+      "audiencia": 52,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    }
+  ],
+  "filmes": [
+    {
+      "genero": "ACAO",
+      "nome": "filme",
+      "idioma": "INGLES",
+      "audiencia": 3,
+      "avaliacaoTotal": 5.0,
+      "avaliacoes": [
+        {
+          "cliente": {
+            "nomeDeUsuario": "cau",
+            "senha": "123",
+            "listaParaVer": [],
+            "listaJaVistas": {
+              "Serie@5910e440": "Jun 20, 2023, 6:11:10 PM",
+              "Filme@6f539caf": "Jun 20, 2023, 6:14:05 PM"
+            },
+            "clienteTipo": "PROFISSIONAL"
+          },
+          "nota": 5,
+          "comentario": ""
+        }
+      ],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "HeroesAndCaptains",
+      "idioma": "PORTUGUES",
+      "audiencia": 83,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "ComplexityOfANuclearWinter",
+      "idioma": "ESPANHOL",
+      "audiencia": 97,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "AVENTURA",
+      "nome": "CreaturesAndAthletes",
+      "idioma": "ESPANHOL",
+      "audiencia": 119,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "POLICIAL",
+      "nome": "CulturedByTheNewWorld",
+      "idioma": "PORTUGUES",
+      "audiencia": 115,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    }
+  ],
+  "clientes": [
+    {
+      "nomeDeUsuario": "cau",
+      "senha": "123",
+      "listaParaVer": [],
+      "listaJaVistas": {
+        "Serie@5910e440": "Jun 20, 2023, 6:11:10 PM",
+        "Filme@6f539caf": "Jun 20, 2023, 6:14:05 PM"
+      },
+      "clienteTipo": "PROFISSIONAL"
+    }
+  ],
+  "clienteAtual": {
+    "nomeDeUsuario": "cau",
+    "senha": "123",
+    "listaParaVer": [],
+    "listaJaVistas": {
+      "Serie@5910e440": "Jun 20, 2023, 6:11:10 PM",
+      "Filme@6f539caf": "Jun 20, 2023, 6:14:05 PM"
+    },
+    "clienteTipo": "PROFISSIONAL"
+  }
+}
