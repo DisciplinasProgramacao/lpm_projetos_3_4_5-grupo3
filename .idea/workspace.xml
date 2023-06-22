@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b785d1d8-5d45-497b-ae0d-f22b90d94476" name="Changes" comment="diagrama uml">
+    <list default="true" id="b785d1d8-5d45-497b-ae0d-f22b90d94476" name="Changes" comment="backlog">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/backlog.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/backlog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/streaming/src/main/data/plataforma.json" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/src/main/data/plataforma.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/streaming/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/streaming/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/target/classes/App.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,24 +63,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/souza/IdeaProjects/lpm/codigo/streaming&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/souza/IdeaProjects/lpm_projetos_3_4_5-grupo3/codigo/streaming",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.build"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\souza\IdeaProjects\lpm_projetos_3_4_5-grupo3\docs\diagramas" />
@@ -88,7 +91,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MidiaTest">
+  <component name="RunManager" selected="Application.App">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -121,6 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="streaming" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClienteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="streaming" />
       <option name="PACKAGE_NAME" value="" />
@@ -148,16 +158,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlataformaStreamingTest.deveFazerLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="streaming" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PlataformaStreamingTest" />
-      <option name="METHOD_NAME" value="deveFazerLogin" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PlataformaStreamingTest.deveFazerLogoff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="streaming" />
       <option name="PACKAGE_NAME" value="" />
@@ -170,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.MidiaTest" />
         <item itemvalue="JUnit.ClienteTest" />
         <item itemvalue="JUnit.PlataformaStreamingTest.deveFazerLogoff" />
         <item itemvalue="JUnit.PlataformaStreamingTest" />
-        <item itemvalue="JUnit.PlataformaStreamingTest.deveFazerLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +193,10 @@
       <workItem from="1683161350512" duration="2149000" />
       <workItem from="1684888983342" duration="4446000" />
       <workItem from="1687225032142" duration="2743000" />
-      <workItem from="1687257106463" duration="12379000" />
+      <workItem from="1687257106463" duration="13569000" />
+      <workItem from="1687384274004" duration="808000" />
+      <workItem from="1687385099501" duration="50000" />
+      <workItem from="1687391077679" duration="418000" />
     </task>
     <task id="LOCAL-00001" summary="instrucoes">
       <created>1683159156891</created>
@@ -251,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687295251050</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="backlog">
+      <created>1687298350568</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687298350568</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +286,8 @@
     <MESSAGE value="implementacao testes unitarios e correcoes de formatacao" />
     <MESSAGE value="implementacao testes unitarios plataforma streaming" />
     <MESSAGE value="diagrama uml" />
-    <option name="LAST_COMMIT_MESSAGE" value="diagrama uml" />
+    <MESSAGE value="backlog" />
+    <option name="LAST_COMMIT_MESSAGE" value="backlog" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

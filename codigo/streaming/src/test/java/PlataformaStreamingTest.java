@@ -14,7 +14,7 @@ class PlataformaStreamingTest {
 
     @BeforeEach
     void setUp() {
-        plataformaStreaming = new PlataformaStreaming();
+        plataformaStreaming = PlataformaStreaming.iniciarPlataformaStreaming();
     }
 
     @Test

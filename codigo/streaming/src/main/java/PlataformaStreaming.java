@@ -23,7 +23,7 @@ public class PlataformaStreaming {
         return (plataformaStreaming);
     }
 
-    PlataformaStreaming() {
+    private PlataformaStreaming() {
         this.nome = PLATAFORMA_NOME;
         this.series = new ArrayList<>();
         this.filmes = new ArrayList<>();

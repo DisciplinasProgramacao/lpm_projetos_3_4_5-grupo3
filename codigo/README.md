@@ -1,5 +1,2 @@
 # Código do Projeto
-
-Mantenha neste diretório todo o código fonte do projeto. 
-
-Se necessário, descreva neste arquivo aspectos relevantes da estrutura de diretórios criada para organização do código.
+Neste projeto o padrão de projeto utilizado foi o singleton. Esse, pode ser observado na classe PlataformaStreaming, método iniciarPlataformaStreaming.
