@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b785d1d8-5d45-497b-ae0d-f22b90d94476" name="Changes" comment="backlog">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/streaming/src/main/data/plataforma.json" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/src/main/data/plataforma.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/streaming/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/streaming/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/target/classes/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/streaming/src/main/java/PlataformaStreaming.java" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/src/main/java/PlataformaStreaming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/streaming/src/test/java/ClienteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/src/test/java/ClienteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/streaming/src/test/java/MidiaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/src/test/java/MidiaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/streaming/src/test/java/PlataformaStreamingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/src/test/java/PlataformaStreamingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/souza/IdeaProjects/lpm_projetos_3_4_5-grupo3/codigo/streaming",
+    "last_opened_file_path": "C:/Users/souza/IdeaProjects/lpm_projetos_3_4_5-grupo3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -91,7 +91,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.PlataformaStreamingTest">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -124,22 +124,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="App" />
-      <module name="streaming" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClienteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="streaming" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClienteTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MidiaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="streaming" />
       <option name="PACKAGE_NAME" value="" />
@@ -158,11 +142,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlataformaStreamingTest.deveFazerLogoff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlataformaStreamingTest.deveBuscarMidia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="streaming" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PlataformaStreamingTest" />
-      <option name="METHOD_NAME" value="deveFazerLogoff" />
+      <option name="METHOD_NAME" value="deveBuscarMidia" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlataformaStreamingTest.deveValidarGenero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="streaming" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlataformaStreamingTest" />
+      <option name="METHOD_NAME" value="deveValidarGenero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlataformaStreamingTest.deveValidarIdioma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="streaming" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlataformaStreamingTest" />
+      <option name="METHOD_NAME" value="deveValidarIdioma" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.MidiaTest" />
-        <item itemvalue="JUnit.ClienteTest" />
-        <item itemvalue="JUnit.PlataformaStreamingTest.deveFazerLogoff" />
         <item itemvalue="JUnit.PlataformaStreamingTest" />
+        <item itemvalue="JUnit.PlataformaStreamingTest.deveValidarGenero" />
+        <item itemvalue="JUnit.PlataformaStreamingTest.deveValidarIdioma" />
+        <item itemvalue="JUnit.PlataformaStreamingTest.deveBuscarMidia" />
+        <item itemvalue="JUnit.MidiaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +201,7 @@
       <workItem from="1687384274004" duration="808000" />
       <workItem from="1687385099501" duration="50000" />
       <workItem from="1687391077679" duration="418000" />
+      <workItem from="1687629218276" duration="4106000" />
     </task>
     <task id="LOCAL-00001" summary="instrucoes">
       <created>1683159156891</created>

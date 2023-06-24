@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.Random;
 import java.util.stream.Collectors;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -22,6 +23,10 @@ public class PlataformaStreaming {
     private List<IdiomaEnum> idiomas = new ArrayList<>();
 
     private PlataformaStreaming() {
+        this.nome = PLATAFORMA_NOME;
+        this.series = new ArrayList<>();
+        this.filmes = new ArrayList<>();
+        this.clientes = new ArrayList<>();
     }
 
     /**
@@ -427,5 +432,4 @@ public class PlataformaStreaming {
                 .findFirst();
         return midia.isPresent();
     }
-
 }

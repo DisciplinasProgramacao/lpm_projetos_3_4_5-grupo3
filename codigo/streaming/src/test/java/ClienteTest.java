@@ -42,4 +42,11 @@ class ClienteTest {
 
         assertEquals(cliente.getListaParaVer().size(), 0);
     }
+
+    @Test
+    void deveContarAvaliacoes() {
+        cliente.contarAvaliacoes();
+
+        assertEquals(cliente.contarAvaliacoes(), 0);
+    }
 }
