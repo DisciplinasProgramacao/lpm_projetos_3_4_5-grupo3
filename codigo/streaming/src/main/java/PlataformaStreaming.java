@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.Random;
 import java.util.stream.Collectors;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -214,24 +215,18 @@ public class PlataformaStreaming {
      * Obtém o cliente que assistiu a maior quantidade de mídias.
      * Imprime o nome do cliente e a quantidade de mídias assistidas.
      */
-    public void obterClienteComMaisMidiasAssistidas() {
-        Optional<Cliente> cliente = clientes.stream()
+    public Optional<Cliente> obterClienteComMaisMidiasAssistidas() {
+        return clientes.stream()
                 .max(Comparator.comparingInt(c -> c.getListaJaVistas().size()));
-
-        cliente.ifPresent(value -> System.out.println("Cliente que mais assistiu midia foi: " +
-                value.getNomeDeUsuario() + " com " + cliente.get().getListaJaVistas().size() + " midias"));
     }
 
     /**
      * Obtém o cliente que possui o maior número de avaliações.
      * Imprime o nome do cliente e a quantidade de mídias avaliadas.
      */
-    public void obterClienteComMaisAvaliacoes() {
-        Optional<Cliente> cliente = clientes.stream()
+    public Optional<Cliente> obterClienteComMaisAvaliacoes() {
+        return clientes.stream()
                 .max(Comparator.comparingInt(Cliente::contarAvaliacoes));
-
-        cliente.ifPresent(value -> System.out.println("Cliente que possui mais avaliacoes: " +
-                value.getNomeDeUsuario() + " com " + cliente.get().getListaJaVistas().size() + " midias avaliadas"));
     }
 
     /**
@@ -239,14 +234,13 @@ public class PlataformaStreaming {
      * relação ao total de clientes.
      * Imprime a porcentagem de clientes com mais de 15 avaliações.
      */
-    public void porcentagemClientesQuinzeAvaliacoes() {
+    public double porcentagemClientesQuinzeAvaliacoes() {
         long totalClientes = clientes.size();
         long clientesComAvaliacoes = clientes.stream()
                 .filter(cliente -> cliente.contarAvaliacoes() >= 15)
                 .count();
 
-        var porcentagem = (double) clientesComAvaliacoes / totalClientes * 100;
-        System.out.println("A porcentagem de clientes com mais de 15 avaliacoes eh: " + porcentagem + "%");
+        return (double) clientesComAvaliacoes / totalClientes * 100;
     }
 
     /**
@@ -254,32 +248,22 @@ public class PlataformaStreaming {
      * aquelas que possuem pelo menos 100 avaliações.
      * Imprime o nome e a avaliação de cada mídia.
      */
-    public void melhoresMidias() {
-        var melhoresMidias = clientes.stream()
+    public List<Midia> melhoresMidias() {
+        return clientes.stream()
                 .flatMap(cliente -> cliente.getListaJaVistas().keySet().stream())
                 .filter(midia -> midia.getAvaliacoes().size() >= 100)
                 .distinct()
                 .sorted(Comparator.comparingDouble(Midia::getAvaliacaoTotal).reversed())
                 .limit(10)
                 .toList();
-
-        System.out.println("As 10 mídias de melhor avaliação, com pelo menos 100 avaliações: ");
-
-        melhoresMidias.stream()
-                .map(midia -> midia.getNome() + " - Avaliação: " + midia.getAvaliacaoTotal())
-                .forEach(System.out::println);
     }
 
     /**
      * Imprime as 10 mídias com maior audiência.
      * Cada linha impressa contém o nome da mídia e sua audiência.
      */
-    public void midiasMaisVisualizadas() {
-        var midiasPorAudiencia = obterTop10MidiasPorAudiencia();
-
-        midiasPorAudiencia.stream()
-                .map(midia -> midia.getNome() + " - Audiencia: " + midia.getAudiencia())
-                .forEach(System.out::println);
+    public List<Midia> midiasMaisVisualizadas() {
+        return obterTop10MidiasPorAudiencia();
     }
 
     /**
@@ -303,56 +287,32 @@ public class PlataformaStreaming {
      * considerando apenas aquelas que possuem pelo menos 100 avaliações.
      * Imprime o nome e a avaliação de cada mídia.
      */
-    public void melhoresAvaliacoesPorGenero(String generoDigitado) {
-        try {
-            GeneroEnum genero = GeneroEnum.valueOf(generoDigitado);
-
-            List<Midia> melhoresAvaliacoes = clientes.stream()
-                    .flatMap(cliente -> cliente.getListaJaVistas().keySet().stream())
-                    .filter(midia -> midia.getAvaliacoes().size() >= 100 && genero.equals(midia.getGenero()))
-                    .distinct()
-                    .sorted(Comparator.comparingDouble(Midia::getAvaliacaoTotal).reversed())
-                    .limit(10)
-                    .toList();
-
-            System.out.println("As 10 mídias de melhor avaliação, com pelo menos 100 avaliações, do gênero "
-                    + genero.nome() + ":");
-            melhoresAvaliacoes.stream()
-                    .map(midia -> midia.getNome() + " - Avaliação: " + midia.getAvaliacaoTotal())
-                    .forEach(System.out::println);
-
-        } catch (IllegalArgumentException e) {
-            System.out.println("Gênero inválido.");
-        }
+    public List<Midia> melhoresAvaliacoesPorGenero(GeneroEnum genero) {
+        return clientes.stream()
+                .flatMap(cliente -> cliente.getListaJaVistas().keySet().stream())
+                .filter(midia -> midia.getAvaliacoes().size() >= 100 && genero.equals(midia.getGenero()))
+                .distinct()
+                .sorted(Comparator.comparingDouble(Midia::getAvaliacaoTotal).reversed())
+                .limit(10)
+                .toList();
     }
 
     /**
      * Obtém as 10 mídias com mais visualizações de um determinado gênero.
      * Imprime o nome da mídia e sua audiência.
      */
-    public void melhoresVisualizacoesPorGenero(String generoDigitado) {
-        try {
-            GeneroEnum genero = GeneroEnum.valueOf(generoDigitado);
+    public List<Midia> melhoresVisualizacoesPorGenero(GeneroEnum genero) {
+        Map<Midia, Integer> visualizacoesPorMidia = clientes.stream()
+                .flatMap(cliente -> cliente.getListaJaVistas().keySet().stream())
+                .filter(midia -> midia.getGenero().equals(genero))
+                .collect(Collectors.groupingBy(midia -> midia, Collectors.summingInt(Midia::getAudiencia)));
 
-            Map<Midia, Integer> visualizacoesPorMidia = clientes.stream()
-                    .flatMap(cliente -> cliente.getListaJaVistas().keySet().stream())
-                    .filter(midia -> midia.getGenero().equals(genero))
-                    .collect(Collectors.groupingBy(midia -> midia, Collectors.summingInt(Midia::getAudiencia)));
+        return visualizacoesPorMidia.entrySet().stream()
+                .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+                .limit(10)
+                .map(Map.Entry::getKey)
+                .toList();
 
-            List<Midia> top10MidiasMaisVisualizadas = visualizacoesPorMidia.entrySet().stream()
-                    .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
-                    .limit(10)
-                    .map(Map.Entry::getKey)
-                    .toList();
-
-            System.out.println("As 10 mídias com mais visualizações, do gênero " + genero.nome() + ":");
-            top10MidiasMaisVisualizadas.stream()
-                    .map(midia -> midia.getNome() + " - Audiencia: " + midia.getAudiencia())
-                    .forEach(System.out::println);
-
-        } catch (IllegalArgumentException e) {
-            System.out.println("Gênero inválido.");
-        }
     }
 
     /**

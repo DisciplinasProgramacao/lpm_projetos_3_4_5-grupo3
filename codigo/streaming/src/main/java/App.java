@@ -1,8 +1,14 @@
 import static java.util.Objects.isNull;
 import static java.util.Objects.nonNull;
 
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+import java.util.Scanner;
 
 import com.google.gson.Gson;
 
@@ -137,37 +143,74 @@ public class App {
 	}
 
 	public static void obterClienteComMaisMidiasAssistidas() {
-		plataformaStreaming.obterClienteComMaisMidiasAssistidas();
+		Optional<Cliente> cliente = plataformaStreaming.obterClienteComMaisMidiasAssistidas();
+
+		cliente.ifPresent(value -> System.out.println("Cliente que mais assistiu midia foi: " +
+				value.getNomeDeUsuario() + " com " + cliente.get().getListaJaVistas().size() + " midias"));
 	}
 
 	public static void obterClienteComMaisAvaliacoes() {
-		plataformaStreaming.obterClienteComMaisAvaliacoes();
+		var cliente = plataformaStreaming.obterClienteComMaisAvaliacoes();
+		cliente.ifPresent(value -> System.out.println("Cliente que possui mais avaliacoes: " +
+				value.getNomeDeUsuario() + " com " + cliente.get().getListaJaVistas().size() + " midias avaliadas"));
 	}
 
 	public static void porcentagemClientesQuinzeAvaliacoes() {
-		plataformaStreaming.porcentagemClientesQuinzeAvaliacoes();
+		var porcentagem = plataformaStreaming.porcentagemClientesQuinzeAvaliacoes();
+		System.out.println("A porcentagem de clientes com mais de 15 avaliacoes eh: " + porcentagem + "%");
 	}
 
 	public static void melhoresMidias() {
-		plataformaStreaming.melhoresMidias();
+		List<Midia> midias = plataformaStreaming.melhoresMidias();
+
+		System.out.println("As 10 mídias de melhor avaliação, com pelo menos 100 avaliações: ");
+
+		midias.stream()
+				.map(midia -> midia.getNome() + " - Avaliação: " + midia.getAvaliacaoTotal())
+				.forEach(System.out::println);
 	}
 
 	public static void midiasMaisVisualizadas() {
-		plataformaStreaming.midiasMaisVisualizadas();
+		var midias = plataformaStreaming.midiasMaisVisualizadas();
+
+		midias.stream().map(midia -> midia.getNome() + " - Audiencia: " + midia.getAudiencia())
+				.forEach(System.out::println);
 	}
 
 	public static void melhoresAvaliacoesPorGenero() {
 		System.out.println("Escolha um genero: ");
 		String generoDigitado = ler.next();
+		GeneroEnum genero = GeneroEnum.valueOf(generoDigitado);
 
-		plataformaStreaming.melhoresAvaliacoesPorGenero(generoDigitado);
+		try {
+			List<Midia> midias = plataformaStreaming.melhoresAvaliacoesPorGenero(genero);
+
+			System.out.println("As 10 mídias de melhor avaliação, com pelo menos 100 avaliações, do gênero "
+					+ genero.nome() + ":");
+			midias.stream()
+					.map(midia -> midia.getNome() + " - Avaliação: " + midia.getAvaliacaoTotal())
+					.forEach(System.out::println);
+		} catch (Exception e) {
+			System.out.println("Gênero inválido.");
+		}
 	}
 
 	private static void melhoresVisualizacoesPorGenero() {
 		System.out.println("Escolha um genero: ");
 		String generoDigitado = ler.next();
+		GeneroEnum genero = GeneroEnum.valueOf(generoDigitado);
 
-		plataformaStreaming.melhoresVisualizacoesPorGenero(generoDigitado);
+		try {
+			List<Midia> midias = plataformaStreaming.melhoresVisualizacoesPorGenero(genero);
+
+			System.out.println("As 10 mídias com mais visualizações, do gênero " + genero.nome() + ":");
+			midias.stream()
+					.map(midia -> midia.getNome() + " - Audiencia: " + midia.getAudiencia())
+					.forEach(System.out::println);
+		} catch (Exception e) {
+			System.out.println("Gênero inválido.");
+
+		}
 	}
 
 	/**
