@@ -18,13 +18,13 @@ public class Cliente {
     private ClienteTipoEnum clienteTipo;
     private String profissao;
 
-    public Cliente(){
+    public Cliente() {
         this.listaParaVer = new ArrayList<>();
         this.listaJaVistas = new HashMap<>();
         this.clienteTipo = ClienteTipoEnum.REGULAR;
     }
 
-    public Cliente(String nome, String senha){
+    public Cliente(String nome, String senha) {
         this.nomeDeUsuario = nome;
         this.senha = senha;
         this.listaParaVer = new ArrayList<>();
@@ -32,16 +32,32 @@ public class Cliente {
         this.clienteTipo = ClienteTipoEnum.REGULAR;
     }
 
-    public void adicionarNaListaParaVer(Midia midia){
+    /**
+     * Adiciona uma mídia à lista de itens para assistir.
+     *
+     * @param midia a mídia a ser adicionada
+     */
+    public void adicionarNaListaParaVer(Midia midia) {
         this.listaParaVer.add(midia);
     }
 
-    public void adicionarNaListaJaVista(Midia midia){
+    /**
+     * Adiciona uma mídia à lista de itens já vistos e chama o método
+     * clienteEspecialista().
+     *
+     * @param midia a mídia a ser adicionada
+     */
+    public void adicionarNaListaJaVista(Midia midia) {
         this.listaJaVistas.put(midia, new Date());
         clienteEspecialista();
     }
 
-    public void retirarDaListaParaVer(String nomeSerie){
+    /**
+     * Remove uma mídia da lista de itens para assistir com base no nome da série.
+     *
+     * @param nomeSerie o nome da série da mídia a ser removida
+     */
+    public void retirarDaListaParaVer(String nomeSerie) {
         var midia = listaParaVer.stream()
                 .filter(s -> s.getNome().equals(nomeSerie))
                 .findFirst();
@@ -49,23 +65,47 @@ public class Cliente {
         midia.ifPresent(value -> listaParaVer.remove(value));
     }
 
-    private void clienteEspecialista(){
+    /**
+     * Verifica se o cliente é um especialista com base na quantidade de itens
+     * vistos recentemente.
+     * Atualiza a variável clienteTipo se o cliente for considerado um especialista.
+     */
+    private void clienteEspecialista() {
         Date sysdateMenosMes = removeMes(new Date());
         int count = 0;
 
-        for(Date d : listaJaVistas.values()){
-            if(d.after(sysdateMenosMes)) {
+        for (Date d : listaJaVistas.values()) {
+            if (d.after(sysdateMenosMes)) {
                 count += 1;
-            }if(count >= 5) {
+            }
+            if (count >= 5) {
                 clienteTipo = ClienteTipoEnum.ESPECIALISTA;
             }
         }
     }
-    
+
+    /**
+     * Remove um mês da data fornecida.
+     *
+     * @param date a data da qual remover um mês
+     * @return a data resultante após a remoção de um mês
+     */
     private Date removeMes(Date date) {
-    	Calendar c = Calendar.getInstance(); 
-    	c.setTime(date); 
-    	c.add(Calendar.MONTH, -1);
-    	return c.getTime();
+        Calendar c = Calendar.getInstance();
+        c.setTime(date);
+        c.add(Calendar.MONTH, -1);
+        return c.getTime();
+    }
+
+    /**
+     * Conta o número total de avaliações de um cliente.
+     *
+     * @param cliente O objeto Cliente para o qual serão contadas as avaliações.
+     * @return O número total de avaliações do cliente.
+     */
+    public int contarAvaliacoes() {
+        return listaJaVistas.keySet().stream()
+                .mapToInt(midia -> midia.getAvaliacoes().size())
+                .sum();
     }
 }
