@@ -49,4 +49,15 @@ class MidiaTest {
         assertEquals(avaliacao.getComentario(), "bom");
         assertEquals(avaliacao.getNota(), 10);
     }
+
+    @Test
+    void deveVerificarSeExisteUmaAvaliacao(){
+        Cliente cliente = new Cliente("cliente", "12345678");
+
+        Boolean existe = midia.existeAvaliacao(cliente);
+
+        assertEquals(existe, false);
+
+
+    }
 }

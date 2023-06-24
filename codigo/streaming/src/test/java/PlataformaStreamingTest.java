@@ -145,6 +145,18 @@ class PlataformaStreamingTest {
     }
 
     @Test
+    void deveBuscarMidia() {
+
+        Filme filme = new Filme("midia");
+
+        plataformaStreaming.setFilmes(List.of(filme));
+
+        Midia midia = plataformaStreaming.buscarMidia("midia");
+
+        assertEquals(filme, midia);
+    }
+
+    @Test
     void deveAdicionarSerie(){
         plataformaStreaming.setSeries(new ArrayList<>());
 
@@ -172,5 +184,27 @@ class PlataformaStreamingTest {
         plataformaStreaming.realizarAssinatura();
 
         assertEquals(plataformaStreaming.getClienteAtual().getClienteTipo(), ClienteTipoEnum.PROFISSIONAL);
+    }
+
+    @Test
+    void deveValidarGenero() {
+        Midia midia = new Midia();
+        midia.setGenero(GeneroEnum.ACAO);
+
+        Boolean verifica = plataformaStreaming.validarGenero("ACAO");
+
+        assertEquals("Acao", midia.getGenero().genero);
+        assertEquals(verifica, false);
+    }
+
+    @Test
+    void deveValidarIdioma() {
+        Midia midia = new Midia();
+        midia.setIdioma(IdiomaEnum.ESPANHOL);
+
+        Boolean verifica = plataformaStreaming.validarIdioma("Espanhol");
+
+        assertEquals("Espanhol",midia.getIdioma().idioma);
+        assertEquals(verifica, false);
     }
 }

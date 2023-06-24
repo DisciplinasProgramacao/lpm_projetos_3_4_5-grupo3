@@ -472,5 +472,4 @@ public class PlataformaStreaming {
                 .findFirst();
         return midia.isPresent();
     }
-
 }
