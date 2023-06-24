@@ -22,6 +22,10 @@ public class PlataformaStreaming {
     private List<IdiomaEnum> idiomas = new ArrayList<>();
 
     private PlataformaStreaming() {
+        this.nome = PLATAFORMA_NOME;
+        this.series = new ArrayList<>();
+        this.filmes = new ArrayList<>();
+        this.clientes = new ArrayList<>();
     }
 
     /**
