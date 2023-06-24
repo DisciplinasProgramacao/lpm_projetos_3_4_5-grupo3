@@ -1,1 +1,3183 @@
-{"nome":"Plataforma Streaming","series":[{"quantidadeEpisodios":47,"genero":"POLICIAL","nome":"serie","idioma":"ESPANHOL","audiencia":1,"avaliacaoTotal":4.0,"avaliacoes":[{"cliente":{"nomeDeUsuario":"cau","senha":"123","listaParaVer":[],"listaJaVistas":{"Serie@380fb434":"Jun 24, 2023, 2:40:59 PM","Filme@7cf10a6f":"Jun 24, 2023, 2:39:30 PM"},"clienteTipo":"PROFISSIONAL"},"nota":4,"comentario":"MuitoBom"}],"lancamento":false},{"quantidadeEpisodios":51,"genero":"DRAMA","nome":"Light","idioma":"PORTUGUES","audiencia":64,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":39,"genero":"ROMANCE","nome":"Clear","idioma":"PORTUGUES","audiencia":89,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":28,"genero":"AVENTURA","nome":"PinkisthenewWhite","idioma":"ESPANHOL","audiencia":42,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":49,"genero":"AVENTURA","nome":"PinkisthenewBlue","idioma":"INGLES","audiencia":72,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":15,"genero":"COMEDIA","nome":"PinkisthenewGreen","idioma":"ESPANHOL","audiencia":103,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":9,"genero":"ACAO","nome":"PinkisthenewPink","idioma":"INGLES","audiencia":37,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":6,"genero":"COMEDIA","nome":"PinkisthenewYellow","idioma":"ESPANHOL","audiencia":95,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":23,"genero":"POLICIAL","nome":"PinkisthenewRed","idioma":"INGLES","audiencia":56,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":44,"genero":"AVENTURA","nome":"YellowCounty","idioma":"INGLES","audiencia":48,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":51,"genero":"ANIME","nome":"RedCounty","idioma":"ESPANHOL","audiencia":74,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":21,"genero":"POLICIAL","nome":"BlueCounty","idioma":"PORTUGUES","audiencia":88,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":26,"genero":"DRAMA","nome":"GoldenCounty","idioma":"PORTUGUES","audiencia":63,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":7,"genero":"ROMANCE","nome":"GreenCounty","idioma":"INGLES","audiencia":91,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":50,"genero":"AVENTURA","nome":"YellowLotus","idioma":"ESPANHOL","audiencia":76,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":46,"genero":"COMEDIA","nome":"RedLotus","idioma":"ESPANHOL","audiencia":41,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":38,"genero":"ACAO","nome":"BlueLotus","idioma":"PORTUGUES","audiencia":68,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":48,"genero":"ACAO","nome":"GoldenLotus","idioma":"PORTUGUES","audiencia":39,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":32,"genero":"ROMANCE","nome":"GreenLotus","idioma":"PORTUGUES","audiencia":102,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":11,"genero":"DRAMA","nome":"Enemies","idioma":"PORTUGUES","audiencia":56,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":40,"genero":"POLICIAL","nome":"TheWalkingTrees","idioma":"INGLES","audiencia":88,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":32,"genero":"POLICIAL","nome":"TheWalkingDread","idioma":"PORTUGUES","audiencia":46,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":8,"genero":"ACAO","nome":"TheWalkingFlumes","idioma":"INGLES","audiencia":71,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":51,"genero":"ROMANCE","nome":"TheWalkingGoodies","idioma":"INGLES","audiencia":101,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":23,"genero":"ROMANCE","nome":"TheWalkingCats","idioma":"PORTUGUES","audiencia":35,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":23,"genero":"ANIME","nome":"TheWalkingRobots","idioma":"ESPANHOL","audiencia":57,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":40,"genero":"ACAO","nome":"TheWalkingPretenders","idioma":"ESPANHOL","audiencia":98,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":51,"genero":"ROMANCE","nome":"TheWalkingPeaks","idioma":"INGLES","audiencia":75,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":18,"genero":"ACAO","nome":"TheWalkingMinds","idioma":"INGLES","audiencia":31,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":40,"genero":"AVENTURA","nome":"TheWalkingBubbles","idioma":"ESPANHOL","audiencia":109,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":7,"genero":"AVENTURA","nome":"GameofTrees","idioma":"ESPANHOL","audiencia":51,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":36,"genero":"DRAMA","nome":"GameofFlumes","idioma":"INGLES","audiencia":83,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":8,"genero":"AVENTURA","nome":"GameofGoodies","idioma":"PORTUGUES","audiencia":43,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":26,"genero":"AVENTURA","nome":"GameofCats","idioma":"ESPANHOL","audiencia":78,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":50,"genero":"ROMANCE","nome":"GameofRobots","idioma":"INGLES","audiencia":52,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":7,"genero":"ANIME","nome":"GameofMinds","idioma":"INGLES","audiencia":101,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":42,"genero":"POLICIAL","nome":"GameofBubbles","idioma":"INGLES","audiencia":35,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":28,"genero":"AVENTURA","nome":"ATreeGame","idioma":"PORTUGUES","audiencia":95,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":38,"genero":"ROMANCE","nome":"AFlumeGame","idioma":"INGLES","audiencia":84,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":10,"genero":"ACAO","nome":"ADreadGame","idioma":"ESPANHOL","audiencia":61,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":23,"genero":"AVENTURA","nome":"ACatGame","idioma":"PORTUGUES","audiencia":104,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":22,"genero":"COMEDIA","nome":"ARobotGame","idioma":"PORTUGUES","audiencia":73,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":17,"genero":"COMEDIA","nome":"AMindGame","idioma":"ESPANHOL","audiencia":34,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":31,"genero":"DRAMA","nome":"ABubbleGame","idioma":"PORTUGUES","audiencia":107,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":47,"genero":"AVENTURA","nome":"TheCalloftheTrees","idioma":"INGLES","audiencia":62,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":36,"genero":"ACAO","nome":"TheCalloftheFlumes","idioma":"ESPANHOL","audiencia":32,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":24,"genero":"AVENTURA","nome":"TheCalloftheGoodies","idioma":"INGLES","audiencia":90,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":40,"genero":"POLICIAL","nome":"TheCalloftheSinks","idioma":"INGLES","audiencia":40,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":32,"genero":"COMEDIA","nome":"TheCalloftheCats","idioma":"PORTUGUES","audiencia":82,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":24,"genero":"COMEDIA","nome":"TheCalloftheRobots","idioma":"INGLES","audiencia":55,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":16,"genero":"DRAMA","nome":"TheCallofthePretender","idioma":"ESPANHOL","audiencia":31,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":8,"genero":"DRAMA","nome":"TheCalloftheMinds","idioma":"PORTUGUES","audiencia":109,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":17,"genero":"ACAO","nome":"TheCalloftheBubbles","idioma":"INGLES","audiencia":38,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":43,"genero":"POLICIAL","nome":"FixingTrees","idioma":"PORTUGUES","audiencia":97,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":34,"genero":"ANIME","nome":"FixingFlumes","idioma":"PORTUGUES","audiencia":49,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":33,"genero":"DRAMA","nome":"FixingGoodies","idioma":"ESPANHOL","audiencia":75,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":1,"genero":"COMEDIA","nome":"FixingCats","idioma":"PORTUGUES","audiencia":36,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":13,"genero":"COMEDIA","nome":"FixingRobots","idioma":"INGLES","audiencia":94,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":44,"genero":"AVENTURA","nome":"FixingPretenders","idioma":"ESPANHOL","audiencia":79,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":4,"genero":"DRAMA","nome":"FixingBubbles","idioma":"INGLES","audiencia":41,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":15,"genero":"ACAO","nome":"NihonTrees","idioma":"ESPANHOL","audiencia":103,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":27,"genero":"ACAO","nome":"NihonFlumes","idioma":"INGLES","audiencia":70,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":29,"genero":"POLICIAL","nome":"NihonGoodies","idioma":"INGLES","audiencia":57,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":45,"genero":"ROMANCE","nome":"NihonSinks","idioma":"PORTUGUES","audiencia":38,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":23,"genero":"AVENTURA","nome":"NihonCats","idioma":"PORTUGUES","audiencia":109,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":46,"genero":"POLICIAL","nome":"NihonRobots","idioma":"ESPANHOL","audiencia":50,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":26,"genero":"ACAO","nome":"NihonPretender","idioma":"ESPANHOL","audiencia":86,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":19,"genero":"ANIME","nome":"NihonPeaks","idioma":"ESPANHOL","audiencia":42,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":12,"genero":"ACAO","nome":"NihonMinds","idioma":"ESPANHOL","audiencia":99,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":11,"genero":"DRAMA","nome":"NihonBubbles","idioma":"INGLES","audiencia":68,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":17,"genero":"AVENTURA","nome":"EastTrees","idioma":"ESPANHOL","audiencia":33,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":30,"genero":"DRAMA","nome":"EastFlumes","idioma":"ESPANHOL","audiencia":93,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":37,"genero":"ROMANCE","nome":"EastGoodies","idioma":"ESPANHOL","audiencia":44,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":47,"genero":"ROMANCE","nome":"EastSinks","idioma":"PORTUGUES","audiencia":66,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":14,"genero":"AVENTURA","nome":"EastCats","idioma":"ESPANHOL","audiencia":39,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":30,"genero":"ACAO","nome":"EastRobots","idioma":"ESPANHOL","audiencia":78,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":1,"genero":"ANIME","nome":"EastPretender","idioma":"PORTUGUES","audiencia":35,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":20,"genero":"ROMANCE","nome":"EastPeaks","idioma":"PORTUGUES","audiencia":103,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":3,"genero":"AVENTURA","nome":"EastMinds","idioma":"ESPANHOL","audiencia":52,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":40,"genero":"ANIME","nome":"EastBubbles","idioma":"ESPANHOL","audiencia":106,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":18,"genero":"COMEDIA","nome":"FearofTrees","idioma":"ESPANHOL","audiencia":31,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":4,"genero":"AVENTURA","nome":"FearofFlumes","idioma":"PORTUGUES","audiencia":100,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":45,"genero":"ROMANCE","nome":"FearofGoodies","idioma":"ESPANHOL","audiencia":73,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":29,"genero":"DRAMA","nome":"FearofSinks","idioma":"INGLES","audiencia":47,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":30,"genero":"COMEDIA","nome":"FearofCats","idioma":"ESPANHOL","audiencia":84,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":5,"genero":"COMEDIA","nome":"FearofRobots","idioma":"INGLES","audiencia":60,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":9,"genero":"POLICIAL","nome":"FearofPeaks","idioma":"INGLES","audiencia":96,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":49,"genero":"ANIME","nome":"FearofBubbles","idioma":"PORTUGUES","audiencia":59,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":39,"genero":"DRAMA","nome":"ThoseareTrees","idioma":"PORTUGUES","audiencia":30,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":46,"genero":"POLICIAL","nome":"ThoseareFlumes","idioma":"INGLES","audiencia":110,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":27,"genero":"ANIME","nome":"ThoseareGoodies","idioma":"INGLES","audiencia":47,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":43,"genero":"AVENTURA","nome":"ThoseareSinks","idioma":"PORTUGUES","audiencia":79,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":46,"genero":"DRAMA","nome":"ThoseareCats","idioma":"PORTUGUES","audiencia":22,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":41,"genero":"ANIME","nome":"ThoseareRobots","idioma":"PORTUGUES","audiencia":67,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":36,"genero":"POLICIAL","nome":"ThoseareBubbles","idioma":"PORTUGUES","audiencia":49,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":32,"genero":"AVENTURA","nome":"LosAngelesTrees","idioma":"PORTUGUES","audiencia":101,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":50,"genero":"POLICIAL","nome":"LosAngelesFlumes","idioma":"PORTUGUES","audiencia":60,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":27,"genero":"ROMANCE","nome":"LosAngelesGoodies","idioma":"INGLES","audiencia":38,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":47,"genero":"AVENTURA","nome":"LosAngelesSinks","idioma":"PORTUGUES","audiencia":93,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":24,"genero":"COMEDIA","nome":"LosAngelesCats","idioma":"INGLES","audiencia":52,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":41,"genero":"ROMANCE","nome":"LosAngelesRobots","idioma":"INGLES","audiencia":85,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":22,"genero":"POLICIAL","nome":"LosAngelesPretender","idioma":"ESPANHOL","audiencia":43,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":32,"genero":"ACAO","nome":"LosAngelesPeaks","idioma":"INGLES","audiencia":105,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":28,"genero":"ANIME","nome":"LosAngelesMinds","idioma":"PORTUGUES","audiencia":72,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":15,"genero":"COMEDIA","nome":"LosAngelesBubbles","idioma":"INGLES","audiencia":59,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":13,"genero":"POLICIAL","nome":"MasterTrees","idioma":"ESPANHOL","audiencia":82,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":44,"genero":"AVENTURA","nome":"MasterFlumes","idioma":"ESPANHOL","audiencia":46,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":21,"genero":"AVENTURA","nome":"MasterGoodies","idioma":"ESPANHOL","audiencia":98,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":42,"genero":"COMEDIA","nome":"MasterCats","idioma":"PORTUGUES","audiencia":54,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":34,"genero":"ANIME","nome":"MasterRobots","idioma":"ESPANHOL","audiencia":76,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":33,"genero":"AVENTURA","nome":"MasterPretenders","idioma":"INGLES","audiencia":32,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":51,"genero":"COMEDIA","nome":"MasterPeaks","idioma":"INGLES","audiencia":103,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":18,"genero":"ANIME","nome":"MasterMinds","idioma":"PORTUGUES","audiencia":69,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":29,"genero":"DRAMA","nome":"MasterBubbles","idioma":"INGLES","audiencia":57,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":5,"genero":"AVENTURA","nome":"TheLastofTrees","idioma":"PORTUGUES","audiencia":91,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":1,"genero":"ANIME","nome":"TheLastofFlumes","idioma":"ESPANHOL","audiencia":43,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":11,"genero":"ROMANCE","nome":"TheLastofGoodies","idioma":"PORTUGUES","audiencia":78,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":10,"genero":"ROMANCE","nome":"TheLastofCats","idioma":"ESPANHOL","audiencia":55,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":36,"genero":"ACAO","nome":"TheLastofRobots","idioma":"PORTUGUES","audiencia":37,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":23,"genero":"ACAO","nome":"TheLastofPretenders","idioma":"ESPANHOL","audiencia":99,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":6,"genero":"AVENTURA","nome":"TheLastofPeaks","idioma":"INGLES","audiencia":64,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":40,"genero":"POLICIAL","nome":"TheLastofMinds","idioma":"INGLES","audiencia":73,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":24,"genero":"AVENTURA","nome":"TheLastofBubbles","idioma":"PORTUGUES","audiencia":45,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":3,"genero":"POLICIAL","nome":"Shoreman","idioma":"PORTUGUES","audiencia":102,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":50,"genero":"DRAMA","nome":"Treeman","idioma":"INGLES","audiencia":67,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":16,"genero":"DRAMA","nome":"Catman","idioma":"PORTUGUES","audiencia":43,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":1,"genero":"COMEDIA","nome":"Robotman","idioma":"INGLES","audiencia":80,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":34,"genero":"POLICIAL","nome":"Mindman","idioma":"PORTUGUES","audiencia":58,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":51,"genero":"DRAMA","nome":"Bubbleman","idioma":"ESPANHOL","audiencia":95,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":43,"genero":"ANIME","nome":"LostandFound","idioma":"ESPANHOL","audiencia":69,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"quantidadeEpisodios":28,"genero":"ACAO","nome":"TheRomanos","idioma":"ESPANHOL","audiencia":52,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false}],"filmes":[{"genero":"POLICIAL","nome":"filme","idioma":"ESPANHOL","audiencia":2,"avaliacaoTotal":5.0,"avaliacoes":[{"cliente":{"nomeDeUsuario":"cau","senha":"123","listaParaVer":[],"listaJaVistas":{"Serie@380fb434":"Jun 24, 2023, 2:40:59 PM","Filme@7cf10a6f":"Jun 24, 2023, 2:39:30 PM"},"clienteTipo":"PROFISSIONAL"},"nota":5,"comentario":""}],"lancamento":false},{"genero":"POLICIAL","nome":"HeroesAndCaptains","idioma":"PORTUGUES","audiencia":83,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"ComplexityOfANuclearWinter","idioma":"PORTUGUES","audiencia":97,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"CreaturesAndAthletes","idioma":"INGLES","audiencia":119,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"CulturedByTheNewWorld","idioma":"PORTUGUES","audiencia":115,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"FoolsOfTheEast","idioma":"ESPANHOL","audiencia":101,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"MusicOfTheLakes","idioma":"PORTUGUES","audiencia":117,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"IsThisaMovie?","idioma":"PORTUGUES","audiencia":95,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"TurtleOfTheSwamp","idioma":"PORTUGUES","audiencia":109,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ANIME","nome":"SnakesOfADog","idioma":"INGLES","audiencia":109,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"ChildrenOfTheNewWorld","idioma":"INGLES","audiencia":82,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"AssassinOfHonor","idioma":"ESPANHOL","audiencia":98,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"CriminalsAndCriminals","idioma":"PORTUGUES","audiencia":82,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"SoldiersOfOurFuture","idioma":"ESPANHOL","audiencia":111,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ANIME","nome":"DefendersOfOurFuture","idioma":"INGLES","audiencia":112,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"AliensOfTheVacuum","idioma":"ESPANHOL","audiencia":91,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ANIME","nome":"Hope","idioma":"ESPANHOL","audiencia":93,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"CorruptionOfThePlanet","idioma":"ESPANHOL","audiencia":112,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"HuntersOfOurFuture","idioma":"INGLES","audiencia":94,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"WarriorsPerRealm","idioma":"ESPANHOL","audiencia":120,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"DisguisedInTheDepths","idioma":"PORTUGUES","audiencia":103,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"BanditsAndMen","idioma":"ESPANHOL","audiencia":91,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"OfficerOfStardust","idioma":"INGLES","audiencia":92,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"LightOfSolarFlares","idioma":"ESPANHOL","audiencia":119,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"DRAMA","nome":"HumanOfNewEarth","idioma":"PORTUGUES","audiencia":83,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ANIME","nome":"CreatedByANewWar","idioma":"PORTUGUES","audiencia":91,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"RevivalOfTheNewWorld","idioma":"ESPANHOL","audiencia":106,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"HorseInMyYard","idioma":"INGLES","audiencia":90,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"DRAMA","nome":"VisitorOfSunshine","idioma":"PORTUGUES","audiencia":95,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"DeceptionOfDarkness","idioma":"PORTUGUES","audiencia":97,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"DeathOfTheOcean","idioma":"INGLES","audiencia":108,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"FoesInMyYard","idioma":"ESPANHOL","audiencia":99,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"MonumentsOfNewWorlds","idioma":"ESPANHOL","audiencia":105,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ANIME","nome":"FogInTheLake","idioma":"PORTUGUES","audiencia":114,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"HorseOfTomorrow","idioma":"ESPANHOL","audiencia":99,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"HuntersOfMen\u0027sLegacy","idioma":"ESPANHOL","audiencia":102,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"BoredByWomen","idioma":"ESPANHOL","audiencia":92,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"HuntersAndStrangers","idioma":"PORTUGUES","audiencia":109,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"OfTheOcean","idioma":"PORTUGUES","audiencia":93,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ANIME","nome":"DestinyOfEarth\u0027sLegacy","idioma":"PORTUGUES","audiencia":91,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"VisitorOfSpace","idioma":"PORTUGUES","audiencia":86,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"SecurityOfElectricity","idioma":"INGLES","audiencia":108,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"PoliticiansPerCountry","idioma":"INGLES","audiencia":93,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"CreatorsAndThieves","idioma":"INGLES","audiencia":90,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"BeastsInTheCenterOfTheEarth","idioma":"PORTUGUES","audiencia":86,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"HunterOfEternity","idioma":"INGLES","audiencia":119,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"AncestorsWithoutRestrictions","idioma":"ESPANHOL","audiencia":120,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"AnxiousForTheGalaxy","idioma":"ESPANHOL","audiencia":105,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"MenOfHonor","idioma":"PORTUGUES","audiencia":110,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"AmazingFantasy","idioma":"INGLES","audiencia":86,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"CyborgOfSpace","idioma":"INGLES","audiencia":84,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"DRAMA","nome":"CullingOfTime","idioma":"INGLES","audiencia":115,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"DoctorsAndVisitors","idioma":"PORTUGUES","audiencia":99,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"VolunteersAndStrangers","idioma":"INGLES","audiencia":96,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"DRAMA","nome":"FungiOfTechnology","idioma":"INGLES","audiencia":84,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"SnakesOfTheNorth","idioma":"ESPANHOL","audiencia":114,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"CaringForTheSun","idioma":"INGLES","audiencia":85,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"OpenToNewEarth","idioma":"ESPANHOL","audiencia":98,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"DigitalYourGarden","idioma":"ESPANHOL","audiencia":96,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"DoctorsOfSunshine","idioma":"PORTUGUES","audiencia":103,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"ManOnMars","idioma":"INGLES","audiencia":107,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ANIME","nome":"FarmsOfOurRealm","idioma":"INGLES","audiencia":101,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"MonumentsOfTheVacuum","idioma":"ESPANHOL","audiencia":85,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"WealthOfTheRivers","idioma":"PORTUGUES","audiencia":88,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"LeaderOfTheVoid","idioma":"PORTUGUES","audiencia":84,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"DRAMA","nome":"HawkOfACreature","idioma":"INGLES","audiencia":109,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"BirthOfStardust","idioma":"PORTUGUES","audiencia":85,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"RobotWithTentacles","idioma":"INGLES","audiencia":115,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"EnemyInTheCenterOfTheEarth","idioma":"INGLES","audiencia":116,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"RebelsAndOfficers","idioma":"INGLES","audiencia":112,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"CreatureOfOurDestiny","idioma":"INGLES","audiencia":87,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"WarriorsAndEmperors","idioma":"INGLES","audiencia":90,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"InsectsWithoutBorders","idioma":"INGLES","audiencia":112,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"DRAMA","nome":"ObliterationOfHonor","idioma":"INGLES","audiencia":107,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"DRAMA","nome":"BeastsOfTheOrbit","idioma":"PORTUGUES","audiencia":106,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"AgentsAndDroids","idioma":"PORTUGUES","audiencia":110,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ANIME","nome":"LostScience","idioma":"PORTUGUES","audiencia":83,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"DeathOfTheUniverse","idioma":"PORTUGUES","audiencia":114,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"DRAMA","nome":"FoolsAndGrasses","idioma":"ESPANHOL","audiencia":114,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"DemiseOfWar","idioma":"PORTUGUES","audiencia":89,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"RatsAndPests","idioma":"PORTUGUES","audiencia":116,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"BlindedBy","idioma":"ESPANHOL","audiencia":114,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"DRAMA","nome":"FiguresOfAnAsteroid","idioma":"ESPANHOL","audiencia":88,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"DRAMA","nome":"OriginOfTheStars","idioma":"PORTUGUES","audiencia":119,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"IntruderOfDarkness","idioma":"PORTUGUES","audiencia":102,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"FoolsAndMice","idioma":"PORTUGUES","audiencia":108,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"ClonesOfTheGalaxy","idioma":"INGLES","audiencia":92,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"RootOfTheSands","idioma":"INGLES","audiencia":109,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ANIME","nome":"SerenityOfElectricity","idioma":"INGLES","audiencia":102,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"ConfusingTheRivers","idioma":"ESPANHOL","audiencia":87,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"DRAMA","nome":"CriminalsOfShadows","idioma":"ESPANHOL","audiencia":91,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"DrinksWithoutLimits","idioma":"PORTUGUES","audiencia":107,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"DeceptionOfTime","idioma":"ESPANHOL","audiencia":101,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"StrangersAndIntruders","idioma":"INGLES","audiencia":120,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"OfficersAndForeigners","idioma":"PORTUGUES","audiencia":115,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"CreaturesOfTheFuture","idioma":"ESPANHOL","audiencia":83,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"FigureOfTheFlight","idioma":"ESPANHOL","audiencia":94,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"ConfusedByTheEnd","idioma":"INGLES","audiencia":98,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"DRAMA","nome":"ObliterationOfTheGalaxy","idioma":"PORTUGUES","audiencia":104,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"PredictionOfTheSea","idioma":"INGLES","audiencia":89,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ANIME","nome":"SymbolsOfStardust","idioma":"ESPANHOL","audiencia":113,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"DreamOfDarkness","idioma":"PORTUGUES","audiencia":82,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"CreationOfSociety","idioma":"PORTUGUES","audiencia":119,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"SignsOfOurFuture","idioma":"INGLES","audiencia":117,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"AfraidOfTimeTravel","idioma":"PORTUGUES","audiencia":112,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"DogOfTheVoid","idioma":"ESPANHOL","audiencia":96,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"LonelyInMyJourney","idioma":"PORTUGUES","audiencia":89,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"HuntersAndVeterans","idioma":"PORTUGUES","audiencia":98,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"SpidersPerCountry","idioma":"ESPANHOL","audiencia":96,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ANIME","nome":"BlacksmithsAndHunters","idioma":"INGLES","audiencia":111,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"InsectsOfThePlanet","idioma":"INGLES","audiencia":118,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"PredatorsOfHeaven","idioma":"ESPANHOL","audiencia":119,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"MercenaryOfTheSands","idioma":"INGLES","audiencia":109,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"DefendersFromOuterSpace","idioma":"INGLES","audiencia":120,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ANIME","nome":"MiceAndStars","idioma":"PORTUGUES","audiencia":85,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"DirectorsAndLeaders","idioma":"INGLES","audiencia":94,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"BeastOfTheOcean","idioma":"ESPANHOL","audiencia":112,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"EmperorsInThePast","idioma":"PORTUGUES","audiencia":99,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"AliensOfTheFlight","idioma":"PORTUGUES","audiencia":107,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"MedicsOfEarth","idioma":"ESPANHOL","audiencia":110,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"DRAMA","nome":"StrangersAndTraitors","idioma":"INGLES","audiencia":82,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"MenAndSoldiers","idioma":"INGLES","audiencia":115,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ANIME","nome":"ComfortedByMyLife","idioma":"ESPANHOL","audiencia":92,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"DRAMA","nome":"LeadersOfAliens","idioma":"INGLES","audiencia":90,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"SpidersOfTomorrow","idioma":"INGLES","audiencia":90,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"RebelsAnd","idioma":"ESPANHOL","audiencia":106,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"HelpOfTheNorth","idioma":"INGLES","audiencia":112,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"DRAMA","nome":"NightmaresOfTheNether","idioma":"ESPANHOL","audiencia":95,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"ChildrenAndGods","idioma":"ESPANHOL","audiencia":82,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ANIME","nome":"MenOfTheEast","idioma":"INGLES","audiencia":91,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"HuntersAndCommanders","idioma":"ESPANHOL","audiencia":116,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"DRAMA","nome":"CautiousOfTheMountains","idioma":"ESPANHOL","audiencia":103,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"VisitorsOfExploration","idioma":"PORTUGUES","audiencia":95,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"MedicsAndFriends","idioma":"PORTUGUES","audiencia":89,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"CreaturesAndFigures","idioma":"PORTUGUES","audiencia":99,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"TravellingOfTheSouth","idioma":"ESPANHOL","audiencia":84,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ANIME","nome":"StatuesOfTheFuture","idioma":"ESPANHOL","audiencia":102,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"AncientsOfTheWest","idioma":"ESPANHOL","audiencia":113,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"DRAMA","nome":"FigureOfAnimals","idioma":"INGLES","audiencia":97,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"HuntersWithTentacles","idioma":"ESPANHOL","audiencia":108,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"DRAMA","nome":"MedicsAndChildren","idioma":"PORTUGUES","audiencia":102,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"DemiseOfRobots","idioma":"INGLES","audiencia":118,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"JadedByMyDestiny","idioma":"ESPANHOL","audiencia":94,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ANIME","nome":"Chase","idioma":"INGLES","audiencia":117,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"AgentsOfTheNewWorld","idioma":"INGLES","audiencia":120,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"PerfumeOfTheStars","idioma":"ESPANHOL","audiencia":94,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"DeathOfTheDark","idioma":"PORTUGUES","audiencia":82,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"DRAMA","nome":"CyborgsOfStardust","idioma":"INGLES","audiencia":96,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ANIME","nome":"DoctorsAndCreators","idioma":"PORTUGUES","audiencia":90,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ANIME","nome":"BoysOfMars","idioma":"INGLES","audiencia":87,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"DestructionOfACreature","idioma":"INGLES","audiencia":118,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"DoctorOfTheOutlands","idioma":"ESPANHOL","audiencia":84,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ANIME","nome":"AgeInEternity","idioma":"PORTUGUES","audiencia":108,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"BirthOfNewWorlds","idioma":"PORTUGUES","audiencia":101,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"WomenOfTheDepths","idioma":"ESPANHOL","audiencia":103,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"PhantomsInMyVillage","idioma":"ESPANHOL","audiencia":104,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"WitchesAndCriminals","idioma":"PORTUGUES","audiencia":85,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"LimitsOfANuclearWar","idioma":"PORTUGUES","audiencia":106,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"VisionsOfNature","idioma":"INGLES","audiencia":102,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"SnakeOfTheSwamp","idioma":"ESPANHOL","audiencia":94,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"DRAMA","nome":"RiddleOfAnInsect","idioma":"PORTUGUES","audiencia":120,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"ElementsOfTheMountains","idioma":"ESPANHOL","audiencia":107,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"SerenityOfTheEyes","idioma":"INGLES","audiencia":101,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"BoysInTheNews","idioma":"ESPANHOL","audiencia":110,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ANIME","nome":"DisguisedByARiseOfMachines","idioma":"PORTUGUES","audiencia":95,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"CyborgsOfTheVoid","idioma":"ESPANHOL","audiencia":98,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"SnakesAndDogs","idioma":"ESPANHOL","audiencia":107,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"CelebratingMoondust","idioma":"PORTUGUES","audiencia":105,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"AgentsAndFigures","idioma":"ESPANHOL","audiencia":101,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"CatOfADog","idioma":"PORTUGUES","audiencia":107,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"NationOfTheNewWorld","idioma":"ESPANHOL","audiencia":92,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"MiceOfYourDreams","idioma":"PORTUGUES","audiencia":85,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ANIME","nome":"StarsOfTheUniverse","idioma":"INGLES","audiencia":101,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"DRAMA","nome":"BoysAndBlacksmiths","idioma":"INGLES","audiencia":107,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"WomenAndDevils","idioma":"INGLES","audiencia":98,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"FiguresOfMoondust","idioma":"ESPANHOL","audiencia":82,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"DRAMA","nome":"CaptainOfTheOrbit","idioma":"INGLES","audiencia":109,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"DRAMA","nome":"InvadersAndSpies","idioma":"INGLES","audiencia":109,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"LordsOfTheNether","idioma":"INGLES","audiencia":108,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"AshamedOfTheEnd","idioma":"ESPANHOL","audiencia":118,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"BasicAndroids","idioma":"INGLES","audiencia":101,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"StrangerInTheBeginningOfTime","idioma":"PORTUGUES","audiencia":111,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ANIME","nome":"BoyWithSpaceships","idioma":"ESPANHOL","audiencia":99,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"POLICIAL","nome":"AthleticsOfTime","idioma":"PORTUGUES","audiencia":94,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"ChangedByTheSecrets","idioma":"ESPANHOL","audiencia":107,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ANIME","nome":"RatsAndHeirs","idioma":"INGLES","audiencia":100,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"BoyOfAliens","idioma":"PORTUGUES","audiencia":119,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"DefenderOfTheVoid","idioma":"ESPANHOL","audiencia":112,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"BoyWithAUFO","idioma":"INGLES","audiencia":99,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"IllusionsOfTomorrow","idioma":"INGLES","audiencia":105,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"COMEDIA","nome":"AndroidsAndEnemies","idioma":"PORTUGUES","audiencia":111,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"BuildingsWithoutRestrictions","idioma":"PORTUGUES","audiencia":117,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"DRAMA","nome":"MedicOfNewEarth","idioma":"PORTUGUES","audiencia":101,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"MarriedToANuclearWar","idioma":"INGLES","audiencia":113,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"CrazyOfARiseOfMachines","idioma":"INGLES","audiencia":108,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"LifeWithTheTitans","idioma":"ESPANHOL","audiencia":86,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"IntelligenceInTheSun","idioma":"ESPANHOL","audiencia":85,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"MenAndMedics","idioma":"ESPANHOL","audiencia":93,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ROMANCE","nome":"AliveOnTheTitans","idioma":"INGLES","audiencia":112,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"CautiousOfTechnolicAdvancements","idioma":"PORTUGUES","audiencia":85,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"AVENTURA","nome":"VolunteersAnd","idioma":"PORTUGUES","audiencia":93,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false},{"genero":"ACAO","nome":"AgentsAndSoldiers","idioma":"PORTUGUES","audiencia":85,"avaliacaoTotal":0.0,"avaliacoes":[],"lancamento":false}],"clientes":[{"nomeDeUsuario":"cau","senha":"123","listaParaVer":[],"listaJaVistas":{"Serie@380fb434":"Jun 24, 2023, 2:40:59 PM","Filme@7cf10a6f":"Jun 24, 2023, 2:39:30 PM"},"clienteTipo":"PROFISSIONAL"},{"nomeDeUsuario":"cadastro","senha":"123","listaParaVer":[],"listaJaVistas":{},"clienteTipo":"REGULAR"}],"clienteAtual":{"nomeDeUsuario":"cadastro","senha":"123","listaParaVer":[],"listaJaVistas":{},"clienteTipo":"REGULAR"},"generos":["ACAO","ANIME","AVENTURA","COMEDIA","DRAMA","POLICIAL","ROMANCE"],"idiomas":["PORTUGUES","ESPANHOL","INGLES"]}
+{
+  "nome": "Plataforma Streaming",
+  "series": [
+    {
+      "quantidadeEpisodios": 3,
+      "genero": "ROMANCE",
+      "nome": "serie",
+      "idioma": "INGLES",
+      "audiencia": 0,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 44,
+      "genero": "ANIME",
+      "nome": "Light",
+      "idioma": "PORTUGUES",
+      "audiencia": 64,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 20,
+      "genero": "ROMANCE",
+      "nome": "Clear",
+      "idioma": "ESPANHOL",
+      "audiencia": 89,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 49,
+      "genero": "ROMANCE",
+      "nome": "PinkisthenewWhite",
+      "idioma": "INGLES",
+      "audiencia": 42,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 15,
+      "genero": "ACAO",
+      "nome": "PinkisthenewBlue",
+      "idioma": "INGLES",
+      "audiencia": 72,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 9,
+      "genero": "COMEDIA",
+      "nome": "PinkisthenewGreen",
+      "idioma": "INGLES",
+      "audiencia": 103,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 5,
+      "genero": "POLICIAL",
+      "nome": "PinkisthenewPink",
+      "idioma": "PORTUGUES",
+      "audiencia": 37,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 35,
+      "genero": "DRAMA",
+      "nome": "PinkisthenewYellow",
+      "idioma": "ESPANHOL",
+      "audiencia": 95,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 32,
+      "genero": "ANIME",
+      "nome": "PinkisthenewRed",
+      "idioma": "ESPANHOL",
+      "audiencia": 56,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 6,
+      "genero": "AVENTURA",
+      "nome": "YellowCounty",
+      "idioma": "ESPANHOL",
+      "audiencia": 48,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 35,
+      "genero": "ACAO",
+      "nome": "RedCounty",
+      "idioma": "PORTUGUES",
+      "audiencia": 74,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 20,
+      "genero": "COMEDIA",
+      "nome": "BlueCounty",
+      "idioma": "ESPANHOL",
+      "audiencia": 88,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 40,
+      "genero": "ROMANCE",
+      "nome": "GoldenCounty",
+      "idioma": "ESPANHOL",
+      "audiencia": 63,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 33,
+      "genero": "DRAMA",
+      "nome": "GreenCounty",
+      "idioma": "ESPANHOL",
+      "audiencia": 91,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 38,
+      "genero": "AVENTURA",
+      "nome": "YellowLotus",
+      "idioma": "ESPANHOL",
+      "audiencia": 76,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 14,
+      "genero": "DRAMA",
+      "nome": "RedLotus",
+      "idioma": "PORTUGUES",
+      "audiencia": 41,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 29,
+      "genero": "ROMANCE",
+      "nome": "BlueLotus",
+      "idioma": "PORTUGUES",
+      "audiencia": 68,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 6,
+      "genero": "DRAMA",
+      "nome": "GoldenLotus",
+      "idioma": "INGLES",
+      "audiencia": 39,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 36,
+      "genero": "ACAO",
+      "nome": "GreenLotus",
+      "idioma": "INGLES",
+      "audiencia": 102,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 28,
+      "genero": "ACAO",
+      "nome": "Enemies",
+      "idioma": "PORTUGUES",
+      "audiencia": 56,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 26,
+      "genero": "ACAO",
+      "nome": "TheWalkingTrees",
+      "idioma": "INGLES",
+      "audiencia": 88,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 24,
+      "genero": "POLICIAL",
+      "nome": "TheWalkingDread",
+      "idioma": "INGLES",
+      "audiencia": 46,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 4,
+      "genero": "AVENTURA",
+      "nome": "TheWalkingFlumes",
+      "idioma": "ESPANHOL",
+      "audiencia": 71,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 45,
+      "genero": "ACAO",
+      "nome": "TheWalkingGoodies",
+      "idioma": "PORTUGUES",
+      "audiencia": 101,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 35,
+      "genero": "ACAO",
+      "nome": "TheWalkingCats",
+      "idioma": "ESPANHOL",
+      "audiencia": 35,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 35,
+      "genero": "ROMANCE",
+      "nome": "TheWalkingRobots",
+      "idioma": "PORTUGUES",
+      "audiencia": 57,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 37,
+      "genero": "ANIME",
+      "nome": "TheWalkingPretenders",
+      "idioma": "PORTUGUES",
+      "audiencia": 98,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 8,
+      "genero": "POLICIAL",
+      "nome": "TheWalkingPeaks",
+      "idioma": "PORTUGUES",
+      "audiencia": 75,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 38,
+      "genero": "POLICIAL",
+      "nome": "TheWalkingMinds",
+      "idioma": "ESPANHOL",
+      "audiencia": 31,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 19,
+      "genero": "COMEDIA",
+      "nome": "TheWalkingBubbles",
+      "idioma": "PORTUGUES",
+      "audiencia": 109,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 6,
+      "genero": "ACAO",
+      "nome": "GameofTrees",
+      "idioma": "INGLES",
+      "audiencia": 51,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 23,
+      "genero": "COMEDIA",
+      "nome": "GameofFlumes",
+      "idioma": "PORTUGUES",
+      "audiencia": 83,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 9,
+      "genero": "COMEDIA",
+      "nome": "GameofGoodies",
+      "idioma": "INGLES",
+      "audiencia": 43,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 17,
+      "genero": "ANIME",
+      "nome": "GameofCats",
+      "idioma": "PORTUGUES",
+      "audiencia": 78,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 41,
+      "genero": "AVENTURA",
+      "nome": "GameofRobots",
+      "idioma": "PORTUGUES",
+      "audiencia": 52,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 13,
+      "genero": "AVENTURA",
+      "nome": "GameofMinds",
+      "idioma": "PORTUGUES",
+      "audiencia": 101,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 17,
+      "genero": "DRAMA",
+      "nome": "GameofBubbles",
+      "idioma": "PORTUGUES",
+      "audiencia": 35,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 22,
+      "genero": "COMEDIA",
+      "nome": "ATreeGame",
+      "idioma": "INGLES",
+      "audiencia": 95,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 8,
+      "genero": "DRAMA",
+      "nome": "AFlumeGame",
+      "idioma": "PORTUGUES",
+      "audiencia": 84,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 11,
+      "genero": "ACAO",
+      "nome": "ADreadGame",
+      "idioma": "INGLES",
+      "audiencia": 61,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 28,
+      "genero": "AVENTURA",
+      "nome": "ACatGame",
+      "idioma": "INGLES",
+      "audiencia": 104,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 32,
+      "genero": "DRAMA",
+      "nome": "ARobotGame",
+      "idioma": "PORTUGUES",
+      "audiencia": 73,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 28,
+      "genero": "ACAO",
+      "nome": "AMindGame",
+      "idioma": "INGLES",
+      "audiencia": 34,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 48,
+      "genero": "ACAO",
+      "nome": "ABubbleGame",
+      "idioma": "INGLES",
+      "audiencia": 107,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 2,
+      "genero": "AVENTURA",
+      "nome": "TheCalloftheTrees",
+      "idioma": "ESPANHOL",
+      "audiencia": 62,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 37,
+      "genero": "ACAO",
+      "nome": "TheCalloftheFlumes",
+      "idioma": "ESPANHOL",
+      "audiencia": 32,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 13,
+      "genero": "ROMANCE",
+      "nome": "TheCalloftheGoodies",
+      "idioma": "PORTUGUES",
+      "audiencia": 90,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 40,
+      "genero": "ACAO",
+      "nome": "TheCalloftheSinks",
+      "idioma": "ESPANHOL",
+      "audiencia": 40,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 36,
+      "genero": "COMEDIA",
+      "nome": "TheCalloftheCats",
+      "idioma": "INGLES",
+      "audiencia": 82,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 14,
+      "genero": "ROMANCE",
+      "nome": "TheCalloftheRobots",
+      "idioma": "PORTUGUES",
+      "audiencia": 55,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 16,
+      "genero": "COMEDIA",
+      "nome": "TheCallofthePretender",
+      "idioma": "ESPANHOL",
+      "audiencia": 31,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 51,
+      "genero": "ACAO",
+      "nome": "TheCalloftheMinds",
+      "idioma": "PORTUGUES",
+      "audiencia": 109,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 15,
+      "genero": "COMEDIA",
+      "nome": "TheCalloftheBubbles",
+      "idioma": "INGLES",
+      "audiencia": 38,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 24,
+      "genero": "DRAMA",
+      "nome": "FixingTrees",
+      "idioma": "INGLES",
+      "audiencia": 97,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 9,
+      "genero": "POLICIAL",
+      "nome": "FixingFlumes",
+      "idioma": "INGLES",
+      "audiencia": 49,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 21,
+      "genero": "AVENTURA",
+      "nome": "FixingGoodies",
+      "idioma": "INGLES",
+      "audiencia": 75,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 39,
+      "genero": "POLICIAL",
+      "nome": "FixingCats",
+      "idioma": "INGLES",
+      "audiencia": 36,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 5,
+      "genero": "AVENTURA",
+      "nome": "FixingRobots",
+      "idioma": "PORTUGUES",
+      "audiencia": 94,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 6,
+      "genero": "ACAO",
+      "nome": "FixingPretenders",
+      "idioma": "ESPANHOL",
+      "audiencia": 79,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 4,
+      "genero": "AVENTURA",
+      "nome": "FixingBubbles",
+      "idioma": "PORTUGUES",
+      "audiencia": 41,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 7,
+      "genero": "AVENTURA",
+      "nome": "NihonTrees",
+      "idioma": "PORTUGUES",
+      "audiencia": 103,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 34,
+      "genero": "POLICIAL",
+      "nome": "NihonFlumes",
+      "idioma": "PORTUGUES",
+      "audiencia": 70,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 14,
+      "genero": "ACAO",
+      "nome": "NihonGoodies",
+      "idioma": "PORTUGUES",
+      "audiencia": 57,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 48,
+      "genero": "DRAMA",
+      "nome": "NihonSinks",
+      "idioma": "PORTUGUES",
+      "audiencia": 38,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 32,
+      "genero": "COMEDIA",
+      "nome": "NihonCats",
+      "idioma": "INGLES",
+      "audiencia": 109,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 29,
+      "genero": "POLICIAL",
+      "nome": "NihonRobots",
+      "idioma": "PORTUGUES",
+      "audiencia": 50,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 18,
+      "genero": "DRAMA",
+      "nome": "NihonPretender",
+      "idioma": "ESPANHOL",
+      "audiencia": 86,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 37,
+      "genero": "ACAO",
+      "nome": "NihonPeaks",
+      "idioma": "INGLES",
+      "audiencia": 42,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 16,
+      "genero": "DRAMA",
+      "nome": "NihonMinds",
+      "idioma": "PORTUGUES",
+      "audiencia": 99,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 12,
+      "genero": "POLICIAL",
+      "nome": "NihonBubbles",
+      "idioma": "ESPANHOL",
+      "audiencia": 68,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 24,
+      "genero": "ROMANCE",
+      "nome": "EastTrees",
+      "idioma": "PORTUGUES",
+      "audiencia": 33,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 3,
+      "genero": "ACAO",
+      "nome": "EastFlumes",
+      "idioma": "PORTUGUES",
+      "audiencia": 93,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 8,
+      "genero": "POLICIAL",
+      "nome": "EastGoodies",
+      "idioma": "PORTUGUES",
+      "audiencia": 44,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 25,
+      "genero": "ACAO",
+      "nome": "EastSinks",
+      "idioma": "ESPANHOL",
+      "audiencia": 66,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 25,
+      "genero": "ACAO",
+      "nome": "EastCats",
+      "idioma": "INGLES",
+      "audiencia": 39,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 5,
+      "genero": "ANIME",
+      "nome": "EastRobots",
+      "idioma": "INGLES",
+      "audiencia": 78,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 36,
+      "genero": "COMEDIA",
+      "nome": "EastPretender",
+      "idioma": "INGLES",
+      "audiencia": 35,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 6,
+      "genero": "ROMANCE",
+      "nome": "EastPeaks",
+      "idioma": "ESPANHOL",
+      "audiencia": 103,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 26,
+      "genero": "POLICIAL",
+      "nome": "EastMinds",
+      "idioma": "PORTUGUES",
+      "audiencia": 52,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 37,
+      "genero": "AVENTURA",
+      "nome": "EastBubbles",
+      "idioma": "INGLES",
+      "audiencia": 106,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 27,
+      "genero": "ACAO",
+      "nome": "FearofTrees",
+      "idioma": "PORTUGUES",
+      "audiencia": 31,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 41,
+      "genero": "ROMANCE",
+      "nome": "FearofFlumes",
+      "idioma": "PORTUGUES",
+      "audiencia": 100,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 51,
+      "genero": "AVENTURA",
+      "nome": "FearofGoodies",
+      "idioma": "PORTUGUES",
+      "audiencia": 73,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 37,
+      "genero": "ANIME",
+      "nome": "FearofSinks",
+      "idioma": "ESPANHOL",
+      "audiencia": 47,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 36,
+      "genero": "AVENTURA",
+      "nome": "FearofCats",
+      "idioma": "INGLES",
+      "audiencia": 84,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 51,
+      "genero": "ACAO",
+      "nome": "FearofRobots",
+      "idioma": "PORTUGUES",
+      "audiencia": 60,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 11,
+      "genero": "DRAMA",
+      "nome": "FearofPeaks",
+      "idioma": "INGLES",
+      "audiencia": 96,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 11,
+      "genero": "ANIME",
+      "nome": "FearofBubbles",
+      "idioma": "INGLES",
+      "audiencia": 59,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 9,
+      "genero": "ACAO",
+      "nome": "ThoseareTrees",
+      "idioma": "PORTUGUES",
+      "audiencia": 30,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 10,
+      "genero": "AVENTURA",
+      "nome": "ThoseareFlumes",
+      "idioma": "ESPANHOL",
+      "audiencia": 110,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 15,
+      "genero": "ACAO",
+      "nome": "ThoseareGoodies",
+      "idioma": "PORTUGUES",
+      "audiencia": 47,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 3,
+      "genero": "COMEDIA",
+      "nome": "ThoseareSinks",
+      "idioma": "PORTUGUES",
+      "audiencia": 79,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 1,
+      "genero": "DRAMA",
+      "nome": "ThoseareCats",
+      "idioma": "PORTUGUES",
+      "audiencia": 22,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 15,
+      "genero": "ACAO",
+      "nome": "ThoseareRobots",
+      "idioma": "PORTUGUES",
+      "audiencia": 67,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 13,
+      "genero": "DRAMA",
+      "nome": "ThoseareBubbles",
+      "idioma": "PORTUGUES",
+      "audiencia": 49,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 41,
+      "genero": "ACAO",
+      "nome": "LosAngelesTrees",
+      "idioma": "PORTUGUES",
+      "audiencia": 101,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 19,
+      "genero": "ROMANCE",
+      "nome": "LosAngelesFlumes",
+      "idioma": "INGLES",
+      "audiencia": 60,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 11,
+      "genero": "COMEDIA",
+      "nome": "LosAngelesGoodies",
+      "idioma": "PORTUGUES",
+      "audiencia": 38,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 33,
+      "genero": "ANIME",
+      "nome": "LosAngelesSinks",
+      "idioma": "ESPANHOL",
+      "audiencia": 93,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 9,
+      "genero": "ROMANCE",
+      "nome": "LosAngelesCats",
+      "idioma": "ESPANHOL",
+      "audiencia": 52,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 9,
+      "genero": "ACAO",
+      "nome": "LosAngelesRobots",
+      "idioma": "ESPANHOL",
+      "audiencia": 85,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 48,
+      "genero": "ANIME",
+      "nome": "LosAngelesPretender",
+      "idioma": "INGLES",
+      "audiencia": 43,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 39,
+      "genero": "COMEDIA",
+      "nome": "LosAngelesPeaks",
+      "idioma": "PORTUGUES",
+      "audiencia": 105,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 18,
+      "genero": "ACAO",
+      "nome": "LosAngelesMinds",
+      "idioma": "INGLES",
+      "audiencia": 72,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 16,
+      "genero": "POLICIAL",
+      "nome": "LosAngelesBubbles",
+      "idioma": "ESPANHOL",
+      "audiencia": 59,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 27,
+      "genero": "DRAMA",
+      "nome": "MasterTrees",
+      "idioma": "INGLES",
+      "audiencia": 82,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 4,
+      "genero": "ROMANCE",
+      "nome": "MasterFlumes",
+      "idioma": "INGLES",
+      "audiencia": 46,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 25,
+      "genero": "ANIME",
+      "nome": "MasterGoodies",
+      "idioma": "INGLES",
+      "audiencia": 98,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 33,
+      "genero": "ANIME",
+      "nome": "MasterCats",
+      "idioma": "ESPANHOL",
+      "audiencia": 54,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 51,
+      "genero": "POLICIAL",
+      "nome": "MasterRobots",
+      "idioma": "ESPANHOL",
+      "audiencia": 76,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 37,
+      "genero": "ROMANCE",
+      "nome": "MasterPretenders",
+      "idioma": "INGLES",
+      "audiencia": 32,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 4,
+      "genero": "ACAO",
+      "nome": "MasterPeaks",
+      "idioma": "PORTUGUES",
+      "audiencia": 103,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 13,
+      "genero": "ACAO",
+      "nome": "MasterMinds",
+      "idioma": "PORTUGUES",
+      "audiencia": 69,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 34,
+      "genero": "ACAO",
+      "nome": "MasterBubbles",
+      "idioma": "PORTUGUES",
+      "audiencia": 57,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 40,
+      "genero": "DRAMA",
+      "nome": "TheLastofTrees",
+      "idioma": "ESPANHOL",
+      "audiencia": 91,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 28,
+      "genero": "COMEDIA",
+      "nome": "TheLastofFlumes",
+      "idioma": "INGLES",
+      "audiencia": 43,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 14,
+      "genero": "DRAMA",
+      "nome": "TheLastofGoodies",
+      "idioma": "ESPANHOL",
+      "audiencia": 78,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 42,
+      "genero": "DRAMA",
+      "nome": "TheLastofCats",
+      "idioma": "INGLES",
+      "audiencia": 55,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 14,
+      "genero": "ANIME",
+      "nome": "TheLastofRobots",
+      "idioma": "PORTUGUES",
+      "audiencia": 37,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 16,
+      "genero": "ANIME",
+      "nome": "TheLastofPretenders",
+      "idioma": "INGLES",
+      "audiencia": 99,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 8,
+      "genero": "ACAO",
+      "nome": "TheLastofPeaks",
+      "idioma": "ESPANHOL",
+      "audiencia": 64,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 45,
+      "genero": "ACAO",
+      "nome": "TheLastofMinds",
+      "idioma": "ESPANHOL",
+      "audiencia": 73,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 30,
+      "genero": "AVENTURA",
+      "nome": "TheLastofBubbles",
+      "idioma": "INGLES",
+      "audiencia": 45,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 16,
+      "genero": "ROMANCE",
+      "nome": "Shoreman",
+      "idioma": "PORTUGUES",
+      "audiencia": 102,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 35,
+      "genero": "ACAO",
+      "nome": "Treeman",
+      "idioma": "INGLES",
+      "audiencia": 67,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 37,
+      "genero": "ANIME",
+      "nome": "Catman",
+      "idioma": "ESPANHOL",
+      "audiencia": 43,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 39,
+      "genero": "ANIME",
+      "nome": "Robotman",
+      "idioma": "ESPANHOL",
+      "audiencia": 80,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 11,
+      "genero": "ACAO",
+      "nome": "Mindman",
+      "idioma": "INGLES",
+      "audiencia": 58,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 40,
+      "genero": "DRAMA",
+      "nome": "Bubbleman",
+      "idioma": "ESPANHOL",
+      "audiencia": 95,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 22,
+      "genero": "ROMANCE",
+      "nome": "LostandFound",
+      "idioma": "ESPANHOL",
+      "audiencia": 69,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "quantidadeEpisodios": 31,
+      "genero": "ACAO",
+      "nome": "TheRomanos",
+      "idioma": "PORTUGUES",
+      "audiencia": 52,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    }
+  ],
+  "filmes": [
+    {
+      "genero": "AVENTURA",
+      "nome": "filme",
+      "idioma": "ESPANHOL",
+      "audiencia": 2,
+      "avaliacaoTotal": 5.0,
+      "avaliacoes": [
+        {
+          "cliente": {
+            "nomeDeUsuario": "cau",
+            "senha": "123",
+            "listaParaVer": [],
+            "listaJaVistas": {
+              "Filme@179d3b25": "Jun 24, 2023, 4:59:41 PM"
+            },
+            "clienteTipo": "REGULAR"
+          },
+          "nota": 5,
+          "comentario": ""
+        }
+      ],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "HeroesAndCaptains",
+      "idioma": "INGLES",
+      "audiencia": 83,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "ComplexityOfANuclearWinter",
+      "idioma": "PORTUGUES",
+      "audiencia": 97,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "CreaturesAndAthletes",
+      "idioma": "ESPANHOL",
+      "audiencia": 119,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "CulturedByTheNewWorld",
+      "idioma": "ESPANHOL",
+      "audiencia": 115,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "FoolsOfTheEast",
+      "idioma": "PORTUGUES",
+      "audiencia": 101,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "MusicOfTheLakes",
+      "idioma": "INGLES",
+      "audiencia": 117,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "IsThisaMovie?",
+      "idioma": "INGLES",
+      "audiencia": 95,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "TurtleOfTheSwamp",
+      "idioma": "ESPANHOL",
+      "audiencia": 109,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "SnakesOfADog",
+      "idioma": "INGLES",
+      "audiencia": 109,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "ChildrenOfTheNewWorld",
+      "idioma": "INGLES",
+      "audiencia": 82,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "AVENTURA",
+      "nome": "AssassinOfHonor",
+      "idioma": "ESPANHOL",
+      "audiencia": 98,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "CriminalsAndCriminals",
+      "idioma": "PORTUGUES",
+      "audiencia": 82,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "SoldiersOfOurFuture",
+      "idioma": "PORTUGUES",
+      "audiencia": 111,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "DefendersOfOurFuture",
+      "idioma": "ESPANHOL",
+      "audiencia": 112,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "AliensOfTheVacuum",
+      "idioma": "ESPANHOL",
+      "audiencia": 91,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "AVENTURA",
+      "nome": "Hope",
+      "idioma": "ESPANHOL",
+      "audiencia": 93,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "CorruptionOfThePlanet",
+      "idioma": "ESPANHOL",
+      "audiencia": 112,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "POLICIAL",
+      "nome": "HuntersOfOurFuture",
+      "idioma": "INGLES",
+      "audiencia": 94,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "WarriorsPerRealm",
+      "idioma": "ESPANHOL",
+      "audiencia": 120,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "DisguisedInTheDepths",
+      "idioma": "ESPANHOL",
+      "audiencia": 103,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "BanditsAndMen",
+      "idioma": "PORTUGUES",
+      "audiencia": 91,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "AVENTURA",
+      "nome": "OfficerOfStardust",
+      "idioma": "PORTUGUES",
+      "audiencia": 92,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "AVENTURA",
+      "nome": "LightOfSolarFlares",
+      "idioma": "ESPANHOL",
+      "audiencia": 119,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "HumanOfNewEarth",
+      "idioma": "PORTUGUES",
+      "audiencia": 83,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "AVENTURA",
+      "nome": "CreatedByANewWar",
+      "idioma": "PORTUGUES",
+      "audiencia": 91,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "RevivalOfTheNewWorld",
+      "idioma": "PORTUGUES",
+      "audiencia": 106,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "AVENTURA",
+      "nome": "HorseInMyYard",
+      "idioma": "ESPANHOL",
+      "audiencia": 90,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "AVENTURA",
+      "nome": "VisitorOfSunshine",
+      "idioma": "PORTUGUES",
+      "audiencia": 95,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "DeceptionOfDarkness",
+      "idioma": "ESPANHOL",
+      "audiencia": 97,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "DeathOfTheOcean",
+      "idioma": "INGLES",
+      "audiencia": 108,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "FoesInMyYard",
+      "idioma": "PORTUGUES",
+      "audiencia": 99,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "MonumentsOfNewWorlds",
+      "idioma": "ESPANHOL",
+      "audiencia": 105,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "FogInTheLake",
+      "idioma": "PORTUGUES",
+      "audiencia": 114,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "HorseOfTomorrow",
+      "idioma": "ESPANHOL",
+      "audiencia": 99,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "HuntersOfMen\u0027sLegacy",
+      "idioma": "ESPANHOL",
+      "audiencia": 102,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "POLICIAL",
+      "nome": "BoredByWomen",
+      "idioma": "INGLES",
+      "audiencia": 92,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "HuntersAndStrangers",
+      "idioma": "INGLES",
+      "audiencia": 109,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "OfTheOcean",
+      "idioma": "INGLES",
+      "audiencia": 93,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "DestinyOfEarth\u0027sLegacy",
+      "idioma": "ESPANHOL",
+      "audiencia": 91,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "VisitorOfSpace",
+      "idioma": "ESPANHOL",
+      "audiencia": 86,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "SecurityOfElectricity",
+      "idioma": "PORTUGUES",
+      "audiencia": 108,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "PoliticiansPerCountry",
+      "idioma": "ESPANHOL",
+      "audiencia": 93,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "POLICIAL",
+      "nome": "CreatorsAndThieves",
+      "idioma": "PORTUGUES",
+      "audiencia": 90,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "BeastsInTheCenterOfTheEarth",
+      "idioma": "INGLES",
+      "audiencia": 86,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "HunterOfEternity",
+      "idioma": "PORTUGUES",
+      "audiencia": 119,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "AncestorsWithoutRestrictions",
+      "idioma": "ESPANHOL",
+      "audiencia": 120,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "AnxiousForTheGalaxy",
+      "idioma": "ESPANHOL",
+      "audiencia": 105,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "MenOfHonor",
+      "idioma": "PORTUGUES",
+      "audiencia": 110,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "AmazingFantasy",
+      "idioma": "ESPANHOL",
+      "audiencia": 86,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "POLICIAL",
+      "nome": "CyborgOfSpace",
+      "idioma": "PORTUGUES",
+      "audiencia": 84,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "CullingOfTime",
+      "idioma": "INGLES",
+      "audiencia": 115,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "DoctorsAndVisitors",
+      "idioma": "INGLES",
+      "audiencia": 99,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "POLICIAL",
+      "nome": "VolunteersAndStrangers",
+      "idioma": "ESPANHOL",
+      "audiencia": 96,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "FungiOfTechnology",
+      "idioma": "PORTUGUES",
+      "audiencia": 84,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "SnakesOfTheNorth",
+      "idioma": "INGLES",
+      "audiencia": 114,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "CaringForTheSun",
+      "idioma": "PORTUGUES",
+      "audiencia": 85,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "AVENTURA",
+      "nome": "OpenToNewEarth",
+      "idioma": "PORTUGUES",
+      "audiencia": 98,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "DigitalYourGarden",
+      "idioma": "ESPANHOL",
+      "audiencia": 96,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "DoctorsOfSunshine",
+      "idioma": "PORTUGUES",
+      "audiencia": 103,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "POLICIAL",
+      "nome": "ManOnMars",
+      "idioma": "INGLES",
+      "audiencia": 107,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "FarmsOfOurRealm",
+      "idioma": "INGLES",
+      "audiencia": 101,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "MonumentsOfTheVacuum",
+      "idioma": "INGLES",
+      "audiencia": 85,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "WealthOfTheRivers",
+      "idioma": "INGLES",
+      "audiencia": 88,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "LeaderOfTheVoid",
+      "idioma": "ESPANHOL",
+      "audiencia": 84,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "HawkOfACreature",
+      "idioma": "ESPANHOL",
+      "audiencia": 109,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "BirthOfStardust",
+      "idioma": "ESPANHOL",
+      "audiencia": 85,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "RobotWithTentacles",
+      "idioma": "ESPANHOL",
+      "audiencia": 115,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "EnemyInTheCenterOfTheEarth",
+      "idioma": "PORTUGUES",
+      "audiencia": 116,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "RebelsAndOfficers",
+      "idioma": "INGLES",
+      "audiencia": 112,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "CreatureOfOurDestiny",
+      "idioma": "PORTUGUES",
+      "audiencia": 87,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "WarriorsAndEmperors",
+      "idioma": "ESPANHOL",
+      "audiencia": 90,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "InsectsWithoutBorders",
+      "idioma": "PORTUGUES",
+      "audiencia": 112,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "ObliterationOfHonor",
+      "idioma": "ESPANHOL",
+      "audiencia": 107,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "BeastsOfTheOrbit",
+      "idioma": "ESPANHOL",
+      "audiencia": 106,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "POLICIAL",
+      "nome": "AgentsAndDroids",
+      "idioma": "ESPANHOL",
+      "audiencia": 110,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "LostScience",
+      "idioma": "PORTUGUES",
+      "audiencia": 83,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "POLICIAL",
+      "nome": "DeathOfTheUniverse",
+      "idioma": "ESPANHOL",
+      "audiencia": 114,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "FoolsAndGrasses",
+      "idioma": "INGLES",
+      "audiencia": 114,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "DemiseOfWar",
+      "idioma": "INGLES",
+      "audiencia": 89,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "RatsAndPests",
+      "idioma": "PORTUGUES",
+      "audiencia": 116,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "BlindedBy",
+      "idioma": "PORTUGUES",
+      "audiencia": 114,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "FiguresOfAnAsteroid",
+      "idioma": "PORTUGUES",
+      "audiencia": 88,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "AVENTURA",
+      "nome": "OriginOfTheStars",
+      "idioma": "INGLES",
+      "audiencia": 119,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "AVENTURA",
+      "nome": "IntruderOfDarkness",
+      "idioma": "INGLES",
+      "audiencia": 102,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "FoolsAndMice",
+      "idioma": "INGLES",
+      "audiencia": 108,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "ClonesOfTheGalaxy",
+      "idioma": "PORTUGUES",
+      "audiencia": 92,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "RootOfTheSands",
+      "idioma": "ESPANHOL",
+      "audiencia": 109,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "POLICIAL",
+      "nome": "SerenityOfElectricity",
+      "idioma": "INGLES",
+      "audiencia": 102,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "AVENTURA",
+      "nome": "ConfusingTheRivers",
+      "idioma": "PORTUGUES",
+      "audiencia": 87,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "AVENTURA",
+      "nome": "CriminalsOfShadows",
+      "idioma": "ESPANHOL",
+      "audiencia": 91,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "DrinksWithoutLimits",
+      "idioma": "PORTUGUES",
+      "audiencia": 107,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "DeceptionOfTime",
+      "idioma": "PORTUGUES",
+      "audiencia": 101,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "StrangersAndIntruders",
+      "idioma": "ESPANHOL",
+      "audiencia": 120,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "AVENTURA",
+      "nome": "OfficersAndForeigners",
+      "idioma": "INGLES",
+      "audiencia": 115,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "CreaturesOfTheFuture",
+      "idioma": "INGLES",
+      "audiencia": 83,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "FigureOfTheFlight",
+      "idioma": "INGLES",
+      "audiencia": 94,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "AVENTURA",
+      "nome": "ConfusedByTheEnd",
+      "idioma": "PORTUGUES",
+      "audiencia": 98,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "ObliterationOfTheGalaxy",
+      "idioma": "PORTUGUES",
+      "audiencia": 104,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "PredictionOfTheSea",
+      "idioma": "PORTUGUES",
+      "audiencia": 89,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "SymbolsOfStardust",
+      "idioma": "PORTUGUES",
+      "audiencia": 113,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "DreamOfDarkness",
+      "idioma": "ESPANHOL",
+      "audiencia": 82,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "AVENTURA",
+      "nome": "CreationOfSociety",
+      "idioma": "PORTUGUES",
+      "audiencia": 119,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "SignsOfOurFuture",
+      "idioma": "ESPANHOL",
+      "audiencia": 117,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "AfraidOfTimeTravel",
+      "idioma": "INGLES",
+      "audiencia": 112,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "DogOfTheVoid",
+      "idioma": "INGLES",
+      "audiencia": 96,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "POLICIAL",
+      "nome": "LonelyInMyJourney",
+      "idioma": "ESPANHOL",
+      "audiencia": 89,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "HuntersAndVeterans",
+      "idioma": "INGLES",
+      "audiencia": 98,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "SpidersPerCountry",
+      "idioma": "INGLES",
+      "audiencia": 96,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "BlacksmithsAndHunters",
+      "idioma": "PORTUGUES",
+      "audiencia": 111,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "InsectsOfThePlanet",
+      "idioma": "PORTUGUES",
+      "audiencia": 118,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "POLICIAL",
+      "nome": "PredatorsOfHeaven",
+      "idioma": "PORTUGUES",
+      "audiencia": 119,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "MercenaryOfTheSands",
+      "idioma": "INGLES",
+      "audiencia": 109,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "DefendersFromOuterSpace",
+      "idioma": "PORTUGUES",
+      "audiencia": 120,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "MiceAndStars",
+      "idioma": "PORTUGUES",
+      "audiencia": 85,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "DirectorsAndLeaders",
+      "idioma": "INGLES",
+      "audiencia": 94,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "POLICIAL",
+      "nome": "BeastOfTheOcean",
+      "idioma": "PORTUGUES",
+      "audiencia": 112,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "EmperorsInThePast",
+      "idioma": "INGLES",
+      "audiencia": 99,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "AliensOfTheFlight",
+      "idioma": "ESPANHOL",
+      "audiencia": 107,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "MedicsOfEarth",
+      "idioma": "INGLES",
+      "audiencia": 110,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "StrangersAndTraitors",
+      "idioma": "ESPANHOL",
+      "audiencia": 82,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "MenAndSoldiers",
+      "idioma": "INGLES",
+      "audiencia": 115,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "ComfortedByMyLife",
+      "idioma": "INGLES",
+      "audiencia": 92,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "LeadersOfAliens",
+      "idioma": "ESPANHOL",
+      "audiencia": 90,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "SpidersOfTomorrow",
+      "idioma": "INGLES",
+      "audiencia": 90,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "RebelsAnd",
+      "idioma": "ESPANHOL",
+      "audiencia": 106,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "HelpOfTheNorth",
+      "idioma": "INGLES",
+      "audiencia": 112,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "NightmaresOfTheNether",
+      "idioma": "INGLES",
+      "audiencia": 95,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "ChildrenAndGods",
+      "idioma": "INGLES",
+      "audiencia": 82,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "MenOfTheEast",
+      "idioma": "INGLES",
+      "audiencia": 91,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "HuntersAndCommanders",
+      "idioma": "PORTUGUES",
+      "audiencia": 116,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "CautiousOfTheMountains",
+      "idioma": "PORTUGUES",
+      "audiencia": 103,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "VisitorsOfExploration",
+      "idioma": "PORTUGUES",
+      "audiencia": 95,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "MedicsAndFriends",
+      "idioma": "INGLES",
+      "audiencia": 89,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "CreaturesAndFigures",
+      "idioma": "ESPANHOL",
+      "audiencia": 99,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "TravellingOfTheSouth",
+      "idioma": "ESPANHOL",
+      "audiencia": 84,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "StatuesOfTheFuture",
+      "idioma": "INGLES",
+      "audiencia": 102,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "AncientsOfTheWest",
+      "idioma": "INGLES",
+      "audiencia": 113,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "POLICIAL",
+      "nome": "FigureOfAnimals",
+      "idioma": "ESPANHOL",
+      "audiencia": 97,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "HuntersWithTentacles",
+      "idioma": "ESPANHOL",
+      "audiencia": 108,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "MedicsAndChildren",
+      "idioma": "INGLES",
+      "audiencia": 102,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "DemiseOfRobots",
+      "idioma": "PORTUGUES",
+      "audiencia": 118,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "JadedByMyDestiny",
+      "idioma": "PORTUGUES",
+      "audiencia": 94,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "Chase",
+      "idioma": "PORTUGUES",
+      "audiencia": 117,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "AgentsOfTheNewWorld",
+      "idioma": "ESPANHOL",
+      "audiencia": 120,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "PerfumeOfTheStars",
+      "idioma": "ESPANHOL",
+      "audiencia": 94,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "AVENTURA",
+      "nome": "DeathOfTheDark",
+      "idioma": "ESPANHOL",
+      "audiencia": 82,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "CyborgsOfStardust",
+      "idioma": "INGLES",
+      "audiencia": 96,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "DoctorsAndCreators",
+      "idioma": "ESPANHOL",
+      "audiencia": 90,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "BoysOfMars",
+      "idioma": "ESPANHOL",
+      "audiencia": 87,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "DestructionOfACreature",
+      "idioma": "PORTUGUES",
+      "audiencia": 118,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "DoctorOfTheOutlands",
+      "idioma": "PORTUGUES",
+      "audiencia": 84,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "AgeInEternity",
+      "idioma": "PORTUGUES",
+      "audiencia": 108,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "POLICIAL",
+      "nome": "BirthOfNewWorlds",
+      "idioma": "INGLES",
+      "audiencia": 101,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "WomenOfTheDepths",
+      "idioma": "PORTUGUES",
+      "audiencia": 103,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "PhantomsInMyVillage",
+      "idioma": "PORTUGUES",
+      "audiencia": 104,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "WitchesAndCriminals",
+      "idioma": "PORTUGUES",
+      "audiencia": 85,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "LimitsOfANuclearWar",
+      "idioma": "INGLES",
+      "audiencia": 106,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "VisionsOfNature",
+      "idioma": "INGLES",
+      "audiencia": 102,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "SnakeOfTheSwamp",
+      "idioma": "PORTUGUES",
+      "audiencia": 94,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "RiddleOfAnInsect",
+      "idioma": "ESPANHOL",
+      "audiencia": 120,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "ElementsOfTheMountains",
+      "idioma": "INGLES",
+      "audiencia": 107,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "AVENTURA",
+      "nome": "SerenityOfTheEyes",
+      "idioma": "ESPANHOL",
+      "audiencia": 101,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "BoysInTheNews",
+      "idioma": "ESPANHOL",
+      "audiencia": 110,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "DisguisedByARiseOfMachines",
+      "idioma": "INGLES",
+      "audiencia": 95,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "CyborgsOfTheVoid",
+      "idioma": "INGLES",
+      "audiencia": 98,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "AVENTURA",
+      "nome": "SnakesAndDogs",
+      "idioma": "INGLES",
+      "audiencia": 107,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "CelebratingMoondust",
+      "idioma": "INGLES",
+      "audiencia": 105,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "AVENTURA",
+      "nome": "AgentsAndFigures",
+      "idioma": "PORTUGUES",
+      "audiencia": 101,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "CatOfADog",
+      "idioma": "PORTUGUES",
+      "audiencia": 107,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "POLICIAL",
+      "nome": "NationOfTheNewWorld",
+      "idioma": "INGLES",
+      "audiencia": 92,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "MiceOfYourDreams",
+      "idioma": "PORTUGUES",
+      "audiencia": 85,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "StarsOfTheUniverse",
+      "idioma": "PORTUGUES",
+      "audiencia": 101,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "BoysAndBlacksmiths",
+      "idioma": "INGLES",
+      "audiencia": 107,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "WomenAndDevils",
+      "idioma": "INGLES",
+      "audiencia": 98,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "POLICIAL",
+      "nome": "FiguresOfMoondust",
+      "idioma": "PORTUGUES",
+      "audiencia": 82,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "CaptainOfTheOrbit",
+      "idioma": "INGLES",
+      "audiencia": 109,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "InvadersAndSpies",
+      "idioma": "INGLES",
+      "audiencia": 109,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "POLICIAL",
+      "nome": "LordsOfTheNether",
+      "idioma": "ESPANHOL",
+      "audiencia": 108,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "AshamedOfTheEnd",
+      "idioma": "PORTUGUES",
+      "audiencia": 118,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "BasicAndroids",
+      "idioma": "PORTUGUES",
+      "audiencia": 101,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "StrangerInTheBeginningOfTime",
+      "idioma": "INGLES",
+      "audiencia": 111,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "BoyWithSpaceships",
+      "idioma": "INGLES",
+      "audiencia": 99,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "AVENTURA",
+      "nome": "AthleticsOfTime",
+      "idioma": "PORTUGUES",
+      "audiencia": 94,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "POLICIAL",
+      "nome": "ChangedByTheSecrets",
+      "idioma": "ESPANHOL",
+      "audiencia": 107,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "RatsAndHeirs",
+      "idioma": "ESPANHOL",
+      "audiencia": 100,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ROMANCE",
+      "nome": "BoyOfAliens",
+      "idioma": "PORTUGUES",
+      "audiencia": 119,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "DRAMA",
+      "nome": "DefenderOfTheVoid",
+      "idioma": "ESPANHOL",
+      "audiencia": 112,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "BoyWithAUFO",
+      "idioma": "PORTUGUES",
+      "audiencia": 99,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "IllusionsOfTomorrow",
+      "idioma": "PORTUGUES",
+      "audiencia": 105,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "AndroidsAndEnemies",
+      "idioma": "PORTUGUES",
+      "audiencia": 111,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "BuildingsWithoutRestrictions",
+      "idioma": "PORTUGUES",
+      "audiencia": 117,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "MedicOfNewEarth",
+      "idioma": "INGLES",
+      "audiencia": 101,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "AVENTURA",
+      "nome": "MarriedToANuclearWar",
+      "idioma": "ESPANHOL",
+      "audiencia": 113,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "CrazyOfARiseOfMachines",
+      "idioma": "ESPANHOL",
+      "audiencia": 108,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "AVENTURA",
+      "nome": "LifeWithTheTitans",
+      "idioma": "ESPANHOL",
+      "audiencia": 86,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "IntelligenceInTheSun",
+      "idioma": "PORTUGUES",
+      "audiencia": 85,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "MenAndMedics",
+      "idioma": "PORTUGUES",
+      "audiencia": 93,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "AliveOnTheTitans",
+      "idioma": "INGLES",
+      "audiencia": 112,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "COMEDIA",
+      "nome": "CautiousOfTechnolicAdvancements",
+      "idioma": "ESPANHOL",
+      "audiencia": 85,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ACAO",
+      "nome": "VolunteersAnd",
+      "idioma": "INGLES",
+      "audiencia": 93,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    },
+    {
+      "genero": "ANIME",
+      "nome": "AgentsAndSoldiers",
+      "idioma": "INGLES",
+      "audiencia": 85,
+      "avaliacaoTotal": 0.0,
+      "avaliacoes": [],
+      "lancamento": false
+    }
+  ],
+  "clientes": [
+    {
+      "nomeDeUsuario": "cau",
+      "senha": "123",
+      "listaParaVer": [],
+      "listaJaVistas": {
+        "Filme@179d3b25": "Jun 24, 2023, 4:59:41 PM"
+      },
+      "clienteTipo": "REGULAR"
+    }
+  ],
+  "clienteAtual": {
+    "nomeDeUsuario": "cau",
+    "senha": "123",
+    "listaParaVer": [],
+    "listaJaVistas": {
+      "Filme@179d3b25": "Jun 24, 2023, 4:59:41 PM"
+    },
+    "clienteTipo": "REGULAR"
+  },
+  "generos": [
+    "ACAO",
+    "ANIME",
+    "AVENTURA",
+    "COMEDIA",
+    "DRAMA",
+    "POLICIAL",
+    "ROMANCE"
+  ],
+  "idiomas": [
+    "PORTUGUES",
+    "ESPANHOL",
+    "INGLES"
+  ]
+}

@@ -233,7 +233,6 @@ class PlataformaStreamingTest {
         Map<Midia, Date> listaJaVista = new HashMap<>();
 
         for(int i = 0; i < 100; i++){
-
             Avaliacao avaliacao = new Avaliacao(new Cliente(), 5);
             midia.getAvaliacoes().add(avaliacao);
             listaJaVista.put(midia, new Date());

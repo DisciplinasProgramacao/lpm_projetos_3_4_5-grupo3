@@ -390,7 +390,7 @@ public class App {
 		var series = plataformaStreaming.filtrarSeriePorQtdEpisodios(episodios);
 
 		if (series.isEmpty()) {
-			System.out.println("Idioma informado inexistente");
+			System.out.println("Não existe serie com essa quantidade de episodios");
 		} else {
 			System.out.println("Series com a quantidade de episodios pesquisado: ");
 
