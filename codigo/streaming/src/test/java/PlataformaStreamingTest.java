@@ -1,9 +1,8 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
+
+import java.util.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -206,5 +205,44 @@ class PlataformaStreamingTest {
 
         assertEquals("Espanhol",midia.getIdioma().idioma);
         assertEquals(verifica, false);
+    }
+
+    @Test
+    void porcentagemClientesQuinzeAvaliacoes(){
+        Cliente cliente = new Cliente();
+        Map<Midia, Date> listaJaVista = new HashMap<>();
+
+        for(int i = 0; i < 16; i++){
+            Midia midia = new Midia();
+            Avaliacao avaliacao = new Avaliacao(cliente, 5);
+            midia.getAvaliacoes().add(avaliacao);
+            listaJaVista.put(midia, new Date());
+        }
+
+        plataformaStreaming.setClientes(List.of(cliente));
+        cliente.setListaJaVistas(listaJaVista);
+
+        var porcentagem = plataformaStreaming.porcentagemClientesQuinzeAvaliacoes();
+        assertEquals(porcentagem, 100);
+    }
+
+    @Test
+    void midiaMelhorAvaliacaoCom100Avaliacoes(){
+        Cliente cliente = new Cliente();
+        Midia midia = new Midia();
+        Map<Midia, Date> listaJaVista = new HashMap<>();
+
+        for(int i = 0; i < 100; i++){
+
+            Avaliacao avaliacao = new Avaliacao(new Cliente(), 5);
+            midia.getAvaliacoes().add(avaliacao);
+            listaJaVista.put(midia, new Date());
+        }
+
+        plataformaStreaming.setClientes(List.of(cliente));
+        cliente.setListaJaVistas(listaJaVista);
+
+        var midias = plataformaStreaming.melhoresMidias();
+        assertEquals(midias.get(0), midia);
     }
 }
