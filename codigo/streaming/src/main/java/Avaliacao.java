@@ -11,4 +11,10 @@ public class Avaliacao {
         this.nota = nota;
         this.comentario = comentario;
     }
+
+    public Avaliacao(Cliente cliente, Integer nota) {
+        this.cliente = cliente;
+        this.nota = nota;
+        this.comentario = "";
+    }
 }
