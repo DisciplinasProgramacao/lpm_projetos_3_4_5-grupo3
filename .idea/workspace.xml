@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b785d1d8-5d45-497b-ae0d-f22b90d94476" name="Changes" comment="adicionando mais casos de testes pros novos metodos criados">
-      <change afterPath="$PROJECT_DIR$/docs/diagramas/DiagramaV08.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/streaming/src/test/java/PlataformaStreamingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/streaming/src/test/java/PlataformaStreamingTest.java" afterDir="false" />
+    <list default="true" id="b785d1d8-5d45-497b-ae0d-f22b90d94476" name="Changes" comment="versao final diagrama">
+      <change beforePath="$PROJECT_DIR$/docs/backlog.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/backlog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +197,7 @@
       <workItem from="1687384274004" duration="808000" />
       <workItem from="1687385099501" duration="50000" />
       <workItem from="1687391077679" duration="418000" />
-      <workItem from="1687629218276" duration="6315000" />
+      <workItem from="1687629218276" duration="6888000" />
     </task>
     <task id="LOCAL-00001" summary="instrucoes">
       <created>1683159156891</created>
@@ -271,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687633701284</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="versao final diagrama">
+      <created>1687635668276</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1687635668276</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +303,8 @@
     <MESSAGE value="diagrama uml" />
     <MESSAGE value="backlog" />
     <MESSAGE value="adicionando mais casos de testes pros novos metodos criados" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionando mais casos de testes pros novos metodos criados" />
+    <MESSAGE value="versao final diagrama" />
+    <option name="LAST_COMMIT_MESSAGE" value="versao final diagrama" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
